@@ -61,6 +61,12 @@ session05:
     - "[Branches](https://lennartwittkuhn.com/version-control-book/chapters/branches.html)"
   survey:
     - "[Git Branches Quiz](https://version-control-branches.formr.org)"
+sessionLunch:
+  date: "13:00 - 14:00"
+  time: "13:00 - 14:00"
+  title: "Lunch Break"
+  contents:
+    - "Enjoy your lunch!"
 session06:
   date: "2025-03-31"
   time: "14:00 - 15:00"
