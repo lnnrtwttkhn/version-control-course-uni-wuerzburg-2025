@@ -1,5 +1,5 @@
 session01:
-  date: "2025-01-15"
+  date: "2025-03-31"
   time: "14:00 - 14:30"
   title: "Welcome & Introduction to Version Control"
   contents:
@@ -12,7 +12,7 @@ session01:
   survey:
     - "[Course survey](https://version-control-intro.formr.org)"
 session02:
-  date: "2025-01-15"
+  date: "2025-03-31"
   time: "14:30 - 15:30"
   title: "Basics of the Command Line"
   contents:
@@ -24,7 +24,7 @@ session02:
   survey:
     - "[Command Line](https://version-control-cli.formr.org)"
 session03:
-  date: "2025-01-15"
+  date: "2025-03-31"
   time: "15:30 - 16:00"
   title: "Setup & configuration of Git"
   contents:
@@ -34,7 +34,7 @@ session03:
   survey:
     - "[Git Installation](https://version-control-installation.formr.org)"
 session04:
-  date: "2025-01-22"
+  date: "2025-03-31"
   time: "14:00 - 15:00"
   title: "Basics of Git"
   contents:
@@ -49,7 +49,7 @@ session04:
   survey:
     - "[Git Basics Quiz](https://version-control-basics.formr.org)"
 session05:
-  date: "2025-01-22"
+  date: "2025-03-31"
   time: "15:00 - 16:00"
   title: "Branches, Merging, Merge Conflicts"
   contents: 
@@ -62,7 +62,7 @@ session05:
   survey:
     - "[Git Branches Quiz](https://version-control-branches.formr.org)"
 session06:
-  date: "2025-01-29"
+  date: "2025-03-31"
   time: "14:00 - 15:00"
   title: "Integration with GitHub / GitLab"
   contents:
@@ -75,7 +75,7 @@ session06:
   survey:
     - "[GitHub Quiz](https://version-control-github.formr.org)"
 session07:
-  date: "2025-01-29"
+  date: "2025-03-31"
   time: "15:00 - 15:45"
   title: "Collaboration on GitHub / GitLab"
   contents:
@@ -89,7 +89,7 @@ session07:
   survey:
     - "[GitHub Quiz](https://version-control-github.formr.org)"
 session08:
-  date: "2025-01-29"
+  date: "2025-03-31"
   time: "15:45 - 16:00"
   title: "Summary & Outlook"
   contents:
