@@ -16,7 +16,7 @@ create_schedule <- function() {
   library("data.table")
   variables <- yaml::read_yaml("_schedule.yml")
   current_date <- Sys.Date()
-  session_url <- "https://lennartwittkuhn.com/version-control-course-zi-mannheim-2025/sessions/session%s"
+  session_url <- "https://lennartwittkuhn.com/version-control-course-mpib-2025/sessions/session%s"
   variables_padded = pad_list(variables)
   dt_load <- data.table::rbindlist(variables_padded, fill = TRUE, idcol = "session")
   cols = c("contents")
@@ -26,15 +26,16 @@ create_schedule <- function() {
     unique(.) %>%
     .[, date_dist := as.numeric(as.Date(date) - as.Date(current_date))] %>%
     .[, date_next := replace(rep(0, length(date_dist)), which(date_dist <= min(date_dist[date_dist >= 0])), 1)] %>%
+    .[, session_id := sub("(?i)session", "", session, perl=TRUE)] %>%
     .[, No := seq.int(nrow(.))] %>%
     .[!(title == "") & date_next == 0, title := sprintf("**%s**", title)] %>%
     .[!(title == "") & date_next == 1, title := sprintf("**[%s](%s)**", title, sprintf(session_url, sprintf("%02d", No)))] %>%
     .[!(reading == ""), reading := paste("{{< fa book >}}", reading)] %>%
     setnames(.,
-             old = c("No", "date", "time", "title", "contents", "reading", "survey"),
+             old = c("session_id", "date", "time", "title", "contents", "reading", "survey"),
              new = c("No", "Date", "Time", "Title", "Contents", "Reading", "Survey/Quiz")) %>%
-    .[, c("No", "Date", "Time", "Title", "Contents", "Reading", "Survey/Quiz")] %>%
-    setcolorder(., c("No", "Date", "Time", "Title", "Contents", "Reading", "Survey/Quiz"))
+    .[, c("No", "Time", "Title", "Contents", "Reading", "Survey/Quiz")] %>%
+    setcolorder(., c("No", "Time", "Title", "Contents", "Reading", "Survey/Quiz"))
   knitr::kable(dt, format = "markdown", align = "l")
 }
 

@@ -1,6 +1,6 @@
 session01:
-  date: "2025-01-15"
-  time: "14:00 - 14:30"
+  date: "2025-03-31"
+  time: "09:30 - 10:00"
   title: "Welcome & Introduction to Version Control"
   contents:
     - "Logistics and course admin"
@@ -12,8 +12,8 @@ session01:
   survey:
     - "[Course survey](https://version-control-intro.formr.org)"
 session02:
-  date: "2025-01-15"
-  time: "14:30 - 15:30"
+  date: "2025-03-31"
+  time: "10:00 - 11:00"
   title: "Basics of the Command Line"
   contents:
     - "File systems and navigation"
@@ -24,8 +24,8 @@ session02:
   survey:
     - "[Command Line](https://version-control-cli.formr.org)"
 session03:
-  date: "2025-01-15"
-  time: "15:30 - 16:00"
+  date: "2025-03-31"
+  time: "11:00 - 11:15"
   title: "Setup & configuration of Git"
   contents:
     - "Setup & configuration of Git"
@@ -34,8 +34,8 @@ session03:
   survey:
     - "[Git Installation](https://version-control-installation.formr.org)"
 session04:
-  date: "2025-01-22"
-  time: "14:00 - 15:00"
+  date: "2025-03-31"
+  time: "11:15 - 12:00"
   title: "Basics of Git"
   contents:
     - "Initializing a Git repository"
@@ -49,8 +49,8 @@ session04:
   survey:
     - "[Git Basics Quiz](https://version-control-basics.formr.org)"
 session05:
-  date: "2025-01-22"
-  time: "15:00 - 16:00"
+  date: "2025-03-31"
+  time: "12:00 - 13:00"
   title: "Branches, Merging, Merge Conflicts"
   contents: 
     - "Understanding branches in Git"
@@ -61,8 +61,14 @@ session05:
     - "[Branches](https://lennartwittkuhn.com/version-control-book/chapters/branches.html)"
   survey:
     - "[Git Branches Quiz](https://version-control-branches.formr.org)"
+sessionLunch:
+  date: "2025-03-31"
+  time: "13:00 - 14:00"
+  title: "Lunch Break"
+  contents:
+    - "Enjoy your lunch!"
 session06:
-  date: "2025-01-29"
+  date: "2025-03-31"
   time: "14:00 - 15:00"
   title: "Integration with GitHub / GitLab"
   contents:
@@ -75,8 +81,8 @@ session06:
   survey:
     - "[GitHub Quiz](https://version-control-github.formr.org)"
 session07:
-  date: "2025-01-29"
-  time: "15:00 - 15:45"
+  date: "2025-03-31"
+  time: "15:00 - 16:00"
   title: "Collaboration on GitHub / GitLab"
   contents:
     - "Forking"
@@ -89,8 +95,8 @@ session07:
   survey:
     - "[GitHub Quiz](https://version-control-github.formr.org)"
 session08:
-  date: "2025-01-29"
-  time: "15:45 - 16:00"
+  date: "2025-03-31"
+  time: "16:00 - 16:30"
   title: "Summary & Outlook"
   contents:
     - "Summary of course contents"
