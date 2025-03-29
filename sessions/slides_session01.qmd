@@ -1,6 +1,6 @@
 ---
 title: "Session 1: Welcome & Introduction to Version Control"
-date: 2025-01-15T14:00:00
+date: 2025-03-31T09:30:00
 format: revealjs
 metadata-files:
   - _slides.yml
