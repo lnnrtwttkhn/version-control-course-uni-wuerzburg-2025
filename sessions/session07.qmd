@@ -1,7 +1,7 @@
 ---
 title: "Collaboration on GitHub / GitLab"
 subtitle: "Session 07"
-date: 2025-01-29T15:00:00
+date: 2025-03-31T15:00:00
 metadata-files:
   - _sessions.yml
 about:
@@ -28,7 +28,7 @@ about:
 chapter: |
   ["GitHub - Advanced"](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html)
 quiz-url: https://version-control-github.formr.org/
-day: "(Day 3)"
+# day: "(Day 3)"
 ---
 
 ::: {#hero-heading}

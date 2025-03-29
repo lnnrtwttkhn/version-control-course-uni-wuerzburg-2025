@@ -1,7 +1,7 @@
 ---
 title: "Summary & Outlook"
 subtitle: "Session 08"
-date: 2025-01-29T15:45:00
+date: 2025-03-31T16:00:00
 metadata-files:
   - _sessions.yml
 about:
@@ -17,7 +17,7 @@ about:
       text: Feedback survey
       href: https://version-control-feedback.formr.org/
       aria-label: input-cursor-text
-day: "(Day 3)"
+# day: "(Day 3)"
 ---
 
 ::: {#hero-heading}

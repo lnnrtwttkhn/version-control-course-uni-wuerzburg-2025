@@ -1,7 +1,7 @@
 ---
 title: "Branches"
 subtitle: "Session 05"
-date: 2025-01-22T15:00:00
+date: 2025-03-31T12:00:00
 metadata-files:
   - _sessions.yml
 about:
@@ -24,7 +24,7 @@ about:
 chapter: |
   ["Branches"](https://lennartwittkuhn.com/version-control-book/chapters/branches.html)
 quiz-url: https://version-control-branches.formr.org/
-day: "(Day 2)"
+# day: "(Day 2)"
 ---
 
 ::: {#hero-heading}

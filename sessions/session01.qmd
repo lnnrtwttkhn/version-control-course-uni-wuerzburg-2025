@@ -1,7 +1,7 @@
 ---
 title: "Welcome & Introduction to Version Control"
 subtitle: "Session 01"
-date: 2025-01-15T14:00:00
+date: 2025-03-31T09:30:00
 metadata-files:
   - _sessions.yml
 about:
@@ -19,7 +19,7 @@ about:
       aria-label: book
 chapter: "[Introduction to Version Control](https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html)"
 quiz-url: https://version-control-intro.formr.org/
-day: "(Day 1)"
+# day: "(Day 1)"
 ---
 
 ::: {#hero-heading}
