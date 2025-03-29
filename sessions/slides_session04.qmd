@@ -74,7 +74,7 @@ knitr::kable(table_cheatsheet(name = "config"), format = "markdown", row.names =
 
 :::
 
-## Questions from last session
+## Common questions from last session
 
 ::: fragment
 #### {{< fa circle-question >}} *"How can I enable copy-paste in Git Bash?"*

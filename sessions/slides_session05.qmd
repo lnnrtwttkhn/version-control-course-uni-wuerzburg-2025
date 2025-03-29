@@ -64,7 +64,7 @@ knitr::kable(table_cheatsheet(name = "essentials"), format = "markdown", row.nam
 
 {{< include project/project-essentials.qmd >}}
 
-## Common questions after last session
+## Common questions from last session
 
 ::: fragment
 #### {{< fa circle-question >}} *"How can I make changes in a text (`.txt`) file?"*

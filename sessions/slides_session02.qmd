@@ -56,7 +56,7 @@ After the last session, you should now be able to answer the following questions
 {{< fa display >}} {{< meta chapter >}}
 
 ```{=html}
-<iframe width="100%" height="80%" src="{{< meta chapter-url >}}"></iframe>
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/command-line.html"></iframe>
 ```
 
 ## Cheatsheet
