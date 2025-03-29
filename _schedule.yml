@@ -1,6 +1,6 @@
 session01:
   date: "2025-03-31"
-  time: "9:30 - 10:00"
+  time: "09:30 - 10:00"
   title: "Welcome & Introduction to Version Control"
   contents:
     - "Logistics and course admin"
