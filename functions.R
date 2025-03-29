@@ -29,7 +29,7 @@ create_schedule <- function() {
     .[, session_id := sub("(?i)session", "", session, perl=TRUE)] %>%
     .[, No := seq.int(nrow(.))] %>%
     .[!(title == "") & date_next == 0, title := sprintf("**%s**", title)] %>%
-    .[!(title == "") & date_next == 1, title := sprintf("**[%s](%s)**", title, sprintf(session_url, sprintf("%02d", session)))] %>%
+    .[!(title == "") & date_next == 1, title := sprintf("**[%s](%s)**", title, sprintf(session_url, session))] %>%
     .[!(reading == ""), reading := paste("{{< fa book >}}", reading)] %>%
     setnames(.,
              old = c("session_id", "date", "time", "title", "contents", "reading", "survey"),
