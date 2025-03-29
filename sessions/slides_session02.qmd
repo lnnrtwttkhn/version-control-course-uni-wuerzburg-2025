@@ -1,6 +1,6 @@
 ---
 title: "Session 2: Basics of the Command Line"
-date: 2025-01-15T14:30:00
+date: 2025-03-31T10:00:00
 format: revealjs
 metadata-files:
   - _slides.yml
@@ -56,7 +56,7 @@ After the last session, you should now be able to answer the following questions
 {{< fa display >}} {{< meta chapter >}}
 
 ```{=html}
-<iframe width="100%" height="80%" src="{{< meta chapter-url >}}"></iframe>
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/command-line.html"></iframe>
 ```
 
 ## Cheatsheet

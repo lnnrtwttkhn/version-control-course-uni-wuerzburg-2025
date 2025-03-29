@@ -1,7 +1,7 @@
 ---
 title: "First steps with Git & Git Essentials"
 subtitle: "Session 04"
-date: 2025-01-22T14:00:00
+date: 2025-03-31T11:15:00
 metadata-files:
   - _sessions.yml
 about:
@@ -11,7 +11,7 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/version-control-course-zi-mannheim-2025/sessions/slides_session04.html
+      href: https://lennartwittkuhn.com/version-control-course-mpib-2025/sessions/slides_session04.html
       aria-label: display
     # - icon: book
     #   text: "Chapter: Installation"
@@ -40,7 +40,7 @@ about:
 chapter: |
   ["First steps with Git"](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html) and ["Git Essentials"](https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html)
 quiz-url: https://version-control-basics.formr.org/
-day: "(Day 2)"
+# day: "(Day 2)"
 ---
 
 ::: {#hero-heading}

@@ -16,7 +16,7 @@ create_schedule <- function() {
   library("data.table")
   variables <- yaml::read_yaml("_schedule.yml")
   current_date <- Sys.Date()
-  session_url <- "https://lennartwittkuhn.com/version-control-course-mpib-2025/sessions/session%s"
+  session_url <- "https://lennartwittkuhn.com/version-control-course-mpib-2025/sessions/%s"
   variables_padded = pad_list(variables)
   dt_load <- data.table::rbindlist(variables_padded, fill = TRUE, idcol = "session")
   cols = c("contents")
@@ -29,7 +29,7 @@ create_schedule <- function() {
     .[, session_id := sub("(?i)session", "", session, perl=TRUE)] %>%
     .[, No := seq.int(nrow(.))] %>%
     .[!(title == "") & date_next == 0, title := sprintf("**%s**", title)] %>%
-    .[!(title == "") & date_next == 1, title := sprintf("**[%s](%s)**", title, sprintf(session_url, sprintf("%02d", No)))] %>%
+    .[!(title == "") & date_next == 1, title := sprintf("**[%s](%s)**", title, sprintf(session_url, session))] %>%
     .[!(reading == ""), reading := paste("{{< fa book >}}", reading)] %>%
     setnames(.,
              old = c("session_id", "date", "time", "title", "contents", "reading", "survey"),

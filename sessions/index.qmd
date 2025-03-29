@@ -7,6 +7,7 @@ listing:
     - "session02.qmd"
     - "session03.qmd"
     - "session04.qmd"
+    - "sessionLunch.qmd"
     - "session05.qmd"
     - "session06.qmd"
     - "session07.qmd"
@@ -19,7 +20,7 @@ listing:
   filter-ui: false
   fields: [date, title, author, subtitle, categories, day]
   field-links: [title]
-  date-format: "Do of MMMM YYYY, HH:mm"
+  date-format: "HH:mm"
 toc: false
 ---
 

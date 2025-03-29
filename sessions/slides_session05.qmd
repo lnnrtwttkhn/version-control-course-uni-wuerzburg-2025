@@ -1,6 +1,6 @@
 ---
 title: "Session 5: {{< meta session-title >}}"
-date: 2025-01-22T15:00:00
+date: 2025-03-31T12:00:00
 format: revealjs
 metadata-files:
   - _slides.yml
@@ -64,7 +64,7 @@ knitr::kable(table_cheatsheet(name = "essentials"), format = "markdown", row.nam
 
 {{< include project/project-essentials.qmd >}}
 
-## Common questions after last session
+## Common questions from last session
 
 ::: fragment
 #### {{< fa circle-question >}} *"How can I make changes in a text (`.txt`) file?"*
