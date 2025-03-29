@@ -12,6 +12,23 @@ quiz-url: https://version-control-cli.formr.org/
 
 {{< include _about.qmd >}}
 
+## Who are you?
+
+:::: {.columns}
+::: {.column width="40%"}
+1. Your name?
+1. Your preferred pronouns?
+1. Your research group?
+1. Your research?
+1. Your mood on a sheep scale?
+:::
+::: {.column width="60%"}
+::: {.fragment}
+![](../images/mood-sheep.png){fig-alt="Mood on a sheep scale."}
+:::
+:::
+::::
+
 ## Course overview
 
 :::: {.columns}
@@ -123,7 +140,7 @@ knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = 
 ```
 :::
 
-## Pair Programming (variant) {visibility="hidden"}
+## Pair Programming (variant)
 
 ::::: {.columns}
 :::: {.column width="60%"}
@@ -147,9 +164,9 @@ knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = 
 
 {{< include ../_code-of-conduct.qmd >}}
 
-## Breaks {visibility="hidden"}
+## Breaks
 
-- We will have a one-hour lunch break at 12:30.
+- We will have a one-hour lunch break at 13:00.
 - Feel free to take short breaks in-between (sessions) when needed.
 
 # Survey results
