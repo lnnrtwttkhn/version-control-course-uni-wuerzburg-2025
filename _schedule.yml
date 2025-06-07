@@ -1,5 +1,5 @@
 session01:
-  date: "2025-03-31"
+  date: "2025-07-08"
   time: "09:30 - 10:00"
   title: "Welcome & Introduction to Version Control"
   contents:
@@ -12,7 +12,7 @@ session01:
   survey:
     - "[Course survey](https://version-control-intro.formr.org)"
 session02:
-  date: "2025-03-31"
+  date: "2025-07-08"
   time: "10:00 - 11:00"
   title: "Basics of the Command Line"
   contents:
@@ -24,7 +24,7 @@ session02:
   survey:
     - "[Command Line](https://version-control-cli.formr.org)"
 session03:
-  date: "2025-03-31"
+  date: "2025-07-08"
   time: "11:00 - 11:15"
   title: "Setup & configuration of Git"
   contents:
@@ -34,7 +34,7 @@ session03:
   survey:
     - "[Git Installation](https://version-control-installation.formr.org)"
 session04:
-  date: "2025-03-31"
+  date: "2025-07-08"
   time: "11:15 - 12:00"
   title: "Basics of Git"
   contents:
@@ -49,7 +49,7 @@ session04:
   survey:
     - "[Git Basics Quiz](https://version-control-basics.formr.org)"
 session05:
-  date: "2025-03-31"
+  date: "2025-07-08"
   time: "12:00 - 13:00"
   title: "Branches, Merging, Merge Conflicts"
   contents: 
@@ -62,13 +62,13 @@ session05:
   survey:
     - "[Git Branches Quiz](https://version-control-branches.formr.org)"
 sessionLunch:
-  date: "2025-03-31"
+  date: "2025-07-08"
   time: "13:00 - 14:00"
   title: "Lunch Break"
   contents:
     - "Enjoy your lunch!"
 session06:
-  date: "2025-03-31"
+  date: "2025-07-08"
   time: "14:00 - 15:00"
   title: "Integration with GitHub / GitLab"
   contents:
@@ -81,7 +81,7 @@ session06:
   survey:
     - "[GitHub Quiz](https://version-control-github.formr.org)"
 session07:
-  date: "2025-03-31"
+  date: "2025-07-08"
   time: "15:00 - 16:00"
   title: "Collaboration on GitHub / GitLab"
   contents:
@@ -95,19 +95,10 @@ session07:
   survey:
     - "[GitHub Quiz](https://version-control-github.formr.org)"
 session08:
-  date: "2025-03-31"
+  date: "2025-07-08"
   time: "16:00 - 16:30"
   title: "Summary & Outlook"
   contents:
     - "Summary of course contents"
     - "Outlook to more Git topics"
     - "Discussing open questions"
-# session09:
-#   date: "Optional"
-#   title: "Publishing" 
-#   contents:
-#     - "Creating Tags with Git"
-#     - "Creating Releases with GitHub"
-#     - "Using [Zenodo](https://zenodo.org) for scientific publishing"
-#   reading:
-#     - "[Tags and Releases](https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html)"
