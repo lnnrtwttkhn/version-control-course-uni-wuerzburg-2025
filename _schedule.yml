@@ -1,66 +1,36 @@
 session01:
   date: "2025-07-08"
   time: "09:30 - 10:00"
-  title: "Welcome & Introduction to Version Control"
+  title: "Welcome & Introduction to Reproducible Research"
   contents:
     - "Logistics and course admin"
     - "Results of course survey"
-    - "Introduction to version control"
-    - "Introduction to Git"
-  reading:
-    - "[Introduction to Version Control](https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html)"
-  survey:
-    - "[Course survey](https://version-control-intro.formr.org)"
+    - "Introduction to reproducibility"
 session02:
   date: "2025-07-08"
   time: "10:00 - 11:00"
-  title: "Basics of the Command Line"
+  title: "Project Organization & Research Data Management"
   contents:
-    - "File systems and navigation"
-    - "Benefits of the command line"
-    - "Basic command line commands"
-  reading:
-    - "[Command Line](https://lennartwittkuhn.com/version-control-book/chapters/command-line.html)"
-  survey:
-    - "[Command Line](https://version-control-cli.formr.org)"
+    - "Types of project structures"
+    - "Naming files and folders"
+    - "Modular and FAIR research data"
+    - "Tidy rectangular data"
 session03:
   date: "2025-07-08"
-  time: "11:00 - 11:15"
-  title: "Setup & configuration of Git"
+  time: "11:00 - 12:00"
+  title: "Robust & Reusable Code, Literate Programming & Documentation"
   contents:
-    - "Setup & configuration of Git"
-  reading:
-    - "[Setup](https://lennartwittkuhn.com/version-control-book/chapters/setup.html), [Installation](https://lennartwittkuhn.com/version-control-book/chapters/installation.html) (if needed)"
-  survey:
-    - "[Git Installation](https://version-control-installation.formr.org)"
+    - "Organizing code with style"
+    - "Defensive programming"
+    - "Literate programming with Quarto"
 session04:
   date: "2025-07-08"
-  time: "11:15 - 12:00"
-  title: "Basics of Git"
-  contents:
-    - "Initializing a Git repository"
-    - "Fundamental Git commands"
-    - "Tracking changes wih Git"
-    - "Practicing basic Git commands"
-    - "Ignoring files with `.gitignore`"
-    - "Good commit messages"
-  reading:
-    - "[First steps with Git](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html), [Git Essentials](https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html)"
-  survey:
-    - "[Git Basics Quiz](https://version-control-basics.formr.org)"
-session05:
-  date: "2025-07-08"
   time: "12:00 - 13:00"
-  title: "Branches, Merging, Merge Conflicts"
-  contents: 
-    - "Understanding branches in Git"
-    - "Creating and switching between branches"
-    - "Merging branches"
-    - "Resolving merge conflicts"
-  reading:
-    - "[Branches](https://lennartwittkuhn.com/version-control-book/chapters/branches.html)"
-  survey:
-    - "[Git Branches Quiz](https://version-control-branches.formr.org)"
+  title: "Version Control of Code & Data (using Git & DataLad)"
+  contents:
+    - "Introduction to Version Control"
+    - "Git Crashcourse"
+    - "Overview of Version Control of Data with DataLad"
 sessionLunch:
   date: "2025-07-08"
   time: "13:00 - 14:00"
@@ -70,35 +40,23 @@ sessionLunch:
 session06:
   date: "2025-07-08"
   time: "14:00 - 15:00"
-  title: "Integration with GitHub / GitLab"
+  title: "Stable Software Environments & Workflow Automation"
   contents:
-    - "Introduction to remote repositories"
-    - "Managing repositories on GitHub / GitLab"
-    - "Pushing and pulling changes"
-    - "Cloning a remote repository"
-  reading:
-    - "[Remotes Intro](https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html)"
-  survey:
-    - "[GitHub Quiz](https://version-control-github.formr.org)"
+    - "Robust environments in R and Python"
+    - "Introduction to Docker"
+    - "Principles of workflow automation"
 session07:
   date: "2025-07-08"
   time: "15:00 - 16:00"
-  title: "Collaboration on GitHub / GitLab"
+  title: "Collaboration on Digital Research Outputs & Publication"
   contents:
-    - "Forking"
-    - "Collaboration with GitHub Flow"
-    - "Pull / Merge Requests"
-    - "Issues"
-    - "Project Management"
-  reading:
-    - "[GitHub Advanced](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html), [GitHub Issues](https://lennartwittkuhn.com/version-control-book/chapters/issues.html)"
-  survey:
-    - "[GitHub Quiz](https://version-control-github.formr.org)"
+    - "Collaboration and project management with Git"
+    - "Integration with publication platforms"
 session08:
   date: "2025-07-08"
   time: "16:00 - 16:30"
   title: "Summary & Outlook"
   contents:
     - "Summary of course contents"
-    - "Outlook to more Git topics"
+    - "How to navigate towards reproducible research"
     - "Discussing open questions"
