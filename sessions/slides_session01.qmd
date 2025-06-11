@@ -1,11 +1,9 @@
 ---
-title: "Session 1: Welcome & Introduction to Version Control"
-date: 2025-03-31T09:30:00
+title: "Session 1: Welcome & Introduction to Reproducible Research"
+date: 2025-07-08T09:30:00
 format: revealjs
 metadata-files:
   - _slides.yml
-chapter: "[Introduction to Version Control](https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html)"
-quiz-url: https://version-control-cli.formr.org/
 ---
 
 # Logistics & Admin
@@ -18,7 +16,6 @@ quiz-url: https://version-control-cli.formr.org/
 ::: {.column width="40%"}
 1. Your name?
 1. Your preferred pronouns?
-1. Your research group?
 1. Your research?
 1. Your mood on a sheep scale?
 :::
@@ -47,32 +44,22 @@ quiz-url: https://version-control-cli.formr.org/
 ## What will the average session look like?
 
 ::: {.fragment}
-{{< fa clock >}} The course will consist of 6 main sessions (ca. up to 60 minutes each)
+{{< fa clock >}} The course consists of 6 main sessions (ca. up to 60 minutes each)
 :::
 
 ::: {.fragment}
 1. {{< fa chalkboard-user >}} **Demonstration (up to 15 minutes):**
-<br> The instructor introduces the topic and gives a short demonstration of the main Git commands.
+<br> The instructor introduces the topic and gives a short demonstration of the main tools and practices.
 :::
 
 ::: {.fragment}
-2. {{< fa laptop-code >}} **Exercises (up to 45 minutes):**
+2. {{< fa laptop-code >}} **Exercises (up to 30 minutes):**
 <br>Course participants work on hands-on exercises and assignments.
 :::
 
 ::: {.fragment}
-3. {{< fa book-open >}} **Reading (in parallel to the exercises; up to 45 minutes):**
-<br> Course participants engage with [the online learning materials](https://lennartwittkuhn.com/version-control-book/) (aka. our "Version Control Book").
-:::
-
-::: {.fragment}
-4. {{< fa comments >}} **Discussions (up to 10 minutes):**
+3. {{< fa comments >}} **Discussions (up to 15 minutes):**
 <br>Course participants and instructor collectively address any questions related to the session's content.
-:::
-
-::: {.fragment}
-5. {{< fa clipboard-question >}} **Quizzes (up to 10 minutes):**
-<br>Course participants complete online quizzes to test their knowledge.
 :::
 
 ## Schedule
@@ -99,15 +86,7 @@ create_schedule()
 - Practical advantage: Update course information independently from university websites that are out of your control
 :::
 
-## Version Control Book
-
-{{< fa display >}} [{{< var links.book >}}]({{< var links.book >}})
-
-```{=html}
-<iframe width="100%" height="80%" src="{{< var links.book >}}" title="Version Control Book"></iframe>
-```
-
-## Quizzes & Surveys
+## Quizzes & Surveys {visibility="hidden"}
 
 ::: {.fragment}
 - We use online surveys to ask you questions and implement exercises or quizzes
@@ -123,7 +102,7 @@ create_schedule()
 Your codeword is then forwarded to us (without your name) and your data deleted.
 :::
 
-## Cheatsheets
+## Cheatsheets {visibility="hidden"}
 
 - Each session / chapter / slidedeck contains a cheatsheet with relevant commands.
 - For an overview of all cheatsheets, see <https://lennartwittkuhn.com/version-control-book/misc/cheatsheet.html>.
@@ -140,7 +119,7 @@ knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = 
 ```
 :::
 
-## Pair Programming (variant)
+## Pair Programming (variant) {visibility="hidden"}
 
 ::::: {.columns}
 :::: {.column width="60%"}
@@ -152,14 +131,6 @@ knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = 
 ::::
 :::::
 
-## Course exercise: Building an online recipes book
-
-{{< fa display >}} [{{< var course.project-site >}}]({{< var course.project-site >}})
-
-```{=html}
-<iframe width="100%" height="80%" src="{{< var course.project-site >}}" title="Course Website"></iframe>
-```
-
 ## Code of Conduct
 
 {{< include ../_code-of-conduct.qmd >}}
@@ -168,86 +139,6 @@ knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = 
 
 - We will have a one-hour lunch break at 13:00.
 - Feel free to take short breaks in-between (sessions) when needed.
-
-# Survey results
-
-:pray: Thank you for your responses!
-
-## Expectations
-
-> Without copy-pasting the title: What do you think this course is **going to be about**?
-
-- Introduction to Git, GitHub, and GitLab.
-- Basics of version control and Git commands (commit, push, pull, branches).
-- Command-line interaction and practical uses.
-- Tips and tricks for effective Git usage.
-- Structuring and organizing research projects with Git.
-- Collaboration and workflow management.
-
-## Hopes
-
-> What do you **hope to learn** in this course?
-
-- Learn how to use GitHub and GitLab in daily work.
-- Get better at using Git and its commands.
-- Understand how to work with branches and fix merge conflicts.
-- Explore new and useful ways to use Git.
-- Use Git to make research and work easier and faster.
-- Improve teamwork and collaboration with Git.
-- Build confidence in using Git for everyday tasks.
-
-## Worries
-
-> Do you have any **worries or fears** regarding this course that you want to express?
-
-- No prior experience or expectations.
-- Some concern about being a beginner and keeping up with others.
-- Hoping the course is not too complicated and suits all experience levels.
-- Looking forward to learning, even as a novice.
-
-## Motivation
-
-> What is your **main motivation** for taking this course?
-
-- Improve Git and version management skills.
-- Close knowledge gaps and become more confident using Git.
-- Use GitHub/GitLab more naturally in research and work.
-- Apply Git skills to analyze data and collaborate effectively.
-- Gain inspiration and new ideas for using Git in work.
-- Benefit from better Git understanding in daily tasks.
-
-## Let's do the splits
-
-![](../images/splits.jpg){fig-align="center"}
-
-# Introduction to Version Control
-
-## Survey: Scenario 1
-
-> Imagine a scenario where you crafted a brilliant paragraph for a manuscript (for example, your paper, thesis, or report), but then accidentally ruined it.
-**How would you retrieve the earlier brilliant version? Is it even possible?**
-
-::: {.incremental}
-
-- "Only if I saved it before - otherwise, I'd have to draft another brilliant paragraph."
-- "I might be able to find it in a cloud backup, like OneDrive or Google Drive."
-- "Version Control?"
-- "I'd simply revert to the relevant commit."
-
-:::
-
-## Survey: Scenario 2
-
-> Consider a situation where you are working with five co-authors on a paper.
-**How do you handle the changes and comments they make to the document?**
-If you're using LibreOffice Writer or Microsoft Word and you accept changes made using the "Track Changes" option, **what happens to the history of those modifications?**
-
-::: {.incremental}
-
-- "I always save new versions of files with my initials (and others' initials when I receive the document), which often results in having 10–20 different file versions."
-- "I believe the history of modifications is lost after accepting the changes ..."
-
-:::
 
 ## Learning objectives
 
@@ -262,7 +153,7 @@ If you're using LibreOffice Writer or Microsoft Word and you accept changes made
 
 {{< include ../objectives/_objectives-intro.qmd >}}
 
-# Discussion
+# Introduction to Reproducible Research
 
 ## The issue of computational reproducibility in science
 
