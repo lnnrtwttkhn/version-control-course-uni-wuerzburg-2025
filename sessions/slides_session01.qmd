@@ -182,6 +182,47 @@ knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = 
 ::::
 :::::
 
+## Current state of reproducibility in (psychological) research
+
+::::: {.columns}
+:::: {.column width="50%"}
+::: {.fragment}
+### @artner2021
+
+- Analyzed 46 articles from three APA journals in 2012.
+- Extracted 232 statistical claims from these papers.
+- Successfully reproduced 163 statistical results (70%).
+- Focus: Reproducibility of individual statistical claims.
+:::
+::: {.fragment}
+### @hardwicke2021
+
+- Analyzed 25 articles published in *Psychological Science* (2014–2015) with Open Data Badges.
+- 15 articles (60%) were fully reproducible.
+- 9 out of these 15 (60%) were reproducible without author involvement.
+- Focus: Study-level reproducibility.
+:::
+::::
+:::: {.column width="50%"}
+::: {.fragment}
+### @crüwell2023
+
+- Investigated 14 articles from a more recent issue of *Psychological Science*.
+- Only 1 out of 14 articles was exactly reproducible.
+- 3 additional articles were essentially reproducible with minor deviations.
+- All articles had Open Data Badges.
+:::
+::: {.fragment}
+
+### @obels2020
+
+- Analyzed 62 registered reports in Psychology (2014-18).
+- 36 reports (58%) shared both data and code.
+- Of those, 21 (58%) were found to be reproducible.
+- Focus: Impact of open science practices on reproducibility.
+:::
+::::
+:::::
 ## The issue of computational reproducibility in science
 
 ::::: {.columns}
