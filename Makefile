@@ -1,5 +1,5 @@
-IMAGES_URL=https://cloud.uni-hamburg.de/s/ZndexSjSH9ZqxTG/download
-IMAGES_ARCHIVE=version-control-course.zip
+IMAGES_URL=https://cloud.uni-hamburg.de/s/pgiNscTPMS8s4mP/download
+IMAGES_ARCHIVE=repro-course.zip
 IMAGES_DIR=images/
 CHEATSHEET_URL=https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/cheatsheet.json
 
@@ -17,7 +17,7 @@ deploy: clean images
 
 .PHONY: images
 images:
-	wget $(IMAGES_URL) -O $(IMAGES_ARCHIVE)
+	curl -L $(IMAGES_URL) -o $(IMAGES_ARCHIVE)
 	unzip -j -o $(IMAGES_ARCHIVE) -d $(IMAGES_DIR)
 	rm -f $(IMAGES_ARCHIVE)
 
