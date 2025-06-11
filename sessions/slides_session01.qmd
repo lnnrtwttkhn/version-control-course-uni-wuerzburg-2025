@@ -344,6 +344,23 @@ Open science is an umbrella term for **activities that aim to promote open appro
 - Testing: writing code to test if code works
 :::
 
+## Reproducibility is a spectrum and a journey
+
+::::: {.columns}
+:::: {.column width="50%"}
+::: {.fragment}
+
+![["Reproducibility Scale"](https://berd-nfdi.github.io/BERD-reproducible-research-course/) by [Heidi Seibold and Rabea Müller and The Digital Research Academy Community and The BERD Academy](https://www.berd-nfdi.de/berd-academy/) (License: [CC BY
+4.0]({{< var links.ccby40 >}}))](../images/repro-scale.jpg)
+:::
+::::
+:::: {.column width="50%"}
+::: {.fragment}
+![by [Scriberia]({{< var links.scriberia >}}) for @turingway2022 ([Link](https://zenodo.org/record/3678226/), [CC BY
+4.0]({{< var links.ccby40 >}}))](../images/reproducible-journey.jpg)
+:::
+::::
+:::::
 
 ## Why we need version control ...
 
