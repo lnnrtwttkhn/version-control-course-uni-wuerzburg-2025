@@ -44,6 +44,7 @@ format:
     toc-depth: 1
     number-sections: true
     number-depth: 1
+    auto-stretch: false
 mainfont: Atkinson Hyperlegible
 engine: knitr
 execute:
