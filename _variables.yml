@@ -11,7 +11,7 @@ project:
   mailto-secretary: audictive@akustik.rwth-aachen.de
   # email-mailing-list: version-control-course-ss24.psych@lists.uni-hamburg.de
   # mailto-mailing-list: "mailto:{{< var project.email-mailing-list >}}"
-  nextcloud: https://cloud.uni-hamburg.de/s/ZndexSjSH9ZqxTG
+  nextcloud: https://cloud.uni-hamburg.de/s/pgiNscTPMS8s4mP
 course:
   title: "Tools and practices for reproducible scientific workflows"
   subtitle: "A {{< var course.duration >}} course at the {{< var course.where-institution >}}, {{< var course.where-city >}}, {{< var course.where-country >}} on {{< var course.when-date >}}"
