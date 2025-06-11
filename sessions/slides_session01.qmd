@@ -344,6 +344,18 @@ Open science is an umbrella term for **activities that aim to promote open appro
 - Testing: writing code to test if code works
 :::
 
+## What can we do?
+
+::: {.fragment}
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+create_schedule()
+```
+:::
+
 ## Reproducibility is a spectrum and a journey
 
 ::::: {.columns}
