@@ -1,7 +1,7 @@
 session01:
   date: "2025-07-08"
   time: "09:30 - 10:00"
-  title: "Welcome & Introduction to Reproducible Research"
+  title: "Welcome & Introduction to Reproducibility"
   contents:
     - "Logistics and course admin"
     - "Results of course survey"
@@ -9,7 +9,7 @@ session01:
 session02:
   date: "2025-07-08"
   time: "10:00 - 11:00"
-  title: "Project Organization & Research Data Management"
+  title: "Project Organization & Data Management"
   contents:
     - "Types of project structures"
     - "Naming files and folders"
@@ -18,7 +18,7 @@ session02:
 session03:
   date: "2025-07-08"
   time: "11:00 - 12:00"
-  title: "Robust & Reusable Code, Literate Programming & Documentation"
+  title: "Robust & Reusable Code & Literate Programming"
   contents:
     - "Organizing code with style"
     - "Defensive programming"
@@ -26,11 +26,11 @@ session03:
 session04:
   date: "2025-07-08"
   time: "12:00 - 13:00"
-  title: "Version Control of Code & Data (using Git & DataLad)"
+  title: "Version Control (using Git & DataLad)"
   contents:
     - "Introduction to Version Control"
     - "Git Crashcourse"
-    - "Overview of Version Control of Data with DataLad"
+    - "Version Control of Data with DataLad"
 sessionLunch:
   date: "2025-07-08"
   time: "13:00 - 14:00"
@@ -40,15 +40,14 @@ sessionLunch:
 session06:
   date: "2025-07-08"
   time: "14:00 - 15:00"
-  title: "Stable Software Environments & Workflow Automation"
+  title: "Stable Software Environments"
   contents:
     - "Robust environments in R and Python"
     - "Introduction to Docker"
-    - "Principles of workflow automation"
 session07:
   date: "2025-07-08"
   time: "15:00 - 16:00"
-  title: "Collaboration on Digital Research Outputs & Publication"
+  title: "Collaboration on Digital Research Outputs"
   contents:
     - "Collaboration and project management with Git"
     - "Integration with publication platforms"
