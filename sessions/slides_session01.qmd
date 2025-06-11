@@ -223,6 +223,7 @@ knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = 
 :::
 ::::
 :::::
+
 ## The issue of computational reproducibility in science
 
 ::::: {.columns}
@@ -277,6 +278,23 @@ We need a **professional toolkit** for digital research!
 - natural selection: as a researcher, what's good for your career is not necessarily good for science (how to get funding, how to get published, how to get cited)
 - journals are interested in selling us back our data, not improving the quality of science
 :::
+
+## What about Open Science?
+
+Open science is an umbrella term for **activities that aim to promote open approaches to science and research**.
+
+![by Robin Champieux ([CC BY
+4.0]({{< var links.ccby40 >}}))](../images/open-science-umbrella.jpg){.nostretch fig-align="center" width="50%"}
+
+
+::: {.fragment}
+- Note: Research can be reproducible but not open
+- This course: Focus on **computational reproducibility**
+:::
+
+
+
+
 
 ## Why we need version control ...
 
