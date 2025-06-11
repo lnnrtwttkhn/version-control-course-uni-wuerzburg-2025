@@ -374,6 +374,12 @@ create_schedule()
 ::::
 :::::
 
+## {{< fa comments >}} Discussion
+
+- What are your experiences with (non-)reproducible research?
+- What are personal and general hurdles for reproducible research?
+- What can you do to address them?
+
 ## Why we need version control ...
 
 :::: {.columns}
