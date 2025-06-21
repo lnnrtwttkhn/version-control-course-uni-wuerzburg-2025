@@ -1,6 +1,6 @@
 ---
-title: "Session 6: {{< meta session-title >}}"
-date: 2025-03-31T14:00:00
+title: "Session 5: {{< meta session-title >}}"
+date: 2025-07-08T12:00:00
 format: revealjs
 metadata-files:
   - _slides.yml
@@ -10,27 +10,117 @@ chapter: |
 quiz-url: https://version-control-github.formr.org/
 ---
 
-# Last session: Branches
+# Last session: First steps with Git & Git Essentials
 
-## Last session: Learning objectives
+## Last session: First steps with Git & Git Essentials
 
 After the last session, you should now be able to answer the following questions / do the following:
 
-{{< include ../objectives/_objectives-branches.qmd >}}
+::: fragment
+### First steps with Git
+
+{{< include ../objectives/_objectives-firststeps.qmd >}}
+:::
+
+::: {.fragment}
+### Git essentials
+
+{{< include ../objectives/_objectives-essentials.qmd >}}
+:::
 
 ## Last session: Cheatsheet
+
+### First steps with Git
 
 ```{r}
 #| eval: true
 #| echo: false
 #| message: false
 #| warning: false
-knitr::kable(table_cheatsheet(name = "branches"), format = "markdown", row.names = FALSE)
+knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = FALSE)
+```
+
+## Last session: Cheatsheet
+
+### Git essentials
+
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+knitr::kable(table_cheatsheet(name = "essentials"), format = "markdown", row.names = FALSE)
 ```
 
 ## Last session: `{{< var course.project >}}` project
 
-{{< include project/project-branches.qmd >}}
+### First steps with Git
+
+{{< include project/project-basics.qmd >}}
+
+## Last session: `{{< var course.project >}}` project
+
+### Git Essentials
+
+{{< include project/project-essentials.qmd >}}
+
+## Common questions from last session
+
+::: fragment
+#### {{< fa circle-question >}} *"How can I make changes in a text (`.txt`) file?"*
+- Remember: **It's just a regular text file on your computer.**
+- Option 1: Use a regular text editor (e.g., TextEdit on macOS, Notepad++ on Windows, or others).
+- Option 2: Use `vim` directly from the command line (see chapter / session on "Setup").
+- Option 3: Use command line commands like `echo "My text" >> {{< var course.project >}}.txt`.
+:::
+
+::: fragment
+#### {{< fa circle-question >}} *"I ran `git commit` but nothing happened?"*
+- Maybe you forgot to run `git add` before?
+:::
+
+::: fragment
+
+#### {{< fa circle-exclamation >}} *"Remember to `cd` into your `{{< var course.project >}}` project folder!"*
+
+- Every time you open the command line, it starts at a default location (likely your home directory).
+- Check in which folder you are, using `pwd` ("print working directory").
+- Use `cd` to move to your `{{< var course.project >}}` project folder before you start running the Git commands.
+
+:::
+
+{{< include _git-home-directory.qmd >}}
+
+## Staging and Committing
+
+::: columns
+::: {.column width="50%"}
+### Staging:
+
+-   Command: `git add`
+-   Purpose: Preparing and organizing files before they are recorded in the repository's history.
+:::
+
+::: {.column width="50%"}
+### Committing:
+
+-   Command: `git commit -m "commit message"`
+-   Purpose: Saving the changes in the staged files to the repository's history, creating a snapshot.
+:::
+:::
+
+::: columns
+::: {.column width="50%"}
+::: fragment
+![Source: [git-scm.com](https://git-scm.com/book/en/v2)](../images/git-staging-diagram.png){width="100%"}
+:::
+:::
+::: {.column width="50%"}
+::: fragment
+![Source: [Heidi Seibold](https://docs.google.com/presentation/d/1Yj59XAAJZQprO-kfDHzHMtjJDttMFAqkkslqcSIRZKg/edit#slide=id.p)](../images/git-analogy-letter.png){width="100%"}
+:::
+:::
+:::
 
 # This session: {{< meta session-title >}}
 
@@ -76,6 +166,8 @@ knitr::kable(table_cheatsheet(name = "remote_intro"), format = "markdown", row.n
 
 ## Exercises (1)
 
+**Mandatory for everyone!**
+
 ### Connect to remote repositories using SSH
 
 {{< include ../exercises/_exercises-remotes-ssh.qmd >}}
@@ -86,15 +178,28 @@ knitr::kable(table_cheatsheet(name = "remote_intro"), format = "markdown", row.n
 
 ## Exercises (2)
 
-**Collaboration Option 1**
+**Collaboration Option 1 (Basic)**
 
-### "Private" collaboration with pull requests (using GitHub Flow)
+### Private collaboration on default branch (`main` or `master`)
 
-{{< include ../exercises/_exercises-remotes-collaboration.qmd >}}
+1. Add your exercise partner as a collaborator to your project repository on GitHub.
+1. Clone your partner's repository.
+1. Add a new change to your collaborator's project file (if you are unsure, where to add the entry, ask your collaborator!)
+1. Add and commit the changes.
+1. Push the changes to the remote repository.
+1. Pull your partner's changes into your repository.
 
 ## Exercises (3)
 
-**Collaboration Option 2**
+**Collaboration Option 2 (Advanced)**
+
+### Private collaboration with pull requests (using GitHub Flow)
+
+{{< include ../exercises/_exercises-remotes-collaboration.qmd >}}
+
+## Exercises (4)
+
+**Collaboration Option 3 (Alternative)** 
 
 ### Clone and sync your repository
 
