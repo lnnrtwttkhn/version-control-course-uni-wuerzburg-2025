@@ -13,14 +13,14 @@ project:
   # mailto-mailing-list: "mailto:{{< var project.email-mailing-list >}}"
   nextcloud: https://cloud.uni-hamburg.de/s/pgiNscTPMS8s4mP
 course:
-  title: "Tools and practices for reproducible scientific workflows"
+  title: "Track, organize and share your work: Reproducible scientific workflows with Git & DataLad"
   subtitle: "A {{< var course.duration >}} course at the {{< var course.where-institution >}}, {{< var course.where-city >}}, {{< var course.where-country >}} on {{< var course.when-date >}}"
   instructors: "Dr. Lennart Wittkuhn"
   when-day: "Tuesday"
   when-date: "July 8th 2025"
   when-time: "9:30 to 16:30"
   when-long: "{{< var course.when-day >}}, {{< var course.when-date >}}, {{< var course.when-time >}}"
-  where-institution: "AUDICTIVE Program"
+  where-institution: "AUDICTIVE Priority Program"
   where-city: "Mainz"
   where-country: "Germany"
   where-address: "Tagungshaus Erbacher Hof, Mainz"
