@@ -149,9 +149,13 @@ knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = 
 
 {{< include tasks/tasks-intro.qmd >}}
 
+::: {.fragment}
+
 #### Learning objectives
 
 {{< include ../objectives/_objectives-intro.qmd >}}
+
+:::
 
 # Introduction to Reproducible Research
 
@@ -292,6 +296,35 @@ Open science is an umbrella term for **activities that aim to promote open appro
 - This course: Focus on **computational reproducibility**
 :::
 
+## Two main challenges for reproducible scientific workflows
+
+::::: {.columns}
+:::: {.column width="50%"}
+::: {.fragment}
+### Version Control
+![[&copy; Jorge Cham (phdcomics.com)](http://phdcomics.com/comics/archive/phd052810s.gif)](../images/phd-git-original.png)
+:::
+::::
+:::: {.column width="50%"}
+::: {.fragment}
+### Computational Environments
+![](../images/docker-meme.png){width="70%"}
+:::
+::::
+:::::
+
+## What can we do?
+
+::: {.fragment}
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+create_schedule()
+```
+:::
+
 ## Science as distributed open-source *knowledge* development ^[inspired by [Richard McElreath](https://www.eva.mpg.de/ecology/staff/richard-mcelreath/)'s ["Science as Amateur Software Development"](https://www.youtube.com/watch?v=8qzVV7eEiaI) (2023)]
 
 ::::: {.columns}
@@ -306,6 +339,8 @@ Open science is an umbrella term for **activities that aim to promote open appro
 - adopting new practices and upgrading workflows
 - moving towards a "culture of reproducibility" ^[see ["Towards a culture of computational reproducibility"](https://mediasite.video.ufl.edu/Mediasite/Play/b26b123b082e4adba367b8f2b91ce34a1d) by Russ Poldrack, Stanford University]
 - changing incentives, policies & funding schemes
+
+*(see our discussion at the end of this course)*
 :::
 ::::
 :::: {.column width="55%"}
@@ -344,18 +379,6 @@ Open science is an umbrella term for **activities that aim to promote open appro
 - Testing: writing code to test if code works
 :::
 
-## What can we do?
-
-::: {.fragment}
-```{r}
-#| eval: true
-#| echo: false
-#| message: false
-#| warning: false
-create_schedule()
-```
-:::
-
 ## Reproducibility is a spectrum and a journey
 
 ::::: {.columns}
@@ -374,11 +397,9 @@ create_schedule()
 ::::
 :::::
 
-## {{< fa comments >}} Discussion
+## Your turn
 
-- What are your experiences with (non-)reproducible research?
-- What are personal and general hurdles for reproducible research?
-- What can you do to address them?
+{{< include tasks/tasks-intro.qmd >}}
 
 ## Why we need version control ...
 
@@ -539,7 +560,7 @@ create_schedule()
 create_schedule()
 ```
 
-## Next session: The command line
+## Prerequisite: Basics of the command line
 
 ![Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Linux_command-line._Bash._GNOME_Terminal._screenshot.png) (free license)](../images/command-line.png)
 
