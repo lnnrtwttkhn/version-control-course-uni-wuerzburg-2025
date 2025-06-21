@@ -1,18 +1,17 @@
 ---
 title: "Session 4: {{< meta session-title >}}"
-date: 2025-03-31T11:15:00
+date: 2025-07-08T11:00:00
 format: revealjs
 metadata-files:
   - _slides.yml
 session-title: "First steps with Git & Git Essentials"
 chapter: |
   ["First steps with Git"](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html) and ["Git Essentials"](https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html)
-quiz-url: https://version-control-basics.formr.org/
 ---
 
 # Last session
 
-## Last session: The command line & Git setup
+## Last session: Basics of the command line & Git setup
 
 ![Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Linux_command-line._Bash._GNOME_Terminal._screenshot.png) (free license)](../images/command-line.png)
 
