@@ -20,7 +20,7 @@ course:
   when-date: "July 8th 2025"
   when-time: "9:30 to 16:30"
   when-long: "{{< var course.when-day >}}, {{< var course.when-date >}}, {{< var course.when-time >}}"
-  where-institution: "AUDICTIVE Priority Program"
+  where-institution: "AUDICTIVE Program"
   where-city: "Mainz"
   where-country: "Germany"
   where-address: "Tagungshaus Erbacher Hof, Mainz"
