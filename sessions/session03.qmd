@@ -1,7 +1,7 @@
 ---
 title: "Setup & Configuration of Git"
 subtitle: "Session 03"
-date: 2025-03-31T11:00:00
+date: 2025-07-08T10:45:00
 metadata-files:
   - _sessions.yml
 about:
@@ -23,7 +23,6 @@ about:
       aria-label: book
 chapter: |
   ["Setup"](https://lennartwittkuhn.com/version-control-book/chapters/setup.html) (and ["Installation"](https://lennartwittkuhn.com/version-control-book/chapters/installation.html), if needed)
-quiz-url: https://version-control-installation.formr.org/
 # day: "(Day 1)"
 ---
 
