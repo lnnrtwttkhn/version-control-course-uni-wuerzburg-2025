@@ -1,7 +1,6 @@
 ---
 title: "Collaboration on GitHub / GitLab"
-subtitle: "Session 07"
-date: 2025-03-31T15:00:00
+subtitle: "Bonus session"
 metadata-files:
   - _sessions.yml
 about:
@@ -21,13 +20,13 @@ about:
       text: "Chapter: Issues"
       href: https://lennartwittkuhn.com/version-control-book/chapters/issues.html
       aria-label: book
-    - icon: input-cursor-text
-      text: Quiz
-      href: https://version-control-github.formr.org
-      aria-label: input-cursor-text
+    # - icon: input-cursor-text
+    #   text: Quiz
+    #   href: https://version-control-github.formr.org
+    #   aria-label: input-cursor-text
 chapter: |
   ["GitHub - Advanced"](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html)
-quiz-url: https://version-control-github.formr.org/
+# quiz-url: https://version-control-github.formr.org/
 # day: "(Day 3)"
 ---
 

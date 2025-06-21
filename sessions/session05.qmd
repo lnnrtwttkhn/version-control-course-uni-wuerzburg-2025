@@ -1,7 +1,6 @@
 ---
 title: "Branches"
-subtitle: "Session 05"
-date: 2025-03-31T12:00:00
+subtitle: "Bonus session"
 metadata-files:
   - _sessions.yml
 about:
@@ -17,13 +16,13 @@ about:
       text: "Chapter: Branches"
       href: https://lennartwittkuhn.com/version-control-book/chapters/branches.html
       aria-label: book
-    - icon: input-cursor-text
-      text: Quiz
-      href: https://version-control-branches.formr.org/
-      aria-label: input-cursor-text
+    # - icon: input-cursor-text
+    #   text: Quiz
+    #   href: https://version-control-branches.formr.org/
+    #   aria-label: input-cursor-text
 chapter: |
   ["Branches"](https://lennartwittkuhn.com/version-control-book/chapters/branches.html)
-quiz-url: https://version-control-branches.formr.org/
+# quiz-url: https://version-control-branches.formr.org/
 # day: "(Day 2)"
 ---
 

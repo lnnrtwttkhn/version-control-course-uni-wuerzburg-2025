@@ -1,28 +1,46 @@
 ---
 title: "Sessions"
 listing:
-  id: sessions
-  contents:
-    - "session01.qmd"
-    - "session02.qmd"
-    - "session03.qmd"
-    - "session04.qmd"
-    - "sessionLunch.qmd"
-    - "session05.qmd"
-    - "session06.qmd"
-    - "session07.qmd"
-    - "session08.qmd"
-  type: default
-  sort: "date asc"
-  categories: false
-  table-hover: true
-  sort-ui: false
-  filter-ui: false
-  fields: [date, title, author, subtitle, categories, day]
-  field-links: [title]
-  date-format: "HH:mm"
-toc: false
+  - id: sessions
+    contents:
+      - "session01.qmd"
+      - "session02.qmd"
+      - "session03.qmd"
+      - "session04.qmd"
+      - "session06.qmd"
+      - "sessionLunch.qmd"
+      - "session08.qmd"
+    type: default
+    sort: "date asc"
+    categories: false
+    table-hover: true
+    sort-ui: false
+    filter-ui: false
+    fields: [date, title, author, subtitle, categories, day]
+    field-links: [title]
+    date-format: "HH:mm"
+  - id: bonus-sessions
+    contents:
+      - "session05.qmd"
+      - "session07.qmd"
+    type: default
+    sort: "date asc"
+    categories: false
+    table-hover: true
+    sort-ui: false
+    filter-ui: false
+    fields: [date, title, author, subtitle, categories, day]
+    field-links: [title]
+    date-format: "HH:mm"
+toc: true
 ---
 
+## Main sessions
+
 ::: {#sessions}
+:::
+
+## Bonus sessions
+
+::: {#bonus-sessions}
 :::
