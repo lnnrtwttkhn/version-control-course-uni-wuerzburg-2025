@@ -3,13 +3,13 @@ title: "Sessions"
 listing:
   - id: sessions
     contents:
-      - "session01.qmd"
-      - "session02.qmd"
-      - "session03.qmd"
-      - "session04.qmd"
-      - "session06.qmd"
-      - "sessionLunch.qmd"
-      - "session08.qmd"
+      - "session-introduction.qmd"
+      - "session-command-line.qmd"
+      - "session-git-setup.qmd"
+      - "session-git-basics.qmd"
+      - "session-git-remotes.qmd"
+      - "session-lunch.qmd"
+      - "session-outlook.qmd"
     type: default
     sort: "date asc"
     categories: false
@@ -21,8 +21,8 @@ listing:
     date-format: "HH:mm"
   - id: bonus-sessions
     contents:
-      - "session05.qmd"
-      - "session07.qmd"
+      - "session-git-branches.qmd"
+      - "session-git-collaboration.qmd"
     type: default
     sort: "date asc"
     categories: false

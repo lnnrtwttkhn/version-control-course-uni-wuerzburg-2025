@@ -35,11 +35,11 @@ quiz-url: https://version-control-intro.formr.org/
 
 ### Reproducibility
 
-{{< include ../objectives/_objectives-intro.qmd >}}
+{{< include ../objectives-reproducibility/_objectives-intro.qmd >}}
 
 ### Version Control
 
-{{< include ../objectives-git/_objectives-intro.qmd >}}
+{{< include ../objectives/_objectives-intro.qmd >}}
 
 ## Slides
 
