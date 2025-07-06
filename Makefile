@@ -21,8 +21,8 @@ images:
 	unzip -j -o $(IMAGES_ARCHIVE) -d $(IMAGES_DIR)
 	rm -f $(IMAGES_ARCHIVE)
 
-.PHONY: objectives-git
-objectives-git: objectives.txt
+.PHONY: objectives
+objectives: objectives.txt
 	rm -rf ./objectives-git
 	mkdir -p objectives-git
 	wget -P ./objectives-git -i objectives.txt  
