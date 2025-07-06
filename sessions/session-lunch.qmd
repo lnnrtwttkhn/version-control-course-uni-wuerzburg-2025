@@ -20,7 +20,7 @@ In this session, you will work on the following tasks:
 
 :bulb: You appreciate that breaks are good for you!<br>
 :bulb: You learn about today's menu at the canteen.<br>
-:bulb: You've eaten but you are still hungry for more Git!
+:bulb: You've eaten but you are still hungry for more version control!
 
 ## `recipes` project
 
