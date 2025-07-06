@@ -1,5 +1,5 @@
 ---
-title: "Session 1: Welcome & Introduction to Reproducible Research"
+title: "Session 1: Welcome & Introduction to Reproducibility & Version Control"
 date: 2025-07-08T09:30:00
 format: revealjs
 metadata-files:
@@ -86,6 +86,14 @@ create_schedule()
 - Practical advantage: Update course information independently from university websites that are out of your control
 :::
 
+## Version Control Book
+
+{{< fa display >}} [{{< var links.book >}}]({{< var links.book >}})
+
+```{=html}
+<iframe width="100%" height="80%" src="{{< var links.book >}}" title="Version Control Book"></iframe>
+```
+
 ## Quizzes & Surveys {visibility="hidden"}
 
 ::: {.fragment}
@@ -102,7 +110,7 @@ create_schedule()
 Your codeword is then forwarded to us (without your name) and your data deleted.
 :::
 
-## Cheatsheets {visibility="hidden"}
+## Cheatsheets
 
 - Each session / chapter / slidedeck contains a cheatsheet with relevant commands.
 - For an overview of all cheatsheets, see <https://lennartwittkuhn.com/version-control-book/misc/cheatsheet.html>.
@@ -119,7 +127,7 @@ knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = 
 ```
 :::
 
-## Pair Programming (variant) {visibility="hidden"}
+## Pair Programming (variant)
 
 ::::: {.columns}
 :::: {.column width="60%"}
@@ -130,6 +138,19 @@ knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = 
 ![This illustration is created by [Scriberia](https://www.scriberia.com/) with [The Turing Way community](https://the-turing-way.netlify.app/welcome). Used under a [CC-BY 4.0 licence](https://creativecommons.org/licenses/by/4.0/). DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3695300)](../images/turing-way-community.svg)
 ::::
 :::::
+
+## Course exercise: Building an online recipes book
+
+{{< fa display >}} [{{< var course.project-site >}}]({{< var course.project-site >}})
+
+```{=html}
+<iframe width="100%" height="80%" src="{{< var course.project-site >}}" title="Course Website"></iframe>
+```
+
+
+## Let's do the splits
+
+![](../images/splits.jpg){fig-align="center"}
 
 ## Code of Conduct
 
@@ -143,7 +164,14 @@ knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = 
 ## Learning objectives
 
 {{< include _learning-objectives-note.qmd >}}
-{{< include ../objectives/_objectives-intro.qmd >}}
+
+### Reproducibility
+
+{{< include ../objectives-reproducibility/_objectives-intro.qmd >}}
+
+### Version Control
+
+{{< include ../objectives-git/_objectives-intro.qmd >}}
 
 ## Your turn
 
@@ -153,7 +181,13 @@ knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = 
 
 #### Learning objectives
 
-{{< include ../objectives/_objectives-intro.qmd >}}
+#### Reproducibility
+
+{{< include ../objectives-reproducibility/_objectives-intro.qmd >}}
+
+#### Version Control
+
+{{< include ../objectives-git/_objectives-intro.qmd >}}
 
 :::
 
@@ -296,7 +330,7 @@ Open science is an umbrella term for **activities that aim to promote open appro
 - This course: Focus on **computational reproducibility**
 :::
 
-## Two main challenges for reproducible scientific workflows
+## Two main challenges for reproducible scientific workflows  {visibility="hidden"}
 
 ::::: {.columns}
 :::: {.column width="50%"}
@@ -397,9 +431,34 @@ create_schedule()
 ::::
 :::::
 
-## Your turn
+# Introduction to Version Control
 
-{{< include tasks/tasks-intro.qmd >}}
+## Scenario 1
+
+> Imagine a scenario where you crafted a brilliant paragraph for a manuscript (for example, your paper, thesis, or report), but then accidentally ruined it.
+**How would you retrieve the earlier brilliant version? Is it even possible?**
+
+::: {.incremental}
+
+- "Only if I saved it before - otherwise, I'd have to draft another brilliant paragraph."
+- "I might be able to find it in a cloud backup, like OneDrive or Google Drive."
+- "Version Control?"
+- "I'd simply revert to the relevant commit."
+
+:::
+
+## Scenario 2
+
+> Consider a situation where you are working with five co-authors on a paper.
+**How do you handle the changes and comments they make to the document?**
+If you're using LibreOffice Writer or Microsoft Word and you accept changes made using the "Track Changes" option, **what happens to the history of those modifications?**
+
+::: {.incremental}
+
+- "I always save new versions of files with my initials (and others' initials when I receive the document), which often results in having 10–20 different file versions."
+- "I believe the history of modifications is lost after accepting the changes ..."
+
+:::
 
 ## Why we need version control ...
 
@@ -423,7 +482,7 @@ create_schedule()
 :::
 :::
 ::::
-c
+
 ::: {.notes}
 - Version control is relevant for anyone who wants to track the evolution of digital objects
 - Credit: Adapted from [Slides on "Research Data Management with DataLad"](http://datasets.datalad.org/datalad/datalad-course/html/mpsc-introduction.html#/5) by Adina Wagner & Michael Hanke]
@@ -470,10 +529,10 @@ c
 ::::
 :::::
 
-## What is Git?
+## What are Git and DataLad?
 
-:::: {.columns}
-
+::::: {.columns}
+:::: {.column width="50%"}
 ::: {.fragment}
 ![[git-scm.com](https://git-scm.com/)](../images/git-logo-full.svg){fig-align="center" width=50%}
 
@@ -481,10 +540,21 @@ c
 - free, [open-source](https://github.com/git) command-line tool
 - graphical user interfaces exist, e.g., [GitKraken](https://www.gitkraken.com/)
 - standard tool for most (all?) software developers
-
+- 100 million [GitHub](https://github.com/) users ^[(Source: [Wikipedia](https://en.wikipedia.org/wiki/GitHub))]
 :::
-
 ::::
+:::: {.column width="50%"}
+::: {.fragment}
+![[datalad.org](https://www.datalad.org/)](../images/datalad-logo-full.svg){fig-align="center" width=50%}
+
+- "Git for (large) data"
+- free, [open-source](https://github.com/datalad/datalad) command-line tool
+- builds on top of [git](https://git-scm.com/) and [git-annex](https://git-annex.branchable.com/)
+- allows to version control arbitrarily large datasets ^[see DataLad dataset of 80TB / 15 million files from the Human Connectome Project (see [details](https://handbook.datalad.org/en/latest/usecases/HCP_dataset.html#usecase-hcp-dataset))]
+- graphical user interface exists: [DataLad Gooey](http://docs.datalad.org/projects/gooey/en/latest/index.html)
+:::
+::::
+:::::
 
 ::: {.notes}
 - Version control is relevant for anyone who wants to track the evolution of digital objects

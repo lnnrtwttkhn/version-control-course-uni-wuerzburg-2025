@@ -11,14 +11,14 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/version-control-course-mpib-2025/sessions/slides_session01.html
+      href: https://lennartwittkuhn.com/version-control-course-mpib-2025/sessions/slides-session-introduction.html
       aria-label: display
     - icon: book
       text: Chapter
       href: https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html
       aria-label: book
 chapter: "[Introduction to Version Control](https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html)"
-quiz-url: https://version-control-intro.formr.org/
+# quiz-url: https://version-control-intro.formr.org/
 # day: "(Day 1)"
 ---
 
@@ -39,7 +39,7 @@ quiz-url: https://version-control-intro.formr.org/
 
 ### Version Control
 
-{{< include ../objectives/_objectives-intro.qmd >}}
+{{< include ../objectives-git/_objectives-intro.qmd >}}
 
 ## Slides
 
@@ -48,10 +48,6 @@ quiz-url: https://version-control-intro.formr.org/
 ```
 
 {{< include _print-to-pdf.qmd >}}
-
-## Resources
-
-- ["Introduction to reproducibility" in the Repro Book by Justus Reihs et al.](https://lennartwittkuhn.com/repro-book/chapters/intro.html)
 
 ## Email
 
