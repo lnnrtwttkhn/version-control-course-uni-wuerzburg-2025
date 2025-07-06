@@ -37,10 +37,14 @@ toc: true
 
 ## Main sessions
 
+These are the course's main sessions (also see [the schedule](../schedule.qmd)):
+
 ::: {#sessions}
 :::
 
 ## Bonus sessions
+
+These are bonus sessions that you / we can check out on-demand:
 
 ::: {#bonus-sessions}
 :::
