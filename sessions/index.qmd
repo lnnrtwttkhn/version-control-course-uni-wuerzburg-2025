@@ -9,6 +9,7 @@ listing:
       - "session-git-basics.qmd"
       - "session-git-remotes.qmd"
       - "session-lunch.qmd"
+      - "session-datalad.qmd"
       - "session-outlook.qmd"
     type: default
     sort: "date asc"
