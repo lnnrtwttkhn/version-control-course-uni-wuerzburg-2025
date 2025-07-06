@@ -8,11 +8,11 @@ preview:
 	quarto preview
 
 .PHONY: render
-render: clean images
+render: clean objectives objectives-datalad exercises cheatsheet images
 	quarto render
 
 .PHONY: deploy
-deploy: clean images
+deploy: clean images objectives objectives-datalad exercises
 	quarto publish gh-pages
 
 .PHONY: images
