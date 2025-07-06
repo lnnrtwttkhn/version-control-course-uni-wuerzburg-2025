@@ -171,7 +171,7 @@ knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = 
 
 ### Version Control
 
-{{< include ../objectives_objectives-intro.qmd >}}
+{{< include ../objectives/objectives-intro.qmd >}}
 
 ## Your turn
 
@@ -187,7 +187,7 @@ knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = 
 
 #### Version Control
 
-{{< include ../objectives_objectives-intro.qmd >}}
+{{< include ../objectives/objectives-intro.qmd >}}
 
 :::
 
