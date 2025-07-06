@@ -21,11 +21,11 @@ images:
 	unzip -j -o $(IMAGES_ARCHIVE) -d $(IMAGES_DIR)
 	rm -f $(IMAGES_ARCHIVE)
 
-.PHONY: objectives
-objectives: objectives.txt
-	rm -rf ./objectives
-	mkdir -p objectives
-	wget -P ./objectives -i objectives.txt  
+.PHONY: objectives-git
+objectives-git: objectives.txt
+	rm -rf ./objectives-git
+	mkdir -p objectives-git
+	wget -P ./objectives-git -i objectives.txt  
 
 .PHONY: exercises
 exercises: exercises.txt
