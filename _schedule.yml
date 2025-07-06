@@ -1,7 +1,7 @@
-session01:
+session-introduction:
   date: "2025-07-08"
   time: "09:30 - 10:00"
-  title: "Welcome & Introduction to Reproducibility and Version Control"
+  title: "Introduction to Reproducibility & Version Control"
   contents:
     - "Logistics and course admin"
     - "Introduction to reproducibility"
@@ -12,7 +12,7 @@ session01:
     - "[Introduction to Version Control](https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html)"
   # survey:
   #   - "[Course survey](https://version-control-intro.formr.org)"
-session02:
+session-command-line:
   date: "2025-07-08"
   time: "10:00 - 10:45"
   title: "Basics of the Command Line"
@@ -24,7 +24,7 @@ session02:
     - "[Command Line](https://lennartwittkuhn.com/version-control-book/chapters/command-line.html)"
   # survey:
   #   - "[Command Line](https://version-control-cli.formr.org)"
-session03:
+session-git-setup:
   date: "2025-07-08"
   time: "10:45 - 11:00"
   title: "Setup & configuration of Git"
@@ -34,7 +34,7 @@ session03:
     - "[Setup](https://lennartwittkuhn.com/version-control-book/chapters/setup.html), [Installation](https://lennartwittkuhn.com/version-control-book/chapters/installation.html) (if needed)"
   # survey:
   #   - "[Git Installation](https://version-control-installation.formr.org)"
-session04:
+session-git-basics:
   date: "2025-07-08"
   time: "11:00 - 12:00"
   title: "Basics of Git"
@@ -48,6 +48,33 @@ session04:
     - "[First steps with Git](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html), [Git Essentials](https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html)"
   survey:
     - "[Git Basics Quiz](https://version-control-basics.formr.org)"
+session-git-remotes:
+  date: "2025-07-08"
+  time: "12:00 - 13:00"
+  title: "Integration with GitHub / GitLab"
+  contents:
+    - "Introduction to remote repositories"
+    - "Managing repositories on GitHub / GitLab"
+    - "Pushing and pulling changes"
+    - "Cloning a remote repository"
+  reading:
+    - "[Remotes Intro](https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html)"
+  # survey:
+  #   - "[GitHub Quiz](https://version-control-github.formr.org)"
+session-lunch:
+  date: "2025-07-08"
+  time: "13:00 - 14:00"
+  title: "Lunch Break"
+  contents:
+    - "Enjoy your lunch!"
+session-outlook:
+  date: "2025-07-08"
+  time: "16:00 - 16:30"
+  title: "Summary & Outlook"
+  contents:
+    - "Summary of course contents"
+    - "Outlook to more related topics"
+    - "Discussing open questions"
 # session05:
 #   date: "2025-03-31"
 #   time: "12:00 - 13:00"
@@ -61,25 +88,6 @@ session04:
 #     - "[Branches](https://lennartwittkuhn.com/version-control-book/chapters/branches.html)"
 #   survey:
 #     - "[Git Branches Quiz](https://version-control-branches.formr.org)"
-sessionLunch:
-  date: "2025-07-08"
-  time: "13:00 - 14:00"
-  title: "Lunch Break"
-  contents:
-    - "Enjoy your lunch!"
-session06:
-  date: "2025-07-08"
-  time: "12:00 - 13:00"
-  title: "Integration with GitHub / GitLab"
-  contents:
-    - "Introduction to remote repositories"
-    - "Managing repositories on GitHub / GitLab"
-    - "Pushing and pulling changes"
-    - "Cloning a remote repository"
-  reading:
-    - "[Remotes Intro](https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html)"
-  # survey:
-  #   - "[GitHub Quiz](https://version-control-github.formr.org)"
 # session07:
 #   date: "2025-03-31"
 #   time: "15:00 - 16:00"
@@ -94,14 +102,6 @@ session06:
 #     - "[GitHub Advanced](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html), [GitHub Issues](https://lennartwittkuhn.com/version-control-book/chapters/issues.html)"
 #   survey:
 #     - "[GitHub Quiz](https://version-control-github.formr.org)"
-session08:
-  date: "2025-07-08"
-  time: "16:00 - 16:30"
-  title: "Summary & Outlook"
-  contents:
-    - "Summary of course contents"
-    - "Outlook to more related topics"
-    - "Discussing open questions"
 # session09:
 #   date: "Optional"
 #   title: "Publishing" 
