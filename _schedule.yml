@@ -1,0 +1,113 @@
+session01:
+  date: "2025-07-08"
+  time: "09:30 - 10:00"
+  title: "Welcome & Introduction to Reproducibility and Version Control"
+  contents:
+    - "Logistics and course admin"
+    - "Introduction to reproducibility"
+    - "Introduction to version control"
+    - "Introduction to Git"
+  reading:
+    - "[Overview of Reproducible Research](https://book.the-turing-way.org/reproducible-research/overview)"
+    - "[Introduction to Version Control](https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html)"
+  # survey:
+  #   - "[Course survey](https://version-control-intro.formr.org)"
+session02:
+  date: "2025-07-08"
+  time: "10:00 - 10:45"
+  title: "Basics of the Command Line"
+  contents:
+    - "File systems and navigation"
+    - "Benefits of the command line"
+    - "Basic command line commands"
+  reading:
+    - "[Command Line](https://lennartwittkuhn.com/version-control-book/chapters/command-line.html)"
+  # survey:
+  #   - "[Command Line](https://version-control-cli.formr.org)"
+session03:
+  date: "2025-07-08"
+  time: "10:45 - 11:00"
+  title: "Setup & configuration of Git"
+  contents:
+    - "Setup & configuration of Git"
+  reading:
+    - "[Setup](https://lennartwittkuhn.com/version-control-book/chapters/setup.html), [Installation](https://lennartwittkuhn.com/version-control-book/chapters/installation.html) (if needed)"
+  # survey:
+  #   - "[Git Installation](https://version-control-installation.formr.org)"
+session04:
+  date: "2025-07-08"
+  time: "11:00 - 12:00"
+  title: "Basics of Git"
+  contents:
+    - "Initializing a Git repository"
+    - "Practicing basic Git commands"
+    - "Tracking changes wih Git"
+    - "Ignoring files with `.gitignore`"
+    - "Good commit messages"
+  reading:
+    - "[First steps with Git](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html), [Git Essentials](https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html)"
+  survey:
+    - "[Git Basics Quiz](https://version-control-basics.formr.org)"
+# session05:
+#   date: "2025-03-31"
+#   time: "12:00 - 13:00"
+#   title: "Branches, Merging, Merge Conflicts"
+#   contents: 
+#     - "Understanding branches in Git"
+#     - "Creating and switching between branches"
+#     - "Merging branches"
+#     - "Resolving merge conflicts"
+#   reading:
+#     - "[Branches](https://lennartwittkuhn.com/version-control-book/chapters/branches.html)"
+#   survey:
+#     - "[Git Branches Quiz](https://version-control-branches.formr.org)"
+sessionLunch:
+  date: "2025-07-08"
+  time: "13:00 - 14:00"
+  title: "Lunch Break"
+  contents:
+    - "Enjoy your lunch!"
+session06:
+  date: "2025-07-08"
+  time: "12:00 - 13:00"
+  title: "Integration with GitHub / GitLab"
+  contents:
+    - "Introduction to remote repositories"
+    - "Managing repositories on GitHub / GitLab"
+    - "Pushing and pulling changes"
+    - "Cloning a remote repository"
+  reading:
+    - "[Remotes Intro](https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html)"
+  # survey:
+  #   - "[GitHub Quiz](https://version-control-github.formr.org)"
+# session07:
+#   date: "2025-03-31"
+#   time: "15:00 - 16:00"
+#   title: "Collaboration on GitHub / GitLab"
+#   contents:
+#     - "Forking"
+#     - "Collaboration with GitHub Flow"
+#     - "Pull / Merge Requests"
+#     - "Issues"
+#     - "Project Management"
+#   reading:
+#     - "[GitHub Advanced](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html), [GitHub Issues](https://lennartwittkuhn.com/version-control-book/chapters/issues.html)"
+#   survey:
+#     - "[GitHub Quiz](https://version-control-github.formr.org)"
+session08:
+  date: "2025-07-08"
+  time: "16:00 - 16:30"
+  title: "Summary & Outlook"
+  contents:
+    - "Summary of course contents"
+    - "Outlook to more related topics"
+    - "Discussing open questions"
+# session09:
+#   date: "Optional"
+#   title: "Publishing" 
+#   contents:
+#     - "Creating Tags with Git"
+#     - "Creating Releases with GitHub"
+#     - "Using [Zenodo](https://zenodo.org) for scientific publishing"
+#   reading:
+#     - "[Tags and Releases](https://lennartwittkuhn.com/version-control-book/chapters/tags-and-releases.html)"
