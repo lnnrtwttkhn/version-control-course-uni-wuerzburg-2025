@@ -10,7 +10,7 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/version-control-course-mpib-2025/sessions/slides_session07.html
+      href: https://lennartwittkuhn.com/repro-course/sessions/slides-session-git-collaboration.html
       aria-label: display
     - icon: book
       text: "Chapter: GitHub - Advanced"
@@ -69,7 +69,7 @@ Find out about the **contributing guidelines** in Lennart's repo and follow them
 ## Slides
 
 ```{=html}
-<iframe width="100%" height=500 src="slides_session07.html"></iframe>
+<iframe width="100%" height=500 src="slides-session-git-collaboration.html"></iframe>
 ```
 
 {{< include _print-to-pdf.qmd >}}

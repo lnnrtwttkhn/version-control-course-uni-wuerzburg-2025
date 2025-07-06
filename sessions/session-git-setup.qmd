@@ -11,7 +11,7 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/version-control-course-mpib-2025/sessions/slides_session03.html
+      href: https://lennartwittkuhn.com/repro-course/sessions/slides-session-git-setup.html
       aria-label: display
     - icon: book
       text: "Chapter: Installation"
@@ -51,7 +51,7 @@ chapter: |
 ## Slides
 
 ```{=html}
-<iframe width="100%" height=500 src="slides_session03.html"></iframe>
+<iframe width="100%" height=500 src="slides-session-git-setup.html"></iframe>
 ```
 
 {{< include _print-to-pdf.qmd >}}

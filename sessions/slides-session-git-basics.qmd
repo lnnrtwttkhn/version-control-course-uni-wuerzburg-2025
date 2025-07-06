@@ -167,7 +167,7 @@ knitr::kable(table_cheatsheet(name = "essentials"), format = "markdown", row.nam
 ## Exercises: First steps with Git
 
 ::: {.fragment}
-Note: There are several terms in these instructions that might be unfamiliar to you, such as "repository," "stage," or "commit."
+Note: There are several terms in these instructions that might be unfamiliar to you, such as "repository", "stage", or "commit."
 Don't worry - you will learn about these terms during this session.
 :::
 

@@ -11,7 +11,7 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/repro-course/sessions/slides_session04.html
+      href: https://lennartwittkuhn.com/repro-course/sessions/slides-session-git-basics.html
       aria-label: display
     - icon: book
       text: "Chapter: First steps with Git"
@@ -71,7 +71,7 @@ quiz-url: https://version-control-basics.formr.org/
 ## Slides
 
 ```{=html}
-<iframe width="100%" height=500 src="slides_session04.html"></iframe>
+<iframe width="100%" height=500 src="/slides-session-git-basics.html"></iframe>
 ```
 
 {{< include _print-to-pdf.qmd >}}
