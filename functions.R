@@ -32,8 +32,8 @@ create_schedule <- function() {
     .[!(title == "") & date_next == 1, title := sprintf("**[%s](%s)**", title, sprintf(session_url, session))] %>%
     # .[!(reading == ""), reading := paste("{{< fa book >}}", reading)] %>%
     setnames(.,
-             old = c("session_id", "date", "time", "title", "contents"),
-             new = c("No", "Date", "Time", "Title", "Contents")) %>%
+             old = c("date", "time", "title", "contents"),
+             new = c("Date", "Time", "Title", "Contents")) %>%
     .[, c("No", "Time", "Title", "Contents")] %>%
     setcolorder(., c("No", "Time", "Title", "Contents"))
   knitr::kable(dt, format = "markdown", align = "l")
