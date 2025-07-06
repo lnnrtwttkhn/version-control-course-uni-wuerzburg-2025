@@ -28,7 +28,7 @@ objectives: objectives.txt
 	wget -P ./objectives-git -i objectives.txt  
 
 .PHONY: objectives-datalad
-objectives-datalad: objectives-datalad.txt
+objectives-datalad:
 	rm -rf ./objectives-datalad
 	mkdir -p objectives-datalad
 	wget -P ./objectives-datalad -i objectives-datalad.txt  
