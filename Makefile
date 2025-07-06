@@ -3,6 +3,9 @@ IMAGES_ARCHIVE=repro-course.zip
 IMAGES_DIR=images/
 CHEATSHEET_URL=https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/cheatsheet.json
 
+.PHONY: all
+all: render
+
 .PHONY: preview
 preview:
 	quarto preview
@@ -23,9 +26,9 @@ images:
 
 .PHONY: objectives
 objectives: objectives.txt
-	rm -rf ./objectives-git
-	mkdir -p objectives-git
-	wget -P ./objectives-git -i objectives.txt  
+	rm -rf ./objectives
+	mkdir -p objectives
+	wget -P ./objectives -i objectives.txt  
 
 .PHONY: objectives-datalad
 objectives-datalad:
