@@ -27,6 +27,12 @@ objectives: objectives.txt
 	mkdir -p objectives-git
 	wget -P ./objectives-git -i objectives.txt  
 
+.PHONY: objectives-datalad
+objectives-datalad: objectives-datalad.txt
+	rm -rf ./objectives-datalad
+	mkdir -p objectives-datalad
+	wget -P ./objectives-datalad -i objectives-datalad.txt  
+
 .PHONY: exercises
 exercises: exercises.txt
 	rm -rf ./exercises
