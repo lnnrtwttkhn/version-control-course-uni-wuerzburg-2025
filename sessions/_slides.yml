@@ -3,8 +3,8 @@ subtitle: |
   
   Course at {{< var course.where-institution >}}
   
-  [{{< fa display >}} Slides](https://lennartwittkuhn.com/version-control-course-mpib-2025/) |
-  [{{< fa brands github >}} Source](https://github.com/lnnrtwttkhn/version-control-course-mpib-2025)
+  [{{< fa display >}} Slides](https://lennartwittkuhn.com/repro-course/) |
+  [{{< fa brands github >}} Source](https://github.com/lnnrtwttkhn/repro-couse)
   
   {{< var slides.license-badge >}}
   {{< var slides.doi-badge >}}
