@@ -1,5 +1,5 @@
 ---
-title: "Welcome & Introduction to Reproducible Research"
+title: "Introduction to Reproducibility & Version Control"
 subtitle: "Session 01"
 date: 2025-07-08T09:30:00
 metadata-files:
@@ -32,15 +32,26 @@ quiz-url: https://version-control-intro.formr.org/
 ## Learning objectives
 
 {{< include _learning-objectives-note.qmd >}}
+
+### Reproducibility
+
 {{< include ../objectives/_objectives-intro.qmd >}}
+
+### Version Control
+
+{{< include ../objectives-git/_objectives-intro.qmd >}}
 
 ## Slides
 
 ```{=html}
-<iframe width="100%" height=500 src="slides_session01.html"></iframe>
+<iframe width="100%" height=500 src="slides-session-introduction.html"></iframe>
 ```
 
 {{< include _print-to-pdf.qmd >}}
+
+## Resources
+
+- ["Introduction to reproducibility" in the Repro Book by Justus Reihs et al.](https://lennartwittkuhn.com/repro-book/chapters/intro.html)
 
 ## Email
 
