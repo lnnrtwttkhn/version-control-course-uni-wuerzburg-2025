@@ -19,7 +19,7 @@ create_schedule <- function() {
   session_url <- "https://lennartwittkuhn.com/repro-course/sessions/%s"
   variables_padded = pad_list(variables)
   dt_load <- data.table::rbindlist(variables_padded, fill = TRUE, idcol = "session")
-  cols = c("contents")
+  cols = c("contents", "reading")
   dt = dt_load %>%
     replace(is.na(.), "") %>%
     .[, by = .(session), (cols) := lapply(.SD, paste, collapse = "<br>"), .SDcols = cols] %>%
