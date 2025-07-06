@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - draft
 
 name: Quarto Publish
 
@@ -42,6 +43,8 @@ jobs:
       - name: Download objectives
         run: |
           make objectives
+          make objectives-git
+          make objectives-datalad
           
       - name: Download cheatsheet
         run: |
