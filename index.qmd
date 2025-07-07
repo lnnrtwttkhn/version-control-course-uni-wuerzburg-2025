@@ -15,7 +15,7 @@ This is the website for the {{< var course.duration >}} course "{{< var course.t
 
 ---
 
-{{< fa circle-info >}} **What?** A course on reproducible scientific workflows
+{{< fa circle-info >}} **What?** A course on version control with Git & DataLad
 
 {{< fa calendar-days >}} **When?** {{< var course.when-long >}}
 
