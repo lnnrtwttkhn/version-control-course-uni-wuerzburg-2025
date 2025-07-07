@@ -13,6 +13,10 @@ about:
       text: Slides
       href: https://lennartwittkuhn.com/datalad-tutorial
       aria-label: display
+    - icon: file-code
+      text: "Exercises on Binder"
+      href: https://mybinder.org/v2/gh/lnnrtwttkhn/datalad-tutorial-binder/HEAD
+      aria-label: book
     - icon: book
       text: "The DataLad Handbook"
       href: https://handbook.datalad.org/en/latest/
