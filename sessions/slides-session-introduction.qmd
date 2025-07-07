@@ -147,7 +147,7 @@ knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = 
 ::::
 :::::
 
-## Course exercise: Building an online recipes book
+## Course exercise (Git part): Building an online recipes book
 
 {{< fa display >}} [{{< var course.project-site >}}]({{< var course.project-site >}})
 
@@ -158,7 +158,7 @@ knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = 
 
 ## Let's do the splits
 
-![](../images/splits.jpg){fig-align="center"}
+![](../images/splits.jpg){fig-align="center" width="35%"}
 
 ## Code of Conduct
 
@@ -335,7 +335,7 @@ Open science is an umbrella term for **activities that aim to promote open appro
 
 ::: {.fragment}
 - Note: Research can be reproducible but not open
-- This course: Focus on **computational reproducibility**
+- This course: Focus on **better transparency and more effective collaboration through version control**
 :::
 
 ## Two main challenges for reproducible scientific workflows  {visibility="hidden"}
