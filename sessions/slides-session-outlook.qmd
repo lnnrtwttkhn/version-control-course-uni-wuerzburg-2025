@@ -263,8 +263,8 @@ Sadly, Git does not handle large files well.
 - Problem: We need to integrate our work with the work of other people into a common body of knowledge
 - Process of continuous integration
 - It's fair to say that the way that this is done in science is fairly chaotic
-- Other disciplines with a analogous problem have professionalized the process of continuos integration
-- primary anology: software development
+- Other disciplines with a analogous problem have professionalized the process of continuous integration
+- primary analogy: software development
 - why? a lot of contemporary science involves digital research data and involves software development (or code) to analyze these data (or perhaps disciplines could really benefit from this)
 - this might be shocking to some (you want to study the brain but now you need to code) but this is the way it is
 - software development is a standard part of being a scientist
