@@ -1,0 +1,3 @@
+https://raw.githubusercontent.com/lnnrtwttkhn/datalad-tutorial/draft/objectives/_objectives-introduction.qmd
+https://raw.githubusercontent.com/lnnrtwttkhn/datalad-tutorial/draft/objectives/_objectives-nesting.qmd
+https://raw.githubusercontent.com/lnnrtwttkhn/datalad-tutorial/draft/objectives/_objectives-provenance.qmd
