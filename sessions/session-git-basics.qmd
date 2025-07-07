@@ -1,7 +1,7 @@
 ---
 title: "First steps with Git & Git Essentials"
 subtitle: "Session 04"
-date: 2025-03-31T11:15:00
+date: 2025-07-08T11:00:00
 metadata-files:
   - _sessions.yml
 about:
@@ -11,16 +11,8 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/version-control-course-mpib-2025/sessions/slides_session04.html
+      href: https://lennartwittkuhn.com/repro-course/sessions/slides-session-git-basics.html
       aria-label: display
-    # - icon: book
-    #   text: "Chapter: Installation"
-    #   href: https://lennartwittkuhn.com/version-control-book/chapters/installation.html
-    #   aria-label: book
-    # - icon: book
-    #   text: "Chapter: Setup"
-    #   href: https://lennartwittkuhn.com/version-control-book/chapters/setup.html
-    #   aria-label: book
     - icon: book
       text: "Chapter: First steps with Git"
       href: https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html
@@ -29,14 +21,6 @@ about:
       text: "Chapter: Git Essentials"
       href: https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html
       aria-label: book
-    # - icon: input-cursor-text
-    #   text: "Survey: Installation"
-    #   href: https://version-control-installation.formr.org
-    #   aria-label: input-cursor-text
-    - icon: input-cursor-text
-      text: "Quiz: Git Basics"
-      href: https://version-control-basics.formr.org/
-      aria-label: input-cursor-text
 chapter: |
   ["First steps with Git"](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html) and ["Git Essentials"](https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html)
 quiz-url: https://version-control-basics.formr.org/
@@ -87,7 +71,7 @@ quiz-url: https://version-control-basics.formr.org/
 ## Slides
 
 ```{=html}
-<iframe width="100%" height=500 src="slides_session04.html"></iframe>
+<iframe width="100%" height=500 src="/slides-session-git-basics.html"></iframe>
 ```
 
 {{< include _print-to-pdf.qmd >}}

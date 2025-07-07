@@ -1,23 +1,26 @@
-IMAGES_URL=https://cloud.uni-hamburg.de/s/ZndexSjSH9ZqxTG/download
-IMAGES_ARCHIVE=version-control-course.zip
+IMAGES_URL=https://cloud.uni-hamburg.de/s/pgiNscTPMS8s4mP/download
+IMAGES_ARCHIVE=repro-course.zip
 IMAGES_DIR=images/
 CHEATSHEET_URL=https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/cheatsheet.json
+
+.PHONY: all
+all: render
 
 .PHONY: preview
 preview:
 	quarto preview
 
 .PHONY: render
-render: clean images
+render: clean objectives objectives-datalad exercises cheatsheet images
 	quarto render
 
 .PHONY: deploy
-deploy: clean images
+deploy: clean images objectives objectives-datalad exercises
 	quarto publish gh-pages
 
 .PHONY: images
 images:
-	wget $(IMAGES_URL) -O $(IMAGES_ARCHIVE)
+	curl -L $(IMAGES_URL) -o $(IMAGES_ARCHIVE)
 	unzip -j -o $(IMAGES_ARCHIVE) -d $(IMAGES_DIR)
 	rm -f $(IMAGES_ARCHIVE)
 
@@ -26,6 +29,12 @@ objectives: objectives.txt
 	rm -rf ./objectives
 	mkdir -p objectives
 	wget -P ./objectives -i objectives.txt  
+
+.PHONY: objectives-datalad
+objectives-datalad:
+	rm -rf ./objectives-datalad
+	mkdir -p objectives-datalad
+	wget -P ./objectives-datalad -i objectives-datalad.txt  
 
 .PHONY: exercises
 exercises: exercises.txt

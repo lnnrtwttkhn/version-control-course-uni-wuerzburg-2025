@@ -1,6 +1,6 @@
 ---
 title: "Session 3: {{< meta session-title >}}"
-date: 2025-03-31T11:00:00
+date: 2025-07-08T10:45:00
 format: revealjs
 metadata-files:
   - _slides.yml
@@ -10,9 +10,9 @@ chapter: |
 quiz-url: https://version-control-installation.formr.org/
 ---
 
-# Last session: The command line
+# Last session: Basics of the command line
 
-## Last session: The command line
+## Last session: Basics of the command line
 
 ![Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Linux_command-line._Bash._GNOME_Terminal._screenshot.png) (free license)](../images/command-line.png)
 

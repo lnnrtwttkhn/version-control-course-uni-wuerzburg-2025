@@ -1,7 +1,7 @@
 ---
 title: "{{< var course.title >}}"
 subtitle: "{{< var course.subtitle >}}"
-image: "images/version_control_scriberia.jpg"
+image: "images/turing-way-fair-journey.jpg"
 toc: false
 about:
   template: trestles
@@ -15,7 +15,7 @@ This is the website for the {{< var course.duration >}} course "{{< var course.t
 
 ---
 
-{{< fa circle-info >}} **What?** A {{< var course.duration >}} course on version control with Git
+{{< fa circle-info >}} **What?** A course on version control with Git & DataLad
 
 {{< fa calendar-days >}} **When?** {{< var course.when-long >}}
 

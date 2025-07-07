@@ -1,7 +1,7 @@
 ---
 title: "Setup & Configuration of Git"
 subtitle: "Session 03"
-date: 2025-03-31T11:00:00
+date: 2025-07-08T10:45:00
 metadata-files:
   - _sessions.yml
 about:
@@ -11,7 +11,7 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/version-control-course-mpib-2025/sessions/slides_session03.html
+      href: https://lennartwittkuhn.com/repro-course/sessions/slides-session-git-setup.html
       aria-label: display
     - icon: book
       text: "Chapter: Installation"
@@ -23,7 +23,6 @@ about:
       aria-label: book
 chapter: |
   ["Setup"](https://lennartwittkuhn.com/version-control-book/chapters/setup.html) (and ["Installation"](https://lennartwittkuhn.com/version-control-book/chapters/installation.html), if needed)
-quiz-url: https://version-control-installation.formr.org/
 # day: "(Day 1)"
 ---
 
@@ -52,7 +51,7 @@ quiz-url: https://version-control-installation.formr.org/
 ## Slides
 
 ```{=html}
-<iframe width="100%" height=500 src="slides_session03.html"></iframe>
+<iframe width="100%" height=500 src="slides-session-git-setup.html"></iframe>
 ```
 
 {{< include _print-to-pdf.qmd >}}

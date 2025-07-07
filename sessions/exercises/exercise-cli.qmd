@@ -14,7 +14,7 @@ Provide the command you used.
 Use a wildcard pattern to list all `.txt` files in your folder.
 Which command did you use?
 
-### Bonus question
+### Combining commands
 
 Imagine, that you are in a folder containing multiple text files with various extensions, including `.txt`, `.md`, and `.docx`.
 You want to move all the `.txt` files to a subfolder named `text_files` while keeping the other file types in the current directory.

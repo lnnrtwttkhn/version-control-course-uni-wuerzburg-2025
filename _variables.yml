@@ -1,32 +1,32 @@
 project:
-  name: "version-control-course-mpib-2025"
+  name: "repro-course"
   email: "lennart.wittkuhn@tutanota.com"
   mailto: "mailto:lennart.wittkuhn@tutanota.com"
   homepage: "https://lennartwittkuhn.com/"
-  github: "https://github.com/lnnrtwttkhn/version-control-course-mpib-2025/"
-  issues: "https://github.com/lnnrtwttkhn/version-control-course-mpib-2025/issues"
-  site: "https://lennartwittkuhn.com/version-control-course-mpib-2025/"
+  github: "https://github.com/lnnrtwttkhn/repro-course/"
+  issues: "https://github.com/lnnrtwttkhn/repro-course/issues"
+  site: "https://lennartwittkuhn.com/repro-course/"
   years: "2025"
-  email-secretary: sekforschung@mpib-berlin.mpg.de
-  mailto-secretary: mailto:sekforschung@mpib-berlin.mpg.de
+  email-secretary: audictive@akustik.rwth-aachen.de
+  mailto-secretary: audictive@akustik.rwth-aachen.de
   # email-mailing-list: version-control-course-ss24.psych@lists.uni-hamburg.de
   # mailto-mailing-list: "mailto:{{< var project.email-mailing-list >}}"
-  nextcloud: https://cloud.uni-hamburg.de/s/ZndexSjSH9ZqxTG
+  nextcloud: https://cloud.uni-hamburg.de/s/pgiNscTPMS8s4mP
 course:
-  title: "Track, organize and share your work: An introduction to Git for research"
+  title: "Track, organize and share your work: Version control of code & data with Git & DataLad"
   subtitle: "A {{< var course.duration >}} course at the {{< var course.where-institution >}}, {{< var course.where-city >}}, {{< var course.where-country >}} on {{< var course.when-date >}}"
   instructors: "Dr. Lennart Wittkuhn"
-  when-day: "Monday"
-  when-date: "March 31st 2025"
+  when-day: "Tuesday"
+  when-date: "July 8th 2025"
   when-time: "9:30 to 16:30"
   when-long: "{{< var course.when-day >}}, {{< var course.when-date >}}, {{< var course.when-time >}}"
-  where-institution: "Max Planck Institute for Human Development"
-  where-city: "Berlin"
+  where-institution: "AUDICTIVE Priority Program"
+  where-city: "Mainz"
   where-country: "Germany"
-  where-address: "Lentzeallee 94, 14195 Berlin"
-  where-room: "Small Conference Room"
-  where-long: "{{< var course.where-institution >}}, {{< var course.where-address >}} ({{< var course.where-room >}})"
-  where-short: "{{< var course.where-institution >}} ({{< var course.where-room >}})"
+  where-address: "Tagungshaus Erbacher Hof, Mainz"
+  where-room: "Tagungshaus Erbacher Hof, Mainz"
+  where-long: "{{< var course.where-institution >}}, {{< var course.where-address >}}"
+  where-short: "{{< var course.where-room >}}"
   target-group: "Researchers at the {{< var course.where-institution >}}"
   # tag: "PsyM14-PsyWB-K01"
   duration: "full-day"
@@ -43,11 +43,12 @@ links:
   formr: https://formr.org/
   scriberia: "https://www.scriberia.com/"
   ccby40: "https://creativecommons.org/licenses/by/4.0/"
+  datalad-handbook: "https://handbook.datalad.org/en/latest/"
 team:
   lennart:
     id: lennart
     email: lennart.wittkuhn@tutanota.com
-    mailto: "mailto:{{< var team.lennart.email >}}"
+    mailto: "mailto:lennart.wittkuhn@tutanota.com"
     website: https://lennartwittkuhn.com/
     github: https://github.com/lnnrtwttkhn
     twitter: https://twitter.com/lnnrtwttkhn

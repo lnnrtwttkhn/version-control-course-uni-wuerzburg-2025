@@ -1,28 +1,51 @@
 ---
 title: "Sessions"
 listing:
-  id: sessions
-  contents:
-    - "session01.qmd"
-    - "session02.qmd"
-    - "session03.qmd"
-    - "session04.qmd"
-    - "sessionLunch.qmd"
-    - "session05.qmd"
-    - "session06.qmd"
-    - "session07.qmd"
-    - "session08.qmd"
-  type: default
-  sort: "date asc"
-  categories: false
-  table-hover: true
-  sort-ui: false
-  filter-ui: false
-  fields: [date, title, author, subtitle, categories, day]
-  field-links: [title]
-  date-format: "HH:mm"
-toc: false
+  - id: sessions
+    contents:
+      - "session-introduction.qmd"
+      - "session-command-line.qmd"
+      - "session-git-setup.qmd"
+      - "session-git-basics.qmd"
+      - "session-git-remotes.qmd"
+      - "session-lunch.qmd"
+      - "session-datalad.qmd"
+      - "session-outlook.qmd"
+    type: default
+    sort: "date asc"
+    categories: false
+    table-hover: true
+    sort-ui: false
+    filter-ui: false
+    fields: [date, title, author, subtitle, categories, day]
+    field-links: [title]
+    date-format: "HH:mm"
+  - id: bonus-sessions
+    contents:
+      - "session-git-branches.qmd"
+      - "session-git-collaboration.qmd"
+    type: default
+    sort: "date asc"
+    categories: false
+    table-hover: true
+    sort-ui: false
+    filter-ui: false
+    fields: [date, title, author, subtitle, categories, day]
+    field-links: [title]
+    date-format: "HH:mm"
+toc: true
 ---
 
+## Main sessions
+
+These are the course's main sessions (also see [the schedule](../schedule.qmd)):
+
 ::: {#sessions}
+:::
+
+## Bonus sessions
+
+These are bonus sessions that you / we can check out on-demand:
+
+::: {#bonus-sessions}
 :::

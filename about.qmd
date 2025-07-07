@@ -12,29 +12,6 @@ title: "About"
 
 {{< fa user-group >}} **Who?** This course is offered to {{< var course.target-group >}}
 
-## Description
-
-### Content
-
-In today's digital age, the majority of scientific insights in research are gained from the analysis of data using programming code.
-Although data and code are integral parts of their work, scientists often handle digital objects on their computers in a somewhat chaotic, unreliable, and irreproducible manner.
-It's not uncommon to hear researchers wondering, "Which version of my data and code did I use to get this result?" or "I found a bug in my code. Since when was it there?" and "This code used to work! What did I change?".
-This not only affects the reproducibility and trustworthiness of science but also frequently leads to frustration, a waste of time, and, at worst, the loss of painstakingly accumulated work.
-The good news is that scientists can learn about practices and tools from other disciplines, particularly software engineering, that have significantly professionalized collaborative work on digital objects like programming code.
-At the core of this toolkit is the free and open-source software Git, a so-called version control system that allows tracking and organizing the evolution of digital objects on computers and sharing them via platforms like GitHub.
-In this hands-on course with practical exercises, participants will learn how to track, organize and share their work using Git.
-
-### Goals
-
-The primary aim of this course is to empower course participants with the skills to efficiently organize projects on their computers using Git and GitHub.
-Participants will actively engage in hands-on experiences with these tools, exploring both the command-line and Graphical User Interfaces.
-Proficiency in Git and GitHub not only enhances participants' effectiveness in conducting research projects by ensuring organized and reproducible workflows but also elevates their employability.
-The technical skills acquired in this course are increasingly sought after in various work settings, providing course participants with a competitive edge in today's dynamic job market.
-
-### Mechanics
-
-Guided by the seminar instructor, participants will engaging in practical hands-on exercises with Git and GitHub while working through a dedicated Git Handbook (<https://lennartwittkuhn.com/version-control-book/>) that is tuned to the structure of the course and needs of the course participants.
-
 ## Instructor
 
 ::: grid
@@ -45,11 +22,12 @@ Guided by the seminar instructor, participants will engaging in practical hands-
 ::: g-col-8
 ### Dr. Lennart Wittkuhn
 
-Lennart is a **Postdoctoral Researcher** in the [Research Group "Cognitive Neuroscience of Learning and Change"](https://www.psy.uni-hamburg.de/en/arbeitsbereiche/lern-und-veraenderungsmechanismen.html) at the [University of Hamburg](https://www.uni-hamburg.de/en.html).
-In his scientific work, Lennart investigates **neural replay of task representations** in the human brain using functional magnetic resonance imaging (fMRI).
-He is also passionate about **open science**, **research data management**, **reproducibility** and tools that improve the scientific workflow.
+Lennart is a **Senior Specalist for Data & AI** in the public sector at [PD - Berater der öffentlichen Hand](https://www.pd-g.de/en/) and an **independent consultant and trainer** on topics related to computational reproducibility, data management, and open science.
 
-Find out more about Lennart and his work at [{{< var project.homepage >}}]({{< var project.homepage >}}).
+Before, he was a **Postdoctoral Research Data Scientist** in the [Research Group "Cognitive Neuroscience of Learning and Change"](https://www.psy.uni-hamburg.de/en/arbeitsbereiche/lern-und-veraenderungsmechanismen.html) at the [University of Hamburg](https://www.uni-hamburg.de/en.html).
+In his scientific work, Lennart investigated **neural replay of task representations** in the human brain using functional magnetic resonance imaging (fMRI).
+
+Find out more at [{{< var project.homepage >}}]({{< var project.homepage >}}).
 
 :::
 :::

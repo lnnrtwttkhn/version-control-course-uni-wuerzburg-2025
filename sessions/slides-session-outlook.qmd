@@ -1,6 +1,6 @@
 ---
 title: "Session 8: Summary & Outlook"
-date: 2025-03-31T16:00:00
+date: 2025-07-08T16:00:00
 format: revealjs
 metadata-files:
   - _slides.yml
@@ -35,31 +35,39 @@ create_schedule()
 
 {{< include ../objectives/_objectives-cli.qmd >}}
 
-### Setup, First steps with Git
+### Setup
 
 {{< include ../objectives/_objectives-setup.qmd >}}
 
-{{< include ../objectives/_objectives-firststeps.qmd >}}
-
 ## Learning Objectives (continued)
+
+### First steps with Git
+
+{{< include ../objectives/_objectives-firststeps.qmd >}}
 
 ### Git Essentials
 
 {{< include ../objectives/_objectives-essentials.qmd >}}
 
-### Branches
-
-{{< include ../objectives/_objectives-branches.qmd >}}
-
 ### Integration with GitHub / GitLab
 
 {{< include ../objectives/_objectives-remotes-intro.qmd >}}
 
-### Collaboration on GitHub / GitLab
+## Learning Objectives (continued)
 
-{{< include ../objectives/_objectives-github-advanced.qmd >}}
+### Introduction to DataLad
 
-## Quizzes
+{{< include ../objectives-datalad/_objectives-introduction.qmd >}}
+
+### Nesting with DataLad
+
+{{< include ../objectives-datalad/_objectives-nesting.qmd >}}
+
+### Provenance with DataLad
+
+{{< include ../objectives-datalad/_objectives-provenance.qmd >}}
+
+## Quizzes {visibility="hidden"}
 
 Test your Git knowledge with **quizzes** (also after the course):
 
@@ -77,7 +85,7 @@ Feel free to **enter your personal and course codeword**!
 
 See chapter ["Rewriting History"](https://lennartwittkuhn.com/version-control-book/chapters/rewriting-history.html)
 
-![Credit: [tech_kody](https://www.tiktok.com/@tech_kody) via TikTok](../images/git-revert-meme.png)
+![Credit: [tech_kody](https://www.tiktok.com/@tech_kody) via TikTok](../images/git-revert-meme.png){width="30%"}
 
 ## Tags, releases, DOIs: Integration with Zenodo
 
@@ -187,7 +195,7 @@ See our book chapter on ["Tags & Releases"](https://lennartwittkuhn.com/version-
 ::::
 :::::
 
-## Version Control for *data*: DataLad
+## Version Control for *data*: DataLad {visibility="hidden"}
 
 ::::: columns
 :::: {.column width="55%"}
@@ -210,6 +218,82 @@ Sadly, Git does not handle large files well.
 ::::
 :::::
 
+# Discussion
+
+## Navigating towards open and reproducible research
+
+{{< include tasks/tasks-outlook.qmd >}}
+
+## Science as distributed open-source *knowledge* development ^[inspired by [Richard McElreath](https://www.eva.mpg.de/ecology/staff/richard-mcelreath/)'s ["Science as Amateur Software Development"](https://www.youtube.com/watch?v=8qzVV7eEiaI) (2023)]
+
+::::: {.columns}
+:::: {.column width="45%"}
+::: {.fragment fragment-index=1}
+#### How can we do better science?
+![](../images/version-control-workflow.png)
+:::
+::: {.fragment fragment-index=3}
+#### The long-term challenges are non-technical
+- open-source, avoiding commercial vendor lock-in
+- adopting new practices and upgrading workflows
+- moving towards a "culture of reproducibility" ^[see ["Towards a culture of computational reproducibility"](https://mediasite.video.ufl.edu/Mediasite/Play/b26b123b082e4adba367b8f2b91ce34a1d) by Russ Poldrack, Stanford University]
+- changing incentives, policies & funding schemes
+:::
+::::
+:::: {.column width="55%"}
+::: {.fragment fragment-index=2}
+#### Technical solutions already exist!
+- **Version control** of digital research outputs (e.g., [Git](https://gitlab.com/), [DataLad](https://www.datalad.org/))
+- Integration with **flexible infrastructure** (e.g., [GitLab](https://gitlab.com/))
+- Systematic **contributions** & review (e.g., [pull](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)/[merge](https://docs.gitlab.com/ee/user/project/merge_requests/) requests)
+- **Automated integration** & deployment (e.g., [CI/CD](https://about.gitlab.com/topics/ci-cd/))
+- Reproducible **computational environments** (e.g., [Docker](https://www.docker.com/))
+- Transparent **execution** and **build** systems (e.g., [GNU Make](https://www.gnu.org/software/make/))
+- Project **communication next to code & data** (e.g., [Issues](https://github.com/features/issues))
+:::
+::: {.fragment fragment-index=4}
+![Source: ["Strategy for Cultural Change"](https://www.cos.io/blog/strategy-for-culture-change) (2019) by the [Center for Open Science](https://www.cos.io/)](../images/cos-pyramid-cultural-change.png){width=80%}
+:::
+::::
+:::::
+
+::: {.notes}
+- In science, we try to generate knowledge about the world
+- For the sake of insight or explanation but also to perform evidence-based interventions
+- Problem: We need to integrate our work with the work of other people into a common body of knowledge
+- Process of continuous integration
+- It's fair to say that the way that this is done in science is fairly chaotic
+- Other disciplines with a analogous problem have professionalized the process of continuous integration
+- primary analogy: software development
+- why? a lot of contemporary science involves digital research data and involves software development (or code) to analyze these data (or perhaps disciplines could really benefit from this)
+- this might be shocking to some (you want to study the brain but now you need to code) but this is the way it is
+- software development is a standard part of being a scientist
+- we have to understand the tools that we use to do our job
+- software development has a lot of tools that allow to handle continuous integration professionally
+- **distributed** and **asynchronous** work in large, international teams
+- main work includes working with **data** using **code**
+- when you train as a software developer, you learn a common stack of tools
+- Testing: writing code to test if code works
+:::
+
+## Reproducibility is a spectrum and a journey
+
+::::: {.columns}
+:::: {.column width="50%"}
+::: {.fragment}
+
+![["Reproducibility Scale"](https://berd-nfdi.github.io/BERD-reproducible-research-course/) by [Heidi Seibold and Rabea Müller and The Digital Research Academy Community and The BERD Academy](https://www.berd-nfdi.de/berd-academy/) (License: [CC BY
+4.0]({{< var links.ccby40 >}}))](../images/repro-scale.jpg)
+:::
+::::
+:::: {.column width="50%"}
+::: {.fragment}
+![by [Scriberia]({{< var links.scriberia >}}) for @turingway2022 ([Link](https://zenodo.org/record/3678226/), [CC BY
+4.0]({{< var links.ccby40 >}}))](../images/reproducible-journey.jpg)
+:::
+::::
+:::::
+
 # Feedback
 
 ## Feedback
@@ -218,3 +302,8 @@ Sadly, Git does not handle large files well.
 - This should not take much longer than **15 minutes**.
 
 # Questions?
+
+## References
+
+:::{#refs}
+:::

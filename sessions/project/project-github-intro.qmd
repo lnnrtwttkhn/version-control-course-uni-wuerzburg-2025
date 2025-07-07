@@ -5,12 +5,12 @@ At the end of this session, you should have accomplished the following:
 1. You created a new *private(!)* GitHub repository.
 1. You uploaded (i.e., "pushed") the default branch of your `{{< var course.project >}}` repository to GitHub.
 
-**Collaboration Option 1:**
+**Collaboration Option 1/2 (Basic / Advanced):**
 
 1. You invited a partner from the course as a collaborator to your `{{< var course.project >}}` on GitHub.
 1. You collaborated on a shared project by adding and committing changes to your partner's repository.
 
-**Collaboration Option 2:**
+**Collaboration Option 3 (Alternative):**
 
 1. You clone your own repository to a different location on your computer.
 1. Stage and commit changes in the repository in this new location.

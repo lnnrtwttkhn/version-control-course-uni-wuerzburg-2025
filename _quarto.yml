@@ -10,10 +10,10 @@ project:
     navigate: true
 
 website:
-  title: "Version Control with Git"
+  title: "Version Control with Git & DataLad"
   favicon: images/git-logo.png
-  site-url: "https://lennartwittkuhn.com/version-control-course-mpib-2025/"
-  repo-url: "https://github.com/lnnrtwttkhn/version-control-course-mpib-2025/"
+  site-url: "https://lennartwittkuhn.com/repro-course/"
+  repo-url: "https://github.com/lnnrtwttkhn/repro-course/"
   open-graph: false
   navbar:
     background: light

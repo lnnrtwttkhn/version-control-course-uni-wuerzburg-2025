@@ -1,7 +1,7 @@
 ---
 title: "Summary & Outlook"
-subtitle: "Session 08"
-date: 2025-03-31T16:00:00
+subtitle: "Session 07"
+date: 2025-07-08T16:00:00
 metadata-files:
   - _sessions.yml
 about:
@@ -11,7 +11,7 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/version-control-course-mpib-2025/sessions/slides_session08.html
+      href: https://lennartwittkuhn.com/repro-course/sessions/slides-session-outlook.html
       aria-label: display
     - icon: input-cursor-text
       text: Feedback survey
@@ -26,7 +26,7 @@ about:
 ## Slides
 
 ```{=html}
-<iframe width="100%" height=500 src="slides_session08.html"></iframe>
+<iframe width="100%" height=500 src="slides-session-outlook.html"></iframe>
 ```
 
 {{< include _print-to-pdf.qmd >}}

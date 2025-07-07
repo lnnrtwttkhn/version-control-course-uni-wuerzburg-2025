@@ -1,7 +1,7 @@
 ---
 title: "Basics of the Command Line"
 subtitle: "Session 02"
-date: 2025-03-31T10:00:00
+date: 2025-07-08T10:00:00
 metadata-files:
   - _sessions.yml
 about:
@@ -11,18 +11,14 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/version-control-course-mpib-2025/sessions/slides_session02.html
+      href: https://lennartwittkuhn.com/repro-course/sessions/slides-session-command-line.html
       aria-label: display
     - icon: book
       text: Chapter
       href: https://lennartwittkuhn.com/version-control-book/chapters/command-line.html
       aria-label: book
-    - icon: input-cursor-text
-      text: Exercises
-      href: https://version-control-cli.formr.org/
-      aria-label: input-cursor-text
 chapter: "[Command Line](https://lennartwittkuhn.com/version-control-book/chapters/command-line.html)"
-quiz-url: https://version-control-cli.formr.org/
+# quiz-url: https://version-control-cli.formr.org/
 # day: "(Day 1)"
 ---
 
@@ -53,7 +49,7 @@ quiz-url: https://version-control-cli.formr.org/
 ## Slides
 
 ```{=html}
-<iframe width="100%" height=500 src="slides_session02.html"></iframe>
+<iframe width="100%" height=500 src="slides-session-command-line.html"></iframe>
 ```
 
 {{< include _print-to-pdf.qmd >}}

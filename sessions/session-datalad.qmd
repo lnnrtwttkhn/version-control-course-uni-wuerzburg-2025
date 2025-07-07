@@ -1,0 +1,61 @@
+---
+title: "Version Control of Data with DataLad"
+subtitle: "Session 06"
+date: 2025-07-08T14:00:00
+metadata-files:
+  - _sessions.yml
+about:
+  id: hero-heading
+  template: solana
+  image-width: 0em
+  links:
+    - icon: display
+      text: Slides
+      href: https://lennartwittkuhn.com/datalad-tutorial
+      aria-label: display
+    - icon: file-code
+      text: "Exercises on Binder"
+      href: https://mybinder.org/v2/gh/lnnrtwttkhn/datalad-tutorial-binder/HEAD
+      aria-label: book
+    - icon: book
+      text: "The DataLad Handbook"
+      href: https://handbook.datalad.org/en/latest/
+      aria-label: book
+---
+
+::: {#hero-heading}
+:::
+
+## This session
+
+Follow the exercises via Binder:
+
+[![](https://mybinder.org/badge_logo.svg){width="20%"}](https://mybinder.org/v2/gh/lnnrtwttkhn/datalad-tutorial-binder/HEAD)
+
+## Learning objectives
+
+{{< include _learning-objectives-note.qmd >}}
+
+### Introduction to DataLad
+
+{{< include ../objectives-datalad/_objectives-introduction.qmd >}}
+
+### Nesting with DataLad
+
+{{< include ../objectives-datalad/_objectives-nesting.qmd >}}
+
+### Provenance with DataLad
+
+{{< include ../objectives-datalad/_objectives-provenance.qmd >}}
+
+## Slides
+
+```{=html}
+<iframe width="100%" height=500 src="https://lennartwittkuhn.com/datalad-tutorial"></iframe>
+```
+
+{{< include _print-to-pdf.qmd >}}
+
+## Cheatsheet
+
+See here: <https://raw.githubusercontent.com/datalad-handbook/artwork/master/src/datalad-cheatsheet.pdf>
