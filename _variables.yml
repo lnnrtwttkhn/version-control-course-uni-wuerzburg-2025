@@ -13,7 +13,7 @@ project:
   # mailto-mailing-list: "mailto:{{< var project.email-mailing-list >}}"
   nextcloud: https://cloud.uni-hamburg.de/s/pgiNscTPMS8s4mP
 course:
-  title: "Track, organize and share your work: Reproducible scientific workflows with Git & DataLad"
+  title: "Track, organize and share your work: Version control of code & data with Git & DataLad"
   subtitle: "A {{< var course.duration >}} course at the {{< var course.where-institution >}}, {{< var course.where-city >}}, {{< var course.where-country >}} on {{< var course.when-date >}}"
   instructors: "Dr. Lennart Wittkuhn"
   when-day: "Tuesday"
