@@ -61,6 +61,16 @@ session-git-remotes:
     - "[Remotes Intro](https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html)"
   # survey:
   #   - "[GitHub Quiz](https://version-control-github.formr.org)"
+session-datalad:
+  date: "2025-07-08"
+  time: "14:00 - 15:00"
+  title: "Introduction to DataLad"
+  contents:
+    - "Version control of (large) data with DataLad"
+    - "Nesting modular datasets with DataLad"
+    - "Establishing provenance and reproducibility with DataLad"
+  contents:
+    - "Enjoy your lunch!"
 session-lunch:
   date: "2025-07-08"
   time: "13:00 - 14:00"
