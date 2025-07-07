@@ -94,6 +94,14 @@ create_schedule()
 <iframe width="100%" height="80%" src="{{< var links.book >}}" title="Version Control Book"></iframe>
 ```
 
+## DataLad Handbook
+
+{{< fa display >}} [{{< var links.datalad-handbook >}}]({{< var links.datalad-handbook >}})
+
+```{=html}
+<iframe width="100%" height="80%" src="{{< var links.datalad-handbook >}}" title="Datalad Handbook"></iframe>
+```
+
 ## Quizzes & Surveys {visibility="hidden"}
 
 ::: {.fragment}
