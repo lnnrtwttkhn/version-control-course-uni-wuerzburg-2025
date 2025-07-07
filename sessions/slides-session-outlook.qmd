@@ -302,3 +302,8 @@ Sadly, Git does not handle large files well.
 - This should not take much longer than **15 minutes**.
 
 # Questions?
+
+## References
+
+:::{#refs}
+:::
