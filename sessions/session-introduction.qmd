@@ -39,7 +39,7 @@ chapter: "[Introduction to Version Control](https://lennartwittkuhn.com/version-
 
 ### Version Control
 
-{{< include ../objectives/objectives-intro.qmd >}}
+{{< include ../objectives/_objectives-intro.qmd >}}
 
 ## Slides
 
