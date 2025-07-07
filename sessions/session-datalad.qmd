@@ -1,5 +1,5 @@
 ---
-title: "Introduction to DataLad"
+title: "Version Control of Data with DataLad"
 subtitle: "Session 06"
 date: 2025-07-08T14:00:00
 metadata-files:

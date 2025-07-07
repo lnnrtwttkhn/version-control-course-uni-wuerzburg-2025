@@ -70,7 +70,7 @@ session-lunch:
 session-datalad:
   date: "2025-07-08"
   time: "14:00 - 15:00"
-  title: "Introduction to DataLad"
+  title: "Version Control of Data with DataLad"
   contents:
     - "Version control of (large) data with DataLad"
     - "Nesting modular datasets with DataLad"
