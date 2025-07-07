@@ -25,10 +25,6 @@ chapter: "[Introduction to Version Control](https://lennartwittkuhn.com/version-
 ::: {#hero-heading}
 :::
 
-## This session
-
-{{< include tasks/tasks-intro.qmd >}}
-
 ## Learning objectives
 
 {{< include _learning-objectives-note.qmd >}}

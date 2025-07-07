@@ -1,0 +1,6 @@
+Reflect on the following discussion questions:
+
+  - What are your experiences with (non-)reproducible research?
+  - What has helped you in the past to make your research reproducible?
+  - What are personal and general hurdles for reproducible research?
+  - What can you do to address them?
