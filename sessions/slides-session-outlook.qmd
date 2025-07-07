@@ -269,7 +269,7 @@ Sadly, Git does not handle large files well.
 - this might be shocking to some (you want to study the brain but now you need to code) but this is the way it is
 - software development is a standard part of being a scientist
 - we have to understand the tools that we use to do our job
-- software development has a lot of tools that allow to handle continous integration professionally
+- software development has a lot of tools that allow to handle continuous integration professionally
 - **distributed** and **asynchronous** work in large, international teams
 - main work includes working with **data** using **code**
 - when you train as a software developer, you learn a common stack of tools
