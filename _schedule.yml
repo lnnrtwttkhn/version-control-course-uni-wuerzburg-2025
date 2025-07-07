@@ -1,7 +1,7 @@
 session-introduction:
   date: "2025-07-08"
   time: "09:30 - 10:00"
-  title: "Introduction to Reproducibility & Version Control"
+  title: "Introduction to Version Control"
   contents:
     - "Logistics and course admin"
     - "Introduction to reproducibility"

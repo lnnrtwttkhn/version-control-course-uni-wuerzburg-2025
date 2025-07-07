@@ -1,5 +1,5 @@
 ---
-title: "Session 1: Welcome & Introduction to Reproducibility & Version Control"
+title: "Session 1: Welcome & Introduction to Version Control"
 date: 2025-07-08T09:30:00
 format: revealjs
 metadata-files:
