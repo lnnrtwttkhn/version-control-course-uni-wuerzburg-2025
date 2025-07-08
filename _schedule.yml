@@ -48,9 +48,15 @@ session-git-basics:
     - "[First steps with Git](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html), [Git Essentials](https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html)"
   survey:
     - "[Git Basics Quiz](https://version-control-basics.formr.org)"
-session-git-remotes:
+session-lunch:
   date: "2025-07-08"
   time: "12:00 - 13:00"
+  title: "Lunch Break"
+  contents:
+    - "Enjoy your lunch!"
+session-git-remotes:
+  date: "2025-07-08"
+  time: "13:00 - 14:00"
   title: "Integration with GitHub / GitLab"
   contents:
     - "Introduction to remote repositories"
@@ -61,12 +67,6 @@ session-git-remotes:
     - "[Remotes Intro](https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html)"
   # survey:
   #   - "[GitHub Quiz](https://version-control-github.formr.org)"
-session-lunch:
-  date: "2025-07-08"
-  time: "13:00 - 14:00"
-  title: "Lunch Break"
-  contents:
-    - "Enjoy your lunch!"
 session-datalad:
   date: "2025-07-08"
   time: "14:00 - 15:00"
