@@ -11,7 +11,7 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/repro-course/sessions/slides-session-outlook.html
+      href: https://lennartwittkuhn.com/version-control-course-audictive-2025/sessions/slides-session-outlook.html
       aria-label: display
     - icon: input-cursor-text
       text: Feedback survey

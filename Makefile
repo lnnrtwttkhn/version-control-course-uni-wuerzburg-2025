@@ -1,5 +1,5 @@
 IMAGES_URL=https://cloud.uni-hamburg.de/s/pgiNscTPMS8s4mP/download
-IMAGES_ARCHIVE=repro-course.zip
+IMAGES_ARCHIVE=version-control-course-audictive-2025.zip
 IMAGES_DIR=images/
 CHEATSHEET_URL=https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/cheatsheet.json
 

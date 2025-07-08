@@ -11,7 +11,7 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/repro-course/sessions/slides-session-git-basics.html
+      href: https://lennartwittkuhn.com/version-control-course-audictive-2025/sessions/slides-session-git-basics.html
       aria-label: display
     - icon: book
       text: "Chapter: First steps with Git"

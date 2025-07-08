@@ -12,8 +12,8 @@ project:
 website:
   title: "Version Control with Git & DataLad"
   favicon: images/git-logo.png
-  site-url: "https://lennartwittkuhn.com/repro-course/"
-  repo-url: "https://github.com/lnnrtwttkhn/repro-course/"
+  site-url: "https://lennartwittkuhn.com/version-control-course-audictive-2025/"
+  repo-url: "https://github.com/lnnrtwttkhn/version-control-course-audictive-2025/"
   open-graph: false
   navbar:
     background: light
