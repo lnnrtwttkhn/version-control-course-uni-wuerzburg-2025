@@ -48,7 +48,7 @@ session-git-basics:
     - "[First steps with Git](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html), [Git Essentials](https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html)"
   survey:
     - "[Git Basics Quiz](https://version-control-basics.formr.org)"
-session-branches:
+session-git-branches:
   date: "2025-10-09"
   time: "12:00 - 13:00"
   title: "Branches, Merging, Merge Conflicts"
