@@ -1,20 +1,20 @@
 session-introduction:
-  date: "2025-07-08"
-  time: "09:30 - 10:00"
+  date: "2025-10-09"
+  time: "09:30 - 10:15"
   title: "Introduction to Version Control"
   contents:
     - "Logistics and course admin"
-    - "Introduction to reproducibility"
+    # - "Introduction to reproducibility"
     - "Introduction to version control"
     - "Introduction to Git"
   reading:
-    - "[Overview of Reproducible Research](https://book.the-turing-way.org/reproducible-research/overview)"
+    # - "[Overview of Reproducible Research](https://book.the-turing-way.org/reproducible-research/overview)"
     - "[Introduction to Version Control](https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html)"
   # survey:
   #   - "[Course survey](https://version-control-intro.formr.org)"
 session-command-line:
-  date: "2025-07-08"
-  time: "10:00 - 10:45"
+  date: "2025-10-09"
+  time: "10:15 - 10:45"
   title: "Basics of the Command Line"
   contents:
     - "File systems and navigation"
@@ -25,7 +25,7 @@ session-command-line:
   # survey:
   #   - "[Command Line](https://version-control-cli.formr.org)"
 session-git-setup:
-  date: "2025-07-08"
+  date: "2025-10-09"
   time: "10:45 - 11:00"
   title: "Setup & configuration of Git"
   contents:
@@ -35,7 +35,7 @@ session-git-setup:
   # survey:
   #   - "[Git Installation](https://version-control-installation.formr.org)"
 session-git-basics:
-  date: "2025-07-08"
+  date: "2025-10-09"
   time: "11:00 - 12:00"
   title: "Basics of Git"
   contents:
@@ -48,14 +48,27 @@ session-git-basics:
     - "[First steps with Git](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html), [Git Essentials](https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html)"
   survey:
     - "[Git Basics Quiz](https://version-control-basics.formr.org)"
-session-lunch:
-  date: "2025-07-08"
+session-branches:
+  date: "2025-10-09"
   time: "12:00 - 13:00"
+  title: "Branches, Merging, Merge Conflicts"
+  contents:
+    - "Understanding branches in Git"
+    - "Creating and switching between branches"
+    - "Merging branches"
+    - "Resolving merge conflicts"
+  reading:
+    - "[Branches](https://lennartwittkuhn.com/version-control-book/chapters/branches.html)"
+  # survey:
+  #   - "[Git Branches Quiz](https://version-control-branches.formr.org)"
+session-lunch:
+  date: "2025-10-09"
+  time: "13:00 - 14:00"
   title: "Lunch Break"
   contents:
     - "Enjoy your lunch!"
 session-git-remotes:
-  date: "2025-07-08"
+  date: "2025-10-09"
   time: "13:00 - 14:00"
   title: "Integration with GitHub / GitLab"
   contents:
@@ -67,49 +80,36 @@ session-git-remotes:
     - "[Remotes Intro](https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html)"
   # survey:
   #   - "[GitHub Quiz](https://version-control-github.formr.org)"
-session-datalad:
-  date: "2025-07-08"
-  time: "14:00 - 15:00"
-  title: "Version Control of Data with DataLad"
+session-git-collaboration:
+  date: "2025-10-09"
+  time: "15:00 - 16:00"
+  title: "Collaboration on GitHub / GitLab"
   contents:
-    - "Version control of (large) data with DataLad"
-    - "Nesting modular datasets with DataLad"
-    - "Establishing provenance and reproducibility with DataLad"
+    - "Forking"
+    - "Collaboration with GitHub Flow"
+    - "Pull / Merge Requests"
+    - "Issues"
+    - "Project Management"
+  reading:
+    - "[GitHub Advanced](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html), [GitHub Issues](https://lennartwittkuhn.com/version-control-book/chapters/issues.html)"
+  # survey:
+  #   - "[GitHub Quiz](https://version-control-github.formr.org)"
+# session-datalad:
+#   date: "2025-10-09"
+#   time: "14:00 - 15:00"
+#   title: "Version Control of Data with DataLad"
+#   contents:
+#     - "Version control of (large) data with DataLad"
+#     - "Nesting modular datasets with DataLad"
+#     - "Establishing provenance and reproducibility with DataLad"
 session-outlook:
-  date: "2025-07-08"
+  date: "2025-10-09"
   time: "16:00 - 16:30"
   title: "Summary & Outlook"
   contents:
     - "Summary of course contents"
     - "Outlook to more related topics"
     - "Discussing open questions"
-# session05:
-#   date: "2025-03-31"
-#   time: "12:00 - 13:00"
-#   title: "Branches, Merging, Merge Conflicts"
-#   contents: 
-#     - "Understanding branches in Git"
-#     - "Creating and switching between branches"
-#     - "Merging branches"
-#     - "Resolving merge conflicts"
-#   reading:
-#     - "[Branches](https://lennartwittkuhn.com/version-control-book/chapters/branches.html)"
-#   survey:
-#     - "[Git Branches Quiz](https://version-control-branches.formr.org)"
-# session07:
-#   date: "2025-03-31"
-#   time: "15:00 - 16:00"
-#   title: "Collaboration on GitHub / GitLab"
-#   contents:
-#     - "Forking"
-#     - "Collaboration with GitHub Flow"
-#     - "Pull / Merge Requests"
-#     - "Issues"
-#     - "Project Management"
-#   reading:
-#     - "[GitHub Advanced](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html), [GitHub Issues](https://lennartwittkuhn.com/version-control-book/chapters/issues.html)"
-#   survey:
-#     - "[GitHub Quiz](https://version-control-github.formr.org)"
 # session09:
 #   date: "Optional"
 #   title: "Publishing" 
