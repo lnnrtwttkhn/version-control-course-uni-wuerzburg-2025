@@ -49,23 +49,19 @@ create_schedule()
 
 {{< include ../objectives/_objectives-essentials.qmd >}}
 
+### Branches
+
+{{< include ../objectives/_objectives-branches.qmd >}}
+
+## Learning Objectives (continued)
+
 ### Integration with GitHub / GitLab
 
 {{< include ../objectives/_objectives-remotes-intro.qmd >}}
 
-## Learning Objectives (continued)
+### Collaboration on GitHub / GitLab
 
-### Introduction to DataLad
-
-{{< include ../objectives-datalad/_objectives-introduction.qmd >}}
-
-### Nesting with DataLad
-
-{{< include ../objectives-datalad/_objectives-nesting.qmd >}}
-
-### Provenance with DataLad
-
-{{< include ../objectives-datalad/_objectives-provenance.qmd >}}
+{{< include ../objectives/_objectives-github-advanced.qmd >}}
 
 ## Quizzes {visibility="hidden"}
 
@@ -195,7 +191,7 @@ See our book chapter on ["Tags & Releases"](https://lennartwittkuhn.com/version-
 ::::
 :::::
 
-## Version Control for *data*: DataLad {visibility="hidden"}
+## Version Control for *data*: DataLad
 
 ::::: columns
 :::: {.column width="55%"}
