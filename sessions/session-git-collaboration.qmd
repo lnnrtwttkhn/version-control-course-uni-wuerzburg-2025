@@ -1,6 +1,7 @@
 ---
 title: "Collaboration on GitHub / GitLab"
-subtitle: "Bonus session"
+subtitle: "Session 07"
+date: 2025-10-09T15:00:00
 metadata-files:
   - _sessions.yml
 about:

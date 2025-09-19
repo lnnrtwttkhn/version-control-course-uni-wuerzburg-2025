@@ -1,6 +1,7 @@
 ---
 title: "Branches"
-subtitle: "Bonus session"
+subtitle: "Session 05"
+date: 2025-10-09T12:00:00
 metadata-files:
   - _sessions.yml
 about:

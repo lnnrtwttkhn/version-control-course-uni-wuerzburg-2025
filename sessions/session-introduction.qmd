@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Reproducibility"
+title: "Welcome & Introduction to Version Control"
 subtitle: "Session 01"
 date: 2025-10-09T09:30:00
 metadata-files:
@@ -28,10 +28,6 @@ chapter: "[Introduction to Version Control](https://lennartwittkuhn.com/version-
 ## Learning objectives
 
 {{< include _learning-objectives-note.qmd >}}
-
-### Reproducibility
-
-{{< include ../objectives-reproducibility/_objectives-intro.qmd >}}
 
 ### Version Control
 
