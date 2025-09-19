@@ -11,7 +11,7 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/version-control-course-audictive-2025/sessions/slides-session-git-setup.html
+      href: https://lennartwittkuhn.com/version-control-course-mpib-2025-fall/sessions/slides-session-git-setup.html
       aria-label: display
     - icon: book
       text: "Chapter: Installation"
