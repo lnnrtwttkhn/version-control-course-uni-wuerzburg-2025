@@ -1,30 +1,30 @@
 project:
-  name: "version-control-course-audictive-2025"
+  name: "version-control-course-mpib-2025-fall"
   email: "lennart.wittkuhn@tutanota.com"
   mailto: "mailto:lennart.wittkuhn@tutanota.com"
   homepage: "https://lennartwittkuhn.com/"
-  github: "https://github.com/lnnrtwttkhn/version-control-course-audictive-2025/"
-  issues: "https://github.com/lnnrtwttkhn/version-control-course-audictive-2025/issues"
-  site: "https://lennartwittkuhn.com/version-control-course-audictive-2025/"
+  github: "https://github.com/lnnrtwttkhn/version-control-course-mpib-2025-fall/"
+  issues: "https://github.com/lnnrtwttkhn/version-control-course-mpib-2025-fall/issues"
+  site: "https://lennartwittkuhn.com/version-control-course-mpib-2025-fall/"
   years: "2025"
-  email-secretary: audictive@akustik.rwth-aachen.de
-  mailto-secretary: audictive@akustik.rwth-aachen.de
+  email-secretary: sekforschung@mpib-berlin.mpg.de
+  mailto-secretary: sekforschung@mpib-berlin.mpg.de
   # email-mailing-list: version-control-course-ss24.psych@lists.uni-hamburg.de
   # mailto-mailing-list: "mailto:{{< var project.email-mailing-list >}}"
   nextcloud: https://cloud.uni-hamburg.de/s/pgiNscTPMS8s4mP
 course:
-  title: "Track, organize and share your work: Version control of code & data with Git & DataLad"
+  title: "Track, organize and share your work: An introduction to Git for research"
   subtitle: "A {{< var course.duration >}} course at the {{< var course.where-institution >}}, {{< var course.where-city >}}, {{< var course.where-country >}} on {{< var course.when-date >}}"
   instructors: "Dr. Lennart Wittkuhn"
-  when-day: "Tuesday"
-  when-date: "July 8th 2025"
+  when-day: "Thursday"
+  when-date: "October 9th 2025"
   when-time: "9:30 to 16:30"
   when-long: "{{< var course.when-day >}}, {{< var course.when-date >}}, {{< var course.when-time >}}"
-  where-institution: "AUDICTIVE Priority Program"
-  where-city: "Mainz"
+  where-institution: "Max Planck Institute for Human Development"
+  where-city: "Berlin"
   where-country: "Germany"
-  where-address: "Tagungshaus Erbacher Hof, Mainz"
-  where-room: "Tagungshaus Erbacher Hof, Mainz"
+  where-address: "Lentzeallee 94, 14195 Berlin"
+  where-room: "Small Conference Room"
   where-long: "{{< var course.where-institution >}}, {{< var course.where-address >}}"
   where-short: "{{< var course.where-room >}}"
   target-group: "Researchers at the {{< var course.where-institution >}}"
