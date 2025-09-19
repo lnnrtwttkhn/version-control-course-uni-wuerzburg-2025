@@ -19,10 +19,10 @@ create_schedule <- function() {
   session_url <- "https://lennartwittkuhn.com/version-control-course-mpib-2025-fall/sessions/%s"
   variables_padded = pad_list(variables)
   dt_load <- data.table::rbindlist(variables_padded, fill = TRUE, idcol = "session")
-  cols = c("contents", "reading")
+  cols = c("contents")
   dt = dt_load %>%
     replace(is.na(.), "") %>%
-    .[, by = .(session), (cols) := lapply(.SD, paste, collapse = "<br>"), .SDcols = cols] %>%
+    .[, by = .(session, reading), (cols) := lapply(.SD, paste, collapse = "<br>"), .SDcols = cols] %>%
     unique(.) %>%
     .[, date_dist := as.numeric(as.Date(date) - as.Date(current_date))] %>%
     .[, date_next := replace(rep(0, length(date_dist)), which(date_dist <= min(date_dist[date_dist >= 0])), 1)] %>%
@@ -34,7 +34,7 @@ create_schedule <- function() {
     setnames(.,
              old = c("date", "time", "title", "contents", "reading"),
              new = c("Date", "Time", "Title", "Contents", "Reading")) %>%
-    .[, c("No", "Time", "Title", "Contents")] %>%
+    .[, c("No", "Time", "Title", "Contents", "Reading")] %>%
     setcolorder(., c("No", "Time", "Title", "Contents", "Reading"))
   knitr::kable(dt, format = "markdown", align = "l")
 }
