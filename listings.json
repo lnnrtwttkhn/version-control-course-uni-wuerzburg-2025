@@ -1,0 +1,16 @@
+[
+  {
+    "listing": "/sessions/index.html",
+    "items": [
+      "/sessions/session-introduction.html",
+      "/sessions/session-command-line.html",
+      "/sessions/session-git-setup.html",
+      "/sessions/session-git-basics.html",
+      "/sessions/session-git-branches.html",
+      "/sessions/session-lunch.html",
+      "/sessions/session-git-remotes.html",
+      "/sessions/session-git-collaboration.html",
+      "/sessions/session-outlook.html"
+    ]
+  }
+]
