@@ -1,5 +1,5 @@
 session-introduction:
-  date: "2025-10-09"
+  date: "2025-11-04"
   time: "09:00 - 09:45"
   title: "Introduction to Version Control"
   contents:
@@ -13,7 +13,7 @@ session-introduction:
   # survey:
   #   - "[Course survey](https://version-control-intro.formr.org)"
 session-command-line:
-  date: "2025-10-09"
+  date: "2025-11-04"
   time: "09:45 - 10:15"
   title: "Basics of the Command Line"
   contents:
@@ -25,7 +25,7 @@ session-command-line:
   # survey:
   #   - "[Command Line](https://version-control-cli.formr.org)"
 session-git-setup:
-  date: "2025-10-09"
+  date: "2025-11-04"
   time: "10:15 - 10:30"
   title: "Setup & configuration of Git"
   contents:
@@ -35,7 +35,7 @@ session-git-setup:
   # survey:
   #   - "[Git Installation](https://version-control-installation.formr.org)"
 session-git-basics:
-  date: "2025-10-09"
+  date: "2025-11-04"
   time: "10:30 - 11:30"
   title: "Basics of Git"
   contents:
@@ -49,7 +49,7 @@ session-git-basics:
   survey:
     - "[Git Basics Quiz](https://version-control-basics.formr.org)"
 session-git-branches:
-  date: "2025-10-09"
+  date: "2025-11-04"
   time: "11:30 - 12:30"
   title: "Branches, Merging, Merge Conflicts"
   contents:
@@ -62,13 +62,13 @@ session-git-branches:
   # survey:
   #   - "[Git Branches Quiz](https://version-control-branches.formr.org)"
 session-lunch:
-  date: "2025-10-09"
+  date: "2025-11-04"
   time: "12:30 - 13:30"
   title: "Lunch Break"
   contents:
     - "Enjoy your lunch!"
 session-git-remotes:
-  date: "2025-10-09"
+  date: "2025-11-04"
   time: "13:30 - 14:30"
   title: "Integration with GitHub / GitLab"
   contents:
@@ -81,7 +81,7 @@ session-git-remotes:
   # survey:
   #   - "[GitHub Quiz](https://version-control-github.formr.org)"
 session-git-collaboration:
-  date: "2025-10-09"
+  date: "2025-11-04"
   time: "14:30 - 15:00"
   title: "Collaboration on GitHub / GitLab"
   contents:
@@ -95,7 +95,7 @@ session-git-collaboration:
   # survey:
   #   - "[GitHub Quiz](https://version-control-github.formr.org)"
 # session-datalad:
-#   date: "2025-10-09"
+#   date: "2025-11-04"
 #   time: "14:00 - 15:00"
 #   title: "Version Control of Data with DataLad"
 #   contents:
@@ -103,7 +103,7 @@ session-git-collaboration:
 #     - "Nesting modular datasets with DataLad"
 #     - "Establishing provenance and reproducibility with DataLad"
 session-outlook:
-  date: "2025-10-09"
+  date: "2025-11-04"
   time: "15:30 - 16:00"
   title: "Summary & Outlook"
   contents:
