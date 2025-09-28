@@ -1,6 +1,6 @@
 session-introduction:
   date: "2025-10-09"
-  time: "09:30 - 10:15"
+  time: "09:00 - 09:45"
   title: "Introduction to Version Control"
   contents:
     - "Logistics and course admin"
@@ -14,7 +14,7 @@ session-introduction:
   #   - "[Course survey](https://version-control-intro.formr.org)"
 session-command-line:
   date: "2025-10-09"
-  time: "10:15 - 10:45"
+  time: "09:45 - 10:15"
   title: "Basics of the Command Line"
   contents:
     - "File systems and navigation"
@@ -26,7 +26,7 @@ session-command-line:
   #   - "[Command Line](https://version-control-cli.formr.org)"
 session-git-setup:
   date: "2025-10-09"
-  time: "10:45 - 11:00"
+  time: "10:15 - 10:30"
   title: "Setup & configuration of Git"
   contents:
     - "Setup & configuration of Git"
@@ -36,7 +36,7 @@ session-git-setup:
   #   - "[Git Installation](https://version-control-installation.formr.org)"
 session-git-basics:
   date: "2025-10-09"
-  time: "11:00 - 12:00"
+  time: "10:30 - 11:30"
   title: "Basics of Git"
   contents:
     - "Initializing a Git repository"
@@ -50,7 +50,7 @@ session-git-basics:
     - "[Git Basics Quiz](https://version-control-basics.formr.org)"
 session-git-branches:
   date: "2025-10-09"
-  time: "12:00 - 13:00"
+  time: "11:30 - 12:30"
   title: "Branches, Merging, Merge Conflicts"
   contents:
     - "Understanding branches in Git"
@@ -63,13 +63,13 @@ session-git-branches:
   #   - "[Git Branches Quiz](https://version-control-branches.formr.org)"
 session-lunch:
   date: "2025-10-09"
-  time: "13:00 - 14:00"
+  time: "12:30 - 13:30"
   title: "Lunch Break"
   contents:
     - "Enjoy your lunch!"
 session-git-remotes:
   date: "2025-10-09"
-  time: "13:00 - 14:00"
+  time: "13:30 - 14:30"
   title: "Integration with GitHub / GitLab"
   contents:
     - "Introduction to remote repositories"
@@ -82,7 +82,7 @@ session-git-remotes:
   #   - "[GitHub Quiz](https://version-control-github.formr.org)"
 session-git-collaboration:
   date: "2025-10-09"
-  time: "15:00 - 16:00"
+  time: "14:30 - 15:00"
   title: "Collaboration on GitHub / GitLab"
   contents:
     - "Forking"
@@ -104,7 +104,7 @@ session-git-collaboration:
 #     - "Establishing provenance and reproducibility with DataLad"
 session-outlook:
   date: "2025-10-09"
-  time: "16:00 - 16:30"
+  time: "15:30 - 16:00"
   title: "Summary & Outlook"
   contents:
     - "Summary of course contents"
