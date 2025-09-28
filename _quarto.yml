@@ -12,8 +12,8 @@ project:
 website:
   title: "Track, organize and share your work: An introduction to Git for research"
   favicon: images/git-logo.png
-  site-url: "https://lennartwittkuhn.com/version-control-course-mpib-2025-fall/"
-  repo-url: "https://github.com/lnnrtwttkhn/version-control-course-mpib-2025-fall/"
+  site-url: "https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/"
+  repo-url: "https://github.com/lnnrtwttkhn/version-control-course-uni-wuerzburg-2025/"
   open-graph: false
   navbar:
     background: light

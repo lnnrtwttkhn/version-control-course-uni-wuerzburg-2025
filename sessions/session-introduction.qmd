@@ -11,7 +11,7 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/version-control-course-mpib-2025-fall/sessions/slides-session-introduction.html
+      href: https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/slides-session-introduction.html
       aria-label: display
     - icon: book
       text: Chapter
