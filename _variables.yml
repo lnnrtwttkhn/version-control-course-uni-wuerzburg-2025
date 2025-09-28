@@ -7,8 +7,8 @@ project:
   issues: "https://github.com/lnnrtwttkhn/version-control-course-uni-wuerzburg-2025/issues"
   site: "https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/"
   years: "2025"
-  email-secretary: sekforschung@mpib-berlin.mpg.de
-  mailto-secretary: sekforschung@mpib-berlin.mpg.de
+  email-secretary: rtg2660@uni-wuerzburg.de
+  mailto-secretary: rtg2660@uni-wuerzburg.de
   # email-mailing-list: version-control-course-ss24.psych@lists.uni-hamburg.de
   # mailto-mailing-list: "mailto:{{< var project.email-mailing-list >}}"
   nextcloud: https://cloud.uni-hamburg.de/s/pgiNscTPMS8s4mP
@@ -16,15 +16,15 @@ course:
   title: "Track, organize and share your work: An introduction to Git for research"
   subtitle: "A {{< var course.duration >}} course at the {{< var course.where-institution >}}, {{< var course.where-city >}}, {{< var course.where-country >}} on {{< var course.when-date >}}"
   instructors: "Dr. Lennart Wittkuhn"
-  when-day: "Thursday"
-  when-date: "October 9th 2025"
-  when-time: "9:30 to 16:30"
+  when-day: "Tuesday"
+  when-date: "November 4th 2025"
+  when-time: "9:00 to 16:00"
   when-long: "{{< var course.when-day >}}, {{< var course.when-date >}}, {{< var course.when-time >}}"
-  where-institution: "Max Planck Institute for Human Development"
-  where-city: "Berlin"
+  where-institution: "Julius-Maximilians-Universität Würzburg, Research Training Group 2660: Approach-Avoidance"
+  where-city: "Würzburg"
   where-country: "Germany"
-  where-address: "Lentzeallee 94, 14195 Berlin"
-  where-room: "Small Conference Room"
+  where-address: "Marcusstraße 9-11, 97070 Würzburg"
+  where-room: "Room: TBA"
   where-long: "{{< var course.where-institution >}}, {{< var course.where-address >}} ({{< var course.where-room >}})"
   where-short: "{{< var course.where-institution >}} ({{< var course.where-room >}})"
   target-group: "Researchers at the {{< var course.where-institution >}}"
