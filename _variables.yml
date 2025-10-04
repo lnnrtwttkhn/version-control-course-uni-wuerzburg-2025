@@ -24,7 +24,7 @@ course:
   where-city: "Würzburg"
   where-country: "Germany"
   where-address: "Marcusstraße 9-11, 97070 Würzburg"
-  where-room: "Room: TBA"
+  where-room: "Room: 213"
   where-long: "{{< var course.where-institution >}}, {{< var course.where-address >}} ({{< var course.where-room >}})"
   where-short: "{{< var course.where-institution >}} ({{< var course.where-room >}})"
   target-group: "Researchers at the {{< var course.where-institution >}}"
