@@ -357,7 +357,8 @@ create_schedule()
 
 - "Only if I saved it before - otherwise, I'd have to draft another brilliant paragraph."
 - "I might be able to find it in a cloud backup, like OneDrive or Google Drive."
-- "Version Control?"
+- "I frequently email it to myself"
+- "Version control?"
 - "I'd simply revert to the relevant commit."
 
 :::
@@ -472,7 +473,7 @@ If you're using LibreOffice Writer or Microsoft Word and you accept changes made
 ![[github.com](https://github.com/)](../images/git-github-integration.png){fig-align="center" width=50%}
 
 - cloud-based platform for version control using Git
-- allows for collaboration on coding projects in real time
+- allows for collaboration on (coding) projects in real time
 - hosts millions of public and private repositories
 - supports both Git command line and GUI tools (e.g., [GitHub Desktop](https://desktop.github.com/))
 - enables code sharing, project management, issue tracking, and continuous integration
