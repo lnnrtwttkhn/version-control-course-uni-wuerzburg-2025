@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Sessions – Version Control with Git &amp; DataLad</title>
+<title>Sessions – Track, organize and share your work: An introduction to Git for research</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -87,34 +87,6 @@ ul.task-list li input[type="checkbox"] {
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-sessions'] = new List('listing-sessions', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-bonus-sessions .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-categories','listing-day',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-bonus-sessions'] = new List('listing-bonus-sessions', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -214,7 +186,7 @@ window.Quarto = {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/lnnrtwttkhn/version-control-course-audictive-2025/"> <i class="bi bi-github" role="img" aria-label="GitHub">
+    <a class="nav-link" href="https://github.com/lnnrtwttkhn/version-control-course-uni-wuerzburg-2025/"> <i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -229,18 +201,11 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Contents</h2>
-   
-  <ul>
-  <li><a href="#main-sessions" id="toc-main-sessions" class="nav-link active" data-scroll-target="#main-sessions">Main sessions</a></li>
-  <li><a href="#bonus-sessions" id="toc-bonus-sessions" class="nav-link" data-scroll-target="#bonus-sessions">Bonus sessions</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -249,7 +214,7 @@ window.Quarto = {
 
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -261,15 +226,12 @@ window.Quarto = {
 </header>
 
 
-<section id="main-sessions" class="level2">
-<h2 class="anchored" data-anchor-id="main-sessions">Main sessions</h2>
-<p>These are the course’s main sessions (also see <a href="../schedule.html">the schedule</a>):</p>
 <div id="listing-sessions" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1751967000000" data-listing-file-modified-sort="1760033461180" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="211" data-listing-title-sort="Introduction to Reproducibility &amp; Version Control">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1762243200000" data-listing-file-modified-sort="1760035347521" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="497" data-listing-title-sort="Welcome &amp; Introduction to Version Control">
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="../sessions/session-introduction.html" class="no-external">Introduction to Reproducibility &amp; Version Control</a>
+<a href="../sessions/session-introduction.html" class="no-external">Welcome &amp; Introduction to Version Control</a>
 </h3>
 <div class="listing-subtitle">
 <a href="../sessions/session-introduction.html" class="no-external">Session 01</a>
@@ -278,12 +240,12 @@ window.Quarto = {
 <div class="metadata">
 <a href="../sessions/session-introduction.html" class="no-external">
 <div class="listing-date">
-09:30
+09:00
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1751968800000" data-listing-file-modified-sort="1760033461179" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="212" data-listing-title-sort="Basics of the Command Line">
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1762245900000" data-listing-file-modified-sort="1760035347519" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="212" data-listing-title-sort="Basics of the Command Line">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../sessions/session-command-line.html" class="no-external">Basics of the Command Line</a>
@@ -295,12 +257,12 @@ window.Quarto = {
 <div class="metadata">
 <a href="../sessions/session-command-line.html" class="no-external">
 <div class="listing-date">
-10:00
+09:45
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1751971500000" data-listing-file-modified-sort="1760033461180" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="51" data-listing-title-sort="Setup &amp; Configuration of Git">
+<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1762247700000" data-listing-file-modified-sort="1760035347520" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="51" data-listing-title-sort="Setup &amp; Configuration of Git">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../sessions/session-git-setup.html" class="no-external">Setup &amp; Configuration of Git</a>
@@ -312,12 +274,12 @@ window.Quarto = {
 <div class="metadata">
 <a href="../sessions/session-git-setup.html" class="no-external">
 <div class="listing-date">
-10:45
+10:15
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1751972400000" data-listing-file-modified-sort="1760033461179" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="102" data-listing-title-sort="First steps with Git &amp; Git Essentials">
+<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1762248600000" data-listing-file-modified-sort="1760035347519" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="102" data-listing-title-sort="First steps with Git &amp; Git Essentials">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../sessions/session-git-basics.html" class="no-external">First steps with Git &amp; Git Essentials</a>
@@ -329,115 +291,93 @@ window.Quarto = {
 <div class="metadata">
 <a href="../sessions/session-git-basics.html" class="no-external">
 <div class="listing-date">
-11:00
+10:30
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1751976000000" data-listing-file-modified-sort="1760033461180" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="88" data-listing-title-sort="Lunch Break">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../sessions/session-lunch.html" class="no-external">Lunch Break</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../sessions/session-lunch.html" class="no-external"><em>Nom nom nom nom nom</em></a>
-</div>
-</div>
-<div class="metadata">
-<a href="../sessions/session-lunch.html" class="no-external">
-<div class="listing-date">
-12:00
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1751979600000" data-listing-file-modified-sort="1760033461179" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="159" data-listing-title-sort="Integration with GitHub / GitLab">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../sessions/session-git-remotes.html" class="no-external">Integration with GitHub / GitLab</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../sessions/session-git-remotes.html" class="no-external">Session 05</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../sessions/session-git-remotes.html" class="no-external">
-<div class="listing-date">
-13:00
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1751983200000" data-listing-file-modified-sort="1760033461179" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="39" data-listing-title-sort="Version Control of Data with DataLad">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../sessions/session-datalad.html" class="no-external">Version Control of Data with DataLad</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../sessions/session-datalad.html" class="no-external">Session 06</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../sessions/session-datalad.html" class="no-external">
-<div class="listing-date">
-14:00
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-listing-date-sort="1751990400000" data-listing-file-modified-sort="1760033461180" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="225" data-listing-title-sort="Summary &amp; Outlook">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../sessions/session-outlook.html" class="no-external">Summary &amp; Outlook</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../sessions/session-outlook.html" class="no-external">Session 07</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../sessions/session-outlook.html" class="no-external">
-<div class="listing-date">
-16:00
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="bonus-sessions" class="level2">
-<h2 class="anchored" data-anchor-id="bonus-sessions">Bonus sessions</h2>
-<p>These are bonus sessions that you / we can check out on-demand:</p>
-<div id="listing-bonus-sessions" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1760033461179" data-listing-reading-time-sort="1" data-listing-word-count-sort="62" data-listing-title-sort="Branches">
+<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1762252200000" data-listing-file-modified-sort="1760035347520" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="62" data-listing-title-sort="Branches">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../sessions/session-git-branches.html" class="no-external">Branches</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../sessions/session-git-branches.html" class="no-external">Bonus session</a>
+<a href="../sessions/session-git-branches.html" class="no-external">Session 05</a>
 </div>
 </div>
 <div class="metadata">
-<p><a href="../sessions/session-git-branches.html" class="no-external"></a></p><a href="../sessions/session-git-branches.html" class="no-external">
+<a href="../sessions/session-git-branches.html" class="no-external">
+<div class="listing-date">
+11:30
+</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1760033461179" data-listing-reading-time-sort="1" data-listing-word-count-sort="92" data-listing-title-sort="Collaboration on GitHub / GitLab">
+<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1762255800000" data-listing-file-modified-sort="1760035347521" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="88" data-listing-title-sort="Lunch Break">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../sessions/session-lunch.html" class="no-external">Lunch Break</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../sessions/session-lunch.html" class="no-external">Non nom nom</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../sessions/session-lunch.html" class="no-external">
+<div class="listing-date">
+12:30
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1762259400000" data-listing-file-modified-sort="1760035347520" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="159" data-listing-title-sort="Integration with GitHub / GitLab">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../sessions/session-git-remotes.html" class="no-external">Integration with GitHub / GitLab</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../sessions/session-git-remotes.html" class="no-external">Session 06</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../sessions/session-git-remotes.html" class="no-external">
+<div class="listing-date">
+13:30
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-listing-date-sort="1762263000000" data-listing-file-modified-sort="1760035347520" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="92" data-listing-title-sort="Collaboration on GitHub / GitLab">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../sessions/session-git-collaboration.html" class="no-external">Collaboration on GitHub / GitLab</a>
 </h3>
 <div class="listing-subtitle">
-<a href="../sessions/session-git-collaboration.html" class="no-external">Bonus session</a>
+<a href="../sessions/session-git-collaboration.html" class="no-external">Session 07</a>
 </div>
 </div>
 <div class="metadata">
-<p><a href="../sessions/session-git-collaboration.html" class="no-external"></a></p><a href="../sessions/session-git-collaboration.html" class="no-external">
+<a href="../sessions/session-git-collaboration.html" class="no-external">
+<div class="listing-date">
+14:30
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8" data-listing-date-sort="1762266600000" data-listing-file-modified-sort="1760035347521" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="225" data-listing-title-sort="Summary &amp; Outlook">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../sessions/session-outlook.html" class="no-external">Summary &amp; Outlook</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../sessions/session-outlook.html" class="no-external">Session 08</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../sessions/session-outlook.html" class="no-external">
+<div class="listing-date">
+15:30
+</div>
 </a>
 </div>
 </div>
@@ -449,10 +389,9 @@ No matching items
 
 
 
-</section>
 
 </main> <!-- /main -->
-<script defer="" data-domain="lennartwittkuhn.com/version-control-course-audictive-2025" src="https://plausible.io/js/script.js"></script>
+<script defer="" data-domain="lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025" src="https://plausible.io/js/script.js"></script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -545,7 +484,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/lennartwittkuhn\.com\/version-control-course-audictive-2025\/");
+      var filterRegex = new RegExp("https:\/\/lennartwittkuhn\.com\/version-control-course-uni-wuerzburg-2025\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
