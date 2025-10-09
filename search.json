@@ -39,7 +39,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "When? Tuesday, November 4th 2025, 9:00 to 16:00 (detailed schedule below)\n Where? Julius-Maximilians-Universität Würzburg, Research Training Group 2660: Approach-Avoidance, Marcusstraße 9-11, 97070 Würzburg (Room: 213)\n\n\n\n\n\nNo\nTime\nTitle\nContents\nReading\n\n\n\n\n1\n09:00 - 09:45\nIntroduction to Version Control\nLogistics and course adminIntroduction to version controlIntroduction to Git\n Introduction to Version Control\n\n\n2\n09:45 - 10:15\nBasics of the Command Line\nFile systems and navigationBenefits of the command lineBasic command line commands\n Command Line\n\n\n3\n10:15 - 10:30\nSetup & configuration of Git\nSetup & configuration of Git\n Setup, Installation (if needed)\n\n\n4\n10:30 - 11:30\nBasics of Git\nInitializing a Git repositoryPracticing basic Git commandsTracking changes wih GitIgnoring files with .gitignoreGood commit messages\n First steps with Git, Git Essentials\n\n\n5\n11:30 - 12:30\nBranches, Merging, Merge Conflicts\nUnderstanding branches in GitCreating and switching between branchesMerging branchesResolving merge conflicts\n Branches\n\n\n6\n12:30 - 13:30\nLunch Break\nEnjoy your lunch!\n\n\n\n7\n13:30 - 14:30\nIntegration with GitHub / GitLab\nIntroduction to remote repositoriesManaging repositories on GitHub / GitLabPushing and pulling changesCloning a remote repository\n Remotes Intro\n\n\n8\n14:30 - 15:00\nCollaboration on GitHub / GitLab\nForkingCollaboration with GitHub FlowPull / Merge RequestsIssuesProject Management\n GitHub Advanced, GitHub Issues\n\n\n9\n15:30 - 16:00\nSummary & Outlook\nSummary of course contentsOutlook to more related topicsDiscussing open questions"
+    "text": "When? Tuesday, July 8th 2025, 9:30 to 16:30 (detailed schedule below)\n Where? AUDICTIVE Priority Program, Tagungshaus Erbacher Hof, Mainz\n\n\n\n\n\nNo\nTime\nTitle\nContents\n\n\n\n\n1\n09:30 - 10:00\nIntroduction to Version Control\nLogistics and course adminIntroduction to reproducibilityIntroduction to version controlIntroduction to Git\n\n\n2\n10:00 - 10:45\nBasics of the Command Line\nFile systems and navigationBenefits of the command lineBasic command line commands\n\n\n3\n10:45 - 11:00\nSetup & configuration of Git\nSetup & configuration of Git\n\n\n4\n11:00 - 12:00\nBasics of Git\nInitializing a Git repositoryPracticing basic Git commandsTracking changes wih GitIgnoring files with .gitignoreGood commit messages\n\n\n5\n12:00 - 13:00\nLunch Break\nEnjoy your lunch!\n\n\n6\n13:00 - 14:00\nIntegration with GitHub / GitLab\nIntroduction to remote repositoriesManaging repositories on GitHub / GitLabPushing and pulling changesCloning a remote repository\n\n\n7\n14:00 - 15:00\nVersion Control of Data with DataLad\nVersion control of (large) data with DataLadNesting modular datasets with DataLadEstablishing provenance and reproducibility with DataLad\n\n\n8\n16:00 - 16:30\nSummary & Outlook\nSummary of course contentsOutlook to more related topicsDiscussing open questions"
   },
   {
     "objectID": "sessions/session-git-collaboration.html",
@@ -158,7 +158,7 @@
     "href": "sessions/slides-session-outlook.html#schedule",
     "title": "Session 8: Summary & Outlook",
     "section": "Schedule",
-    "text": "Schedule\n\n\n\n\n\nNo\nTime\nTitle\nContents\nReading\n\n\n\n\n1\n09:00 - 09:45\nIntroduction to Version Control\nLogistics and course adminIntroduction to version controlIntroduction to Git\n Introduction to Version Control\n\n\n2\n09:45 - 10:15\nBasics of the Command Line\nFile systems and navigationBenefits of the command lineBasic command line commands\n Command Line\n\n\n3\n10:15 - 10:30\nSetup & configuration of Git\nSetup & configuration of Git\n Setup, Installation (if needed)\n\n\n4\n10:30 - 11:30\nBasics of Git\nInitializing a Git repositoryPracticing basic Git commandsTracking changes wih GitIgnoring files with .gitignoreGood commit messages\n First steps with Git, Git Essentials\n\n\n5\n11:30 - 12:30\nBranches, Merging, Merge Conflicts\nUnderstanding branches in GitCreating and switching between branchesMerging branchesResolving merge conflicts\n Branches\n\n\n6\n12:30 - 13:30\nLunch Break\nEnjoy your lunch!\n\n\n\n7\n13:30 - 14:30\nIntegration with GitHub / GitLab\nIntroduction to remote repositoriesManaging repositories on GitHub / GitLabPushing and pulling changesCloning a remote repository\n Remotes Intro\n\n\n8\n14:30 - 15:00\nCollaboration on GitHub / GitLab\nForkingCollaboration with GitHub FlowPull / Merge RequestsIssuesProject Management\n GitHub Advanced, GitHub Issues\n\n\n9\n15:30 - 16:00\nSummary & Outlook\nSummary of course contentsOutlook to more related topicsDiscussing open questions"
+    "text": "Schedule\n\n\n\n\n\nNo\nTime\nTitle\nContents\n\n\n\n\n1\n09:30 - 10:00\nIntroduction to Version Control\nLogistics and course adminIntroduction to reproducibilityIntroduction to version controlIntroduction to Git\n\n\n2\n10:00 - 10:45\nBasics of the Command Line\nFile systems and navigationBenefits of the command lineBasic command line commands\n\n\n3\n10:45 - 11:00\nSetup & configuration of Git\nSetup & configuration of Git\n\n\n4\n11:00 - 12:00\nBasics of Git\nInitializing a Git repositoryPracticing basic Git commandsTracking changes wih GitIgnoring files with .gitignoreGood commit messages\n\n\n5\n12:00 - 13:00\nLunch Break\nEnjoy your lunch!\n\n\n6\n13:00 - 14:00\nIntegration with GitHub / GitLab\nIntroduction to remote repositoriesManaging repositories on GitHub / GitLabPushing and pulling changesCloning a remote repository\n\n\n7\n14:00 - 15:00\nVersion Control of Data with DataLad\nVersion control of (large) data with DataLadNesting modular datasets with DataLadEstablishing provenance and reproducibility with DataLad\n\n\n8\n16:00 - 16:30\nSummary & Outlook\nSummary of course contentsOutlook to more related topicsDiscussing open questions"
   },
   {
     "objectID": "sessions/slides-session-outlook.html#learning-objectives",
@@ -172,14 +172,14 @@
     "href": "sessions/slides-session-outlook.html#learning-objectives-continued",
     "title": "Session 8: Summary & Outlook",
     "section": "Learning Objectives (continued)",
-    "text": "Learning Objectives (continued)\nFirst steps with Git\n💡 You can initialize a Git repository. 💡 You can check the status of a Git repository. 💡 You understand the difference between the staging area and a commit. 💡 You can stage and commit changes. 💡 You understand the difference between a commit message and a description.\nGit Essentials\n💡 You know what good commits look like. 💡 You know how to explore the commit history. 💡 You can compare different commits. 💡 You know how to use and create a .gitignore file. 💡 You can discuss which files can (not) be tracked well with Git and why. 💡 You know how to track empty folders in Git repositories.\nBranches\n💡 You understand the purpose and benefits of using branches in Git. 💡 You can create and switch between branches. 💡 You can merge branches and resolve merge conflicts. 💡 You can name at least three best practices when working with branches."
+    "text": "Learning Objectives (continued)\nFirst steps with Git\n💡 You can initialize a Git repository. 💡 You can check the status of a Git repository. 💡 You understand the difference between the staging area and a commit. 💡 You can stage and commit changes. 💡 You understand the difference between a commit message and a description.\nGit Essentials\n💡 You know what good commits look like. 💡 You know how to explore the commit history. 💡 You can compare different commits. 💡 You know how to use and create a .gitignore file. 💡 You can discuss which files can (not) be tracked well with Git and why. 💡 You know how to track empty folders in Git repositories.\nIntegration with GitHub / GitLab\n💡 You can create a remote repository. 💡 You can connect your local Git repository to a remote repository service like GitHub or GitLab. 💡 You can pull and push changes to and from a remote repository. 💡 You can clone a repository from a remote repository."
   },
   {
     "objectID": "sessions/slides-session-outlook.html#learning-objectives-continued-1",
     "href": "sessions/slides-session-outlook.html#learning-objectives-continued-1",
     "title": "Session 8: Summary & Outlook",
     "section": "Learning Objectives (continued)",
-    "text": "Learning Objectives (continued)\nIntegration with GitHub / GitLab\n💡 You can create a remote repository. 💡 You can connect your local Git repository to a remote repository service like GitHub or GitLab. 💡 You can pull and push changes to and from a remote repository. 💡 You can clone a repository from a remote repository.\nCollaboration on GitHub / GitLab\n💡 You know the purpose and components of a Pull Request. 💡 You know how to collaborate using the popular workflow strategy GitHub flow. 💡 You know the purpose and components of a README file. 💡 You can fork a repository. 💡 You can create a Pull Request from a forked repository. 💡 You can protect your main branch."
+    "text": "Learning Objectives (continued)\nIntroduction to DataLad\n💡 You know how to configure your username and email address in Git. 💡 You can create a new DataLad dataset. 💡 You know how to check the status of a DataLad dataset. 💡 You can save data in a DataLad dataset. 💡 You know about different configurations of DataLad datasets.\nNesting with DataLad\n💡 You can install an existing DataLad dataset as a subdataset. 💡 You can get and drop data in a DataLad dataset as needed. 💡 You know how to navigate nested DataLad datasets. 💡 You know how to access data in nested DataLad datasets recursively.\nProvenance with DataLad\n💡 You can link analyses to inputs and outputs using DataLad. 💡 You can execute a rerun of a previous analysis with DataLad 💡 You know how to establish provenance and reproducibility using DataLad."
   },
   {
     "objectID": "sessions/slides-session-outlook.html#rewriting-history",
@@ -208,13 +208,6 @@
     "title": "Session 8: Summary & Outlook",
     "section": "Continuous Integration & Deployment (CI/CD)",
     "text": "Continuous Integration & Deployment (CI/CD)\n\n\n\n\n\nfrom Suresoft\n\n\n\nExample: Lennart’s recipes repo\n\nAutomated spell check\nRebuilding of project website\n\n https://lennartwittkuhn.com/recipes/"
-  },
-  {
-    "objectID": "sessions/slides-session-outlook.html#version-control-for-data-datalad",
-    "href": "sessions/slides-session-outlook.html#version-control-for-data-datalad",
-    "title": "Session 8: Summary & Outlook",
-    "section": "Version Control for data: DataLad",
-    "text": "Version Control for data: DataLad\n\n\n\n… for data (binary files) \n\n\n\nSadly, Git does not handle large files well. \n\n\n\n\n\n\n\n\n\n\n\ndatalad.org (from the DataLad Handbook by Wagner et al.)"
   },
   {
     "objectID": "sessions/slides-session-outlook.html#navigating-towards-open-and-reproducible-research",
@@ -261,49 +254,49 @@
   {
     "objectID": "sessions/session-introduction.html",
     "href": "sessions/session-introduction.html",
-    "title": "Welcome & Introduction to Version Control",
+    "title": "Introduction to Reproducibility & Version Control",
     "section": "",
     "text": "Slides\n  \n  \n    \n     Chapter"
   },
   {
     "objectID": "sessions/session-introduction.html#learning-objectives",
     "href": "sessions/session-introduction.html#learning-objectives",
-    "title": "Welcome & Introduction to Version Control",
+    "title": "Introduction to Reproducibility & Version Control",
     "section": "Learning objectives",
-    "text": "Learning objectives\nAt the end of this session, you should have achieved the following learning objectives:\n\nVersion Control\n💡 You know what version control is. 💡 You can argue why version control is useful (for research). 💡 You can name benefits of Git compared to other approaches to version control. 💡 You can explain the difference between Git and GitHub."
+    "text": "Learning objectives\nAt the end of this session, you should have achieved the following learning objectives:\n\nReproducibility\n💡 You know what reproducibility is. 💡 You can argue why reproducibility is useful for research. 💡 You can explain the difference between reproducibility and replicability.\n\n\nVersion Control\n💡 You know what version control is. 💡 You can argue why version control is useful (for research). 💡 You can name benefits of Git compared to other approaches to version control. 💡 You can explain the difference between Git and GitHub."
   },
   {
     "objectID": "sessions/session-introduction.html#slides",
     "href": "sessions/session-introduction.html#slides",
-    "title": "Welcome & Introduction to Version Control",
+    "title": "Introduction to Reproducibility & Version Control",
     "section": "Slides",
     "text": "Slides\n\n\n\n\n\n\n\nHow can I download the slides as a PDF file?\n\n\n\n\n\nTo export the slides to PDF, do the following:\n\nToggle into Print View using the E key (or using the Navigation Menu).\nOpen the in-browser print dialog (CTRL/CMD+P).\nChange the Destination setting to Save as PDF.\nChange the Layout to Landscape.\nChange the Margins to None.\nEnable the Background graphics option.\nClick Save.\n\nNote: This feature has been confirmed to work in Google Chrome, Chromium as well as in Firefox.\nHere’s what the Chrome print dialog would look like with these settings enabled:\n\nThese instructions were copied from the Quarto documentation (MIT License) and slightly modified."
   },
   {
     "objectID": "sessions/session-introduction.html#email",
     "href": "sessions/session-introduction.html#email",
-    "title": "Welcome & Introduction to Version Control",
+    "title": "Introduction to Reproducibility & Version Control",
     "section": "Email",
-    "text": "Email\nDear course participant,\nYou are receiving this email because you have signed up for the full-day course “Track, organize and share your work: An introduction to Git for research”, taking place on Tuesday, November 4th 2025, 9:00 to 16:00 at Julius-Maximilians-Universität Würzburg, Research Training Group 2660: Approach-Avoidance (Room: 213). We are excited that you have signed up for this course and can’t wait to explore the world of version control with you!\nIn preparation for the course, we kindly ask you to complete two assignments: (1) check if you have Git installed, and (2) answer a survey. In total, this should take about 20 to 30 minutes (not much longer).\n1. Check Git Installation\nPlease check if you have Git installed. You can find detailed instructions in our online course book here: https://lennartwittkuhn.com/version-control-book/chapters/installation.html. Windows users: Please install Git for Windows (https://gitforwindows.org). macOS and Linux users: You likely have Git already installed. Open the Terminal / Command Line and enter the command git --version. If a version number is shown, Git is installed. For more details, see the link to the online course book above. If you have any questions about the installation process, don’t hesitate to contact us. And please don’t forget to bring your laptop, with Git installed, to the course!\n2. Complete Survey\nIn order to tailor the course to your prior experience and needs, we have prepared a survey with a few questions. Please complete the survey before the course, ideally at least two days before the course starts. This will give us enough time to review your responses before our first session.\nThe survey can be accessed here: https://version-control-intro.formr.org.\nA few technical remarks about the survey: The survey will ask you for two codewords: a personal codeword and a course codeword.\nThe personal codeword is used to associate your responses with a unique identifier. This will allow us to identify and relate your responses across all surveys used in the course while ensuring anonymity. By providing a personal codeword, you will allow us to draw more detailed insights from your responses that will help us improve the course for you. The survey will contain an explanation at the beginning on how to generate your personal codeword.\nThe course codeword is used to tag your responses as coming from a course participant at Julius-Maximilians-Universität Würzburg, Research Training Group 2660: Approach-Avoidance. We might also use the survey to collect responses from participants in other course settings. The course codeword therefore allows us to distinguish responses from different course settings.\nThe course codeword is: -------- (course password will be announced during the course).\nPlease note that you might be asked for the codewords repeatedly. This is not an error in the survey but the result of combining separate smaller surveys into a longer one. If this happens, please just enter the personal and course codeword again.\nFurther information about the course can be found on our course website at https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/.\nIf you have any questions, feel free to contact us directly via email.\nWe are looking forward to seeing you at the course!\nBest wishes,\nLennart Wittkuhn (Instructor) and the organizing team"
+    "text": "Email\nDear course participant,\nYou are receiving this email because you have signed up for the full-day course “Track, organize and share your work: Version control of code & data with Git & DataLad”, taking place on Tuesday, July 8th 2025, 9:30 to 16:30 at AUDICTIVE Priority Program (Tagungshaus Erbacher Hof, Mainz). We are excited that you have signed up for this course and can’t wait to delve into the world of reproducibility and version control with you!\nIn preparation for the course, we kindly ask you to check if you have Git installed. You can find detailed instructions in our Version Control Book here: https://lennartwittkuhn.com/version-control-book/chapters/installation.html. Windows users: Please install Git for Windows (https://gitforwindows.org). macOS and Linux users: You likely have Git already installed. Open the Terminal / Command Line and enter the command git --version. If a version number is shown, Git is installed. For more details, see the link to the online course book above. If you have any questions about the installation process, don’t hesitate to contact us. And please don’t forget to bring your laptop, with Git installed, to the course!\nIf you have any questions, feel free to contact us directly via email.\nWe are looking forward to seeing you at the course!\nBest wishes,\nLennart Wittkuhn (Instructor) and the organizing team"
   },
   {
     "objectID": "sessions/exercises/exercise-github-advanced.html",
     "href": "sessions/exercises/exercise-github-advanced.html",
-    "title": "Track, organize and share your work: An introduction to Git for research",
+    "title": "Version Control with Git & DataLad",
     "section": "",
     "text": "1. Public collaboration with pull requests (using a “fork”)\n\nFind out what forking is\nFork the recipes repository of another course participant (ideally, someone who is not your partner from the previous exercise)\nCreate an Issue, suggesting a missing recipe\nCreate an Issue in your partner’s repository (maybe their repository is missing a great recipe?)\nRepeat the steps from the previous exercise using the forked repository:\n\nClone the forked repository into a sensible location\nCreate a new branch and create one or multiple commits “fixing” the Issue that you opened\nPush your changes to GitHub\nCreate a pull request with your changes (hint: from the forked to the original repository) and refer to the Issue in your pull request\n\n\n\n\n2. Review pull requests in your repository\n\nView any pull requests that are created in your recipes repository.\nReview the changes made by the contributor in the pull request.\nIf needed, discuss additional changes with the contributor in the pull request.\nClose the pull request by merging the proposed changes.\n\n\n\n🚀 Optional: Practice forking on GitHub\n\nRepeat the entire forking workflow (see task 1 above) with Lennart’s recipes repository. Find out about the contributing guidelines in Lennart’s repo and follow them when creating a new recipe."
   },
   {
     "objectID": "sessions/exercises/exercise-github-intro.html",
     "href": "sessions/exercises/exercise-github-intro.html",
-    "title": "Track, organize and share your work: An introduction to Git for research",
+    "title": "Version Control with Git & DataLad",
     "section": "",
     "text": "1. Upload and manage your repository on GitLab or GitHub\n\nConnect to MPIB GitLab or GitHub\n\nGenerate an SSH key and add it to GitHub or GitLab.\nUse the SSH key to authentication on GitHub or GitLab.\n\n\n\n“Push” your repository\n\nCreate an empty internal repository on GitLab or private repository on GitHub.\nSet the remote URL for your local recipes Git repository.\nPush your main branch to GitLab or GitHub.\n\n\n\n\n2. “Private” collaboration with pull requests (using “GitHub Flow”)\n\nAdd your partner (desk neighbor) as a collaborator to your recipes repository.\nClone your partner’s repository.\nCreate a new branch in your partner’s repository.\nAdd and commit a recipe to your partner’s recipes.txt file.\nPush the changes on the new branch to GitLab / GitHub.\nCreate a Merge Request / Pull Request.\nReview and merge the PR your partner made in your repository.\n🚀 Optional: Add additional changes on the branch pushed by your collaborator.\n\n\n\n🚀 Optional: Create a README.md file\n\nNavigate to your repository on GitHub, click “Add file”, and select “Create new file”.\nName the file README.md, add a brief description of your project, and provide a commit message. Play around with Markdown syntax!\nClick the green “Commit new file” button to save the README.md file to the repository.\nPull the changes to your local repository.\n\n\n\n🚀 Optional: Manage branches\n\nPush another branch (other than the default branch) with changes to MPIB GitLab or GitHub.\nDelete any unused or merged branches.\n\n\n\n🚀 Optional: Clean up your repository on MPIB GitLab or GitHub\n\nDelete unnecessary files or add a new recipe directly on MPIB GitLab or GitHub.\nCommit changes on MPIB GitLab or GitHub with a message.\nPull the changes to your local repository.\n\n\n\n🚀 Optional: Clone and sync your repo\n\nClone your repository from MPIB GitLab or GitHub to a different location on your computer.\nStage, commit and push changes in the new location (consider using a new branch).\nPull changes to the repository in the original location.\nDelete your newly cloned repository."
   },
   {
     "objectID": "sessions/exercises/exercise-cli.html",
     "href": "sessions/exercises/exercise-cli.html",
-    "title": "Track, organize and share your work: An introduction to Git for research",
+    "title": "Version Control with Git & DataLad",
     "section": "",
     "text": "Writing and opening files\nAdd the title “My Favorite Recipes” to recipes.txt. Which command or method did you use?\n\n\nCreating multiple files\nGo back to your main course-related folder. Using the command line, create three new files: notes.txt, assignments.txt, and schedule.txt. Provide the command you used.\n\n\nWildcards\nUse a wildcard pattern to list all .txt files in your folder. Which command did you use?\n\n\nCombining commands\nImagine, that you are in a folder containing multiple text files with various extensions, including .txt, .md, and .docx. You want to move all the .txt files to a subfolder named text_files while keeping the other file types in the current directory. Write a series of command-line commands to accomplish this task, including creating the text_files subdirectory. Explain each step in your solution."
   },
@@ -312,7 +305,7 @@
     "href": "sessions/slides-session-introduction.html#about",
     "title": "Session 1: Welcome & Introduction to Version Control",
     "section": "About",
-    "text": "About\n\n\nMe\n📈 Now: Senior Specialist for Data & AI in the public sector at PD - Berater der Öffentlichen Hand\n🧑‍🔬 Before: Postdoctoral Researcher at the Institute of Psychology at the University of Hamburg\n🎓 Education: BSc Psychology & MSc Cognitive Neuroscience (TU Dresden), PhD Cognitive Neuroscience (MPIB)\n🔬 Research: I studied the role of fast neural memory reactivation (“replay”) in the human brain using fMRI\n🔗 Contact: You can connect with me via email, Mastodon, GitHub or LinkedIn\nℹ️ Info: Find out more about my work on my website, Google Scholar and ORCiD\n\n\n\nThis course\n💻 Materials: All materials are available at https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/\n📦 Software: Reproducible materials are built with Quarto and deployed to GitHub Pages using GitHub Actions\n\n Source: Code is available on GitHub at https://github.com/lnnrtwttkhn/version-control-course-uni-wuerzburg-2025/\n🙏 Contact: I am happy for any feedback or suggestions via email or GitHub issues. Thank you!"
+    "text": "About\n\n\nMe\n📈 Now: Senior Specialist for Data & AI in the public sector at PD - Berater der Öffentlichen Hand\n🧑‍🔬 Before: Postdoctoral Researcher at the Institute of Psychology at the University of Hamburg\n🎓 Education: BSc Psychology & MSc Cognitive Neuroscience (TU Dresden), PhD Cognitive Neuroscience (MPIB)\n🔬 Research: I studied the role of fast neural memory reactivation (“replay”) in the human brain using fMRI\n🔗 Contact: You can connect with me via email, Mastodon, GitHub or LinkedIn\nℹ️ Info: Find out more about my work on my website, Google Scholar and ORCiD\n\n\n\nThis course\n💻 Materials: All materials are available at https://lennartwittkuhn.com/version-control-course-audictive-2025/\n📦 Software: Reproducible materials are built with Quarto and deployed to GitHub Pages using GitHub Actions\n\n Source: Code is available on GitHub at https://github.com/lnnrtwttkhn/version-control-course-audictive-2025/\n🙏 Contact: I am happy for any feedback or suggestions via email or GitHub issues. Thank you!"
   },
   {
     "objectID": "sessions/slides-session-introduction.html#who-are-you",
@@ -326,7 +319,7 @@
     "href": "sessions/slides-session-introduction.html#course-overview",
     "title": "Session 1: Welcome & Introduction to Version Control",
     "section": "Course overview",
-    "text": "Course overview\n\n\n\n Date: Tuesday, November 4th 2025\n Time: 9:00 to 16:00\n Room: Room: 213\n\n\n\n Instructor: Dr. Lennart Wittkuhn\n Event: Course (full-day)\n Language: English"
+    "text": "Course overview\n\n\n\n Date: Tuesday, July 8th 2025\n Time: 9:30 to 16:30\n Room: Tagungshaus Erbacher Hof, Mainz\n\n\n\n Instructor: Dr. Lennart Wittkuhn\n Event: Course (full-day)\n Language: English"
   },
   {
     "objectID": "sessions/slides-session-introduction.html#what-will-the-average-session-look-like",
@@ -340,14 +333,14 @@
     "href": "sessions/slides-session-introduction.html#schedule",
     "title": "Session 1: Welcome & Introduction to Version Control",
     "section": "Schedule",
-    "text": "Schedule\n\n\n\n\n\nNo\nTime\nTitle\nContents\nReading\n\n\n\n\n1\n09:00 - 09:45\nIntroduction to Version Control\nLogistics and course adminIntroduction to version controlIntroduction to Git\n Introduction to Version Control\n\n\n2\n09:45 - 10:15\nBasics of the Command Line\nFile systems and navigationBenefits of the command lineBasic command line commands\n Command Line\n\n\n3\n10:15 - 10:30\nSetup & configuration of Git\nSetup & configuration of Git\n Setup, Installation (if needed)\n\n\n4\n10:30 - 11:30\nBasics of Git\nInitializing a Git repositoryPracticing basic Git commandsTracking changes wih GitIgnoring files with .gitignoreGood commit messages\n First steps with Git, Git Essentials\n\n\n5\n11:30 - 12:30\nBranches, Merging, Merge Conflicts\nUnderstanding branches in GitCreating and switching between branchesMerging branchesResolving merge conflicts\n Branches\n\n\n6\n12:30 - 13:30\nLunch Break\nEnjoy your lunch!\n\n\n\n7\n13:30 - 14:30\nIntegration with GitHub / GitLab\nIntroduction to remote repositoriesManaging repositories on GitHub / GitLabPushing and pulling changesCloning a remote repository\n Remotes Intro\n\n\n8\n14:30 - 15:00\nCollaboration on GitHub / GitLab\nForkingCollaboration with GitHub FlowPull / Merge RequestsIssuesProject Management\n GitHub Advanced, GitHub Issues\n\n\n9\n15:30 - 16:00\nSummary & Outlook\nSummary of course contentsOutlook to more related topicsDiscussing open questions"
+    "text": "Schedule\n\n\n\n\n\nNo\nTime\nTitle\nContents\n\n\n\n\n1\n09:30 - 10:00\nIntroduction to Version Control\nLogistics and course adminIntroduction to reproducibilityIntroduction to version controlIntroduction to Git\n\n\n2\n10:00 - 10:45\nBasics of the Command Line\nFile systems and navigationBenefits of the command lineBasic command line commands\n\n\n3\n10:45 - 11:00\nSetup & configuration of Git\nSetup & configuration of Git\n\n\n4\n11:00 - 12:00\nBasics of Git\nInitializing a Git repositoryPracticing basic Git commandsTracking changes wih GitIgnoring files with .gitignoreGood commit messages\n\n\n5\n12:00 - 13:00\nLunch Break\nEnjoy your lunch!\n\n\n6\n13:00 - 14:00\nIntegration with GitHub / GitLab\nIntroduction to remote repositoriesManaging repositories on GitHub / GitLabPushing and pulling changesCloning a remote repository\n\n\n7\n14:00 - 15:00\nVersion Control of Data with DataLad\nVersion control of (large) data with DataLadNesting modular datasets with DataLadEstablishing provenance and reproducibility with DataLad\n\n\n8\n16:00 - 16:30\nSummary & Outlook\nSummary of course contentsOutlook to more related topicsDiscussing open questions"
   },
   {
     "objectID": "sessions/slides-session-introduction.html#course-website",
     "href": "sessions/slides-session-introduction.html#course-website",
     "title": "Session 1: Welcome & Introduction to Version Control",
     "section": "Course website",
-    "text": "Course website\n https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/\n\n\n\nCourse website is the main entry point for students before, during and after the course\nContents: Overview, course details, schedule, information about the team, additional resources and course mechanics\nPractical advantage: Update course information independently from university websites that are out of your control"
+    "text": "Course website\n https://lennartwittkuhn.com/version-control-course-audictive-2025/\n\n\n\nCourse website is the main entry point for students before, during and after the course\nContents: Overview, course details, schedule, information about the team, additional resources and course mechanics\nPractical advantage: Update course information independently from university websites that are out of your control"
   },
   {
     "objectID": "sessions/slides-session-introduction.html#version-control-book",
@@ -355,6 +348,13 @@
     "title": "Session 1: Welcome & Introduction to Version Control",
     "section": "Version Control Book",
     "text": "Version Control Book\n https://lennartwittkuhn.com/version-control-book"
+  },
+  {
+    "objectID": "sessions/slides-session-introduction.html#datalad-handbook",
+    "href": "sessions/slides-session-introduction.html#datalad-handbook",
+    "title": "Session 1: Welcome & Introduction to Version Control",
+    "section": "DataLad Handbook",
+    "text": "DataLad Handbook\n https://handbook.datalad.org/en/latest/"
   },
   {
     "objectID": "sessions/slides-session-introduction.html#cheatsheets",
@@ -371,11 +371,11 @@
     "text": "Pair Programming (variant)\n\n\n\nFind and say hello to your nearest desk neighbor\nComplete the exercises together, help each other out, etc.\n\n\n\n\n\nThis illustration is created by Scriberia with The Turing Way community. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807"
   },
   {
-    "objectID": "sessions/slides-session-introduction.html#course-exercise-building-an-online-recipes-book",
-    "href": "sessions/slides-session-introduction.html#course-exercise-building-an-online-recipes-book",
+    "objectID": "sessions/slides-session-introduction.html#course-exercise-git-part-building-an-online-recipes-book",
+    "href": "sessions/slides-session-introduction.html#course-exercise-git-part-building-an-online-recipes-book",
     "title": "Session 1: Welcome & Introduction to Version Control",
-    "section": "Course exercise: Building an online recipes book",
-    "text": "Course exercise: Building an online recipes book\n https://lennartwittkuhn.com/recipes/"
+    "section": "Course exercise (Git part): Building an online recipes book",
+    "text": "Course exercise (Git part): Building an online recipes book\n https://lennartwittkuhn.com/recipes/"
   },
   {
     "objectID": "sessions/slides-session-introduction.html#lets-do-the-splits",
@@ -396,14 +396,14 @@
     "href": "sessions/slides-session-introduction.html#breaks",
     "title": "Session 1: Welcome & Introduction to Version Control",
     "section": "Breaks",
-    "text": "Breaks\n\nWe will have a one-hour lunch break at 13:00.\nFeel free to take short breaks in-between sessions (~ last 5 minutes) when needed."
+    "text": "Breaks\n\nWe will have a one-hour lunch break at 13:00.\nFeel free to take short breaks in-between (sessions) when needed."
   },
   {
     "objectID": "sessions/slides-session-introduction.html#learning-objectives",
     "href": "sessions/slides-session-introduction.html#learning-objectives",
     "title": "Session 1: Welcome & Introduction to Version Control",
     "section": "Learning objectives",
-    "text": "Learning objectives\nAt the end of this session, you should have achieved the following learning objectives:\n💡 You know what version control is. 💡 You can argue why version control is useful (for research). 💡 You can name benefits of Git compared to other approaches to version control. 💡 You can explain the difference between Git and GitHub."
+    "text": "Learning objectives\nAt the end of this session, you should have achieved the following learning objectives:\nReproducibility\n💡 You know what reproducibility is. 💡 You can argue why reproducibility is useful for research. 💡 You can explain the difference between reproducibility and replicability.\nVersion Control\n💡 You know what version control is. 💡 You can argue why version control is useful (for research). 💡 You can name benefits of Git compared to other approaches to version control. 💡 You can explain the difference between Git and GitHub.\n\n\nLearning objectives\nReproducibility\n💡 You know what reproducibility is. 💡 You can argue why reproducibility is useful for research. 💡 You can explain the difference between reproducibility and replicability.\nVersion Control\n💡 You know what version control is. 💡 You can argue why version control is useful (for research). 💡 You can name benefits of Git compared to other approaches to version control. 💡 You can explain the difference between Git and GitHub."
   },
   {
     "objectID": "sessions/slides-session-introduction.html#definition-of-reproducibility",
@@ -438,14 +438,14 @@
     "href": "sessions/slides-session-introduction.html#what-can-we-do",
     "title": "Session 1: Welcome & Introduction to Version Control",
     "section": "What can we do?",
-    "text": "What can we do?\n\n\n\n\n\n\nNo\nTime\nTitle\nContents\nReading\n\n\n\n\n1\n09:00 - 09:45\nIntroduction to Version Control\nLogistics and course adminIntroduction to version controlIntroduction to Git\n Introduction to Version Control\n\n\n2\n09:45 - 10:15\nBasics of the Command Line\nFile systems and navigationBenefits of the command lineBasic command line commands\n Command Line\n\n\n3\n10:15 - 10:30\nSetup & configuration of Git\nSetup & configuration of Git\n Setup, Installation (if needed)\n\n\n4\n10:30 - 11:30\nBasics of Git\nInitializing a Git repositoryPracticing basic Git commandsTracking changes wih GitIgnoring files with .gitignoreGood commit messages\n First steps with Git, Git Essentials\n\n\n5\n11:30 - 12:30\nBranches, Merging, Merge Conflicts\nUnderstanding branches in GitCreating and switching between branchesMerging branchesResolving merge conflicts\n Branches\n\n\n6\n12:30 - 13:30\nLunch Break\nEnjoy your lunch!\n\n\n\n7\n13:30 - 14:30\nIntegration with GitHub / GitLab\nIntroduction to remote repositoriesManaging repositories on GitHub / GitLabPushing and pulling changesCloning a remote repository\n Remotes Intro\n\n\n8\n14:30 - 15:00\nCollaboration on GitHub / GitLab\nForkingCollaboration with GitHub FlowPull / Merge RequestsIssuesProject Management\n GitHub Advanced, GitHub Issues\n\n\n9\n15:30 - 16:00\nSummary & Outlook\nSummary of course contentsOutlook to more related topicsDiscussing open questions"
+    "text": "What can we do?\n\n\n\n\n\n\nNo\nTime\nTitle\nContents\n\n\n\n\n1\n09:30 - 10:00\nIntroduction to Version Control\nLogistics and course adminIntroduction to reproducibilityIntroduction to version controlIntroduction to Git\n\n\n2\n10:00 - 10:45\nBasics of the Command Line\nFile systems and navigationBenefits of the command lineBasic command line commands\n\n\n3\n10:45 - 11:00\nSetup & configuration of Git\nSetup & configuration of Git\n\n\n4\n11:00 - 12:00\nBasics of Git\nInitializing a Git repositoryPracticing basic Git commandsTracking changes wih GitIgnoring files with .gitignoreGood commit messages\n\n\n5\n12:00 - 13:00\nLunch Break\nEnjoy your lunch!\n\n\n6\n13:00 - 14:00\nIntegration with GitHub / GitLab\nIntroduction to remote repositoriesManaging repositories on GitHub / GitLabPushing and pulling changesCloning a remote repository\n\n\n7\n14:00 - 15:00\nVersion Control of Data with DataLad\nVersion control of (large) data with DataLadNesting modular datasets with DataLadEstablishing provenance and reproducibility with DataLad\n\n\n8\n16:00 - 16:30\nSummary & Outlook\nSummary of course contentsOutlook to more related topicsDiscussing open questions"
   },
   {
     "objectID": "sessions/slides-session-introduction.html#scenario-1",
     "href": "sessions/slides-session-introduction.html#scenario-1",
     "title": "Session 1: Welcome & Introduction to Version Control",
     "section": "Scenario 1",
-    "text": "Scenario 1\n\nImagine a scenario where you crafted a brilliant paragraph for a manuscript (for example, your paper, thesis, or report), but then accidentally ruined it. How would you retrieve the earlier brilliant version? Is it even possible?\n\n\n\n“Only if I saved it before - otherwise, I’d have to draft another brilliant paragraph.”\n“I might be able to find it in a cloud backup, like OneDrive or Google Drive.”\n“I frequently email it to myself”\n“Version control?”\n“I’d simply revert to the relevant commit.”"
+    "text": "Scenario 1\n\nImagine a scenario where you crafted a brilliant paragraph for a manuscript (for example, your paper, thesis, or report), but then accidentally ruined it. How would you retrieve the earlier brilliant version? Is it even possible?\n\n\n\n“Only if I saved it before - otherwise, I’d have to draft another brilliant paragraph.”\n“I might be able to find it in a cloud backup, like OneDrive or Google Drive.”\n“Version Control?”\n“I’d simply revert to the relevant commit.”"
   },
   {
     "objectID": "sessions/slides-session-introduction.html#scenario-2",
@@ -469,25 +469,25 @@
     "text": "What is version control?\n\n“Version control is a systematic approach to record changes made in a […] set of files, over time. This allows you and your collaborators to track the history, see what changed, and recall specific versions later […]” (Turing Way)\n\n\n\n\n keep track of changes in a directory (a “repository”)\n take snapshots (“commits”) of your repo at any time\n know the history: what was changed when by whom\n compare commits and go back to any previous state\n work on parallel “branches” & flexibly “merge” them\n\n\n\nby Scriberia for The Turing Way community (CC-BY 4.0)\n\n\n\n\n\n “push” your repo to a “remote” location & share it\n  share repos on platforms like GitHub or GitLab\n work together on the same files at the same time\n others can read, copy, edit and suggest changes\n make your repo public and openly share your work\n\n\n\nby Scriberia for The Turing Way community (CC-BY 4.0)"
   },
   {
-    "objectID": "sessions/slides-session-introduction.html#what-is-git",
-    "href": "sessions/slides-session-introduction.html#what-is-git",
+    "objectID": "sessions/slides-session-introduction.html#what-are-git-and-datalad",
+    "href": "sessions/slides-session-introduction.html#what-are-git-and-datalad",
     "title": "Session 1: Welcome & Introduction to Version Control",
-    "section": "What is Git?",
-    "text": "What is Git?\n\n\n\n\n\ngit-scm.com\n\n\n\nmost popular version control system\nfree, open-source command-line tool\ngraphical user interfaces exist, e.g., GitKraken\nstandard tool for most (all?) software developers\n\n\n\n\n\nVersion control is relevant for anyone who wants to track the evolution of digital objects"
+    "section": "What are Git and DataLad?",
+    "text": "What are Git and DataLad?\n\n\n\n\n\n\ngit-scm.com\n\n\n\nmost popular version control system\nfree, open-source command-line tool\ngraphical user interfaces exist, e.g., GitKraken\nstandard tool for most (all?) software developers\n100 million GitHub users 6\n\n\n\n\n\n\n\ndatalad.org\n\n\n\n“Git for (large) data”\nfree, open-source command-line tool\nbuilds on top of git and git-annex\nallows to version control arbitrarily large datasets 7\ngraphical user interface exists: DataLad Gooey\n\n\n\n\n\nVersion control is relevant for anyone who wants to track the evolution of digital objects"
   },
   {
     "objectID": "sessions/slides-session-introduction.html#what-is-github",
     "href": "sessions/slides-session-introduction.html#what-is-github",
     "title": "Session 1: Welcome & Introduction to Version Control",
     "section": "What is GitHub?",
-    "text": "What is GitHub?\n\n\n\n\n\ngithub.com\n\n\n\ncloud-based platform for version control using Git\nallows for collaboration on (coding) projects in real time\nhosts millions of public and private repositories\nsupports both Git command line and GUI tools (e.g., GitHub Desktop)\nenables code sharing, project management, issue tracking, and continuous integration\nused by companies, open-source communities, and individual developers worldwide\n100 million users 6"
+    "text": "What is GitHub?\n\n\n\n\n\ngithub.com\n\n\n\ncloud-based platform for version control using Git\nallows for collaboration on coding projects in real time\nhosts millions of public and private repositories\nsupports both Git command line and GUI tools (e.g., GitHub Desktop)\nenables code sharing, project management, issue tracking, and continuous integration\nused by companies, open-source communities, and individual developers worldwide\n100 million users 8"
   },
   {
     "objectID": "sessions/slides-session-introduction.html#more-benefits-of-github-for-project-management",
     "href": "sessions/slides-session-introduction.html#more-benefits-of-github-for-project-management",
     "title": "Session 1: Welcome & Introduction to Version Control",
     "section": "More benefits of Git(Hub) for project management",
-    "text": "More benefits of Git(Hub) for project management\n\n Discuss and plan your project in issues (even just with your future / past self)\n Ask questions, share ideas and discuss with your community via GitHub Discussions\n Propose changes to each other’s projects using pull requests 7\n Create a fork of someone else’s repository and extend their work\n Manage access to your projects with detailed permissions and roles\n Add documentation to your repository or in a separate wiki\n Access to more features and tools for teaching via GitHub Campus Global\n\n\nNote\n\n The dominance of GitHub (a for-profit company owned by Microsoft) is not uncontested (see #GiveUpGitHub)\n A project on GitHub is not a FAIR archiving of scholarly outputs (see previous and following slides)\n\n\n\n\nGitHub Copilot is a for-profit AI product trained with projects that were hosted on GitHub, including many that have licenses that require proper author attribution etc.\nGitHub has a for-profit software services contract with the USA Immigration and Customs Enforcement (ICE)\nArchiving on GitHub is not enough"
+    "text": "More benefits of Git(Hub) for project management\n\n Discuss and plan your project in issues (even just with your future / past self)\n Ask questions, share ideas and discuss with your community via GitHub Discussions\n Propose changes to each other’s projects using pull requests 9\n Create a fork of someone else’s repository and extend their work\n Manage access to your projects with detailed permissions and roles\n Add documentation to your repository or in a separate wiki\n Access to more features and tools for teaching via GitHub Campus Global\n\n\nNote\n\n The dominance of GitHub (a for-profit company owned by Microsoft) is not uncontested (see #GiveUpGitHub)\n A project on GitHub is not a FAIR archiving of scholarly outputs (see previous and following slides)\n\n\n\n\nGitHub Copilot is a for-profit AI product trained with projects that were hosted on GitHub, including many that have licenses that require proper author attribution etc.\nGitHub has a for-profit software services contract with the USA Immigration and Customs Enforcement (ICE)\nArchiving on GitHub is not enough"
   },
   {
     "objectID": "sessions/slides-session-introduction.html#goal",
@@ -501,7 +501,7 @@
     "href": "sessions/slides-session-introduction.html#schedule-1",
     "title": "Session 1: Welcome & Introduction to Version Control",
     "section": "Schedule",
-    "text": "Schedule\n\n\n\n\n\nNo\nTime\nTitle\nContents\nReading\n\n\n\n\n1\n09:00 - 09:45\nIntroduction to Version Control\nLogistics and course adminIntroduction to version controlIntroduction to Git\n Introduction to Version Control\n\n\n2\n09:45 - 10:15\nBasics of the Command Line\nFile systems and navigationBenefits of the command lineBasic command line commands\n Command Line\n\n\n3\n10:15 - 10:30\nSetup & configuration of Git\nSetup & configuration of Git\n Setup, Installation (if needed)\n\n\n4\n10:30 - 11:30\nBasics of Git\nInitializing a Git repositoryPracticing basic Git commandsTracking changes wih GitIgnoring files with .gitignoreGood commit messages\n First steps with Git, Git Essentials\n\n\n5\n11:30 - 12:30\nBranches, Merging, Merge Conflicts\nUnderstanding branches in GitCreating and switching between branchesMerging branchesResolving merge conflicts\n Branches\n\n\n6\n12:30 - 13:30\nLunch Break\nEnjoy your lunch!\n\n\n\n7\n13:30 - 14:30\nIntegration with GitHub / GitLab\nIntroduction to remote repositoriesManaging repositories on GitHub / GitLabPushing and pulling changesCloning a remote repository\n Remotes Intro\n\n\n8\n14:30 - 15:00\nCollaboration on GitHub / GitLab\nForkingCollaboration with GitHub FlowPull / Merge RequestsIssuesProject Management\n GitHub Advanced, GitHub Issues\n\n\n9\n15:30 - 16:00\nSummary & Outlook\nSummary of course contentsOutlook to more related topicsDiscussing open questions"
+    "text": "Schedule\n\n\n\n\n\nNo\nTime\nTitle\nContents\n\n\n\n\n1\n09:30 - 10:00\nIntroduction to Version Control\nLogistics and course adminIntroduction to reproducibilityIntroduction to version controlIntroduction to Git\n\n\n2\n10:00 - 10:45\nBasics of the Command Line\nFile systems and navigationBenefits of the command lineBasic command line commands\n\n\n3\n10:45 - 11:00\nSetup & configuration of Git\nSetup & configuration of Git\n\n\n4\n11:00 - 12:00\nBasics of Git\nInitializing a Git repositoryPracticing basic Git commandsTracking changes wih GitIgnoring files with .gitignoreGood commit messages\n\n\n5\n12:00 - 13:00\nLunch Break\nEnjoy your lunch!\n\n\n6\n13:00 - 14:00\nIntegration with GitHub / GitLab\nIntroduction to remote repositoriesManaging repositories on GitHub / GitLabPushing and pulling changesCloning a remote repository\n\n\n7\n14:00 - 15:00\nVersion Control of Data with DataLad\nVersion control of (large) data with DataLadNesting modular datasets with DataLadEstablishing provenance and reproducibility with DataLad\n\n\n8\n16:00 - 16:30\nSummary & Outlook\nSummary of course contentsOutlook to more related topicsDiscussing open questions"
   },
   {
     "objectID": "sessions/slides-session-introduction.html#prerequisite-basics-of-the-command-line",
@@ -522,7 +522,7 @@
     "href": "sessions/slides-session-introduction.html#footnotes",
     "title": "Session 1: Welcome & Introduction to Version Control",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nThe Turing Way Community (2022), see “Guide on Reproducible Research”\nThe Turing Way Community (2022), see “Guide on Reproducible Research”\nfor example, in Psychology: Crüwell et al. (2023); Hardwicke et al. (2021); Obels et al. (2020); Wicherts et al. (2006)\nsee Baker (2016), Nature\nsee e.g., Poldrack (2019)\n(Source: Wikipedia)\npull requests on GitHub, merge requests on GitLab"
+    "text": "Footnotes\n\n\nThe Turing Way Community (2022), see “Guide on Reproducible Research”\nThe Turing Way Community (2022), see “Guide on Reproducible Research”\nfor example, in Psychology: Crüwell et al. (2023); Hardwicke et al. (2021); Obels et al. (2020); Wicherts et al. (2006)\nsee Baker (2016), Nature\nsee e.g., Poldrack (2019)\n(Source: Wikipedia)\nsee DataLad dataset of 80TB / 15 million files from the Human Connectome Project (see details)\n(Source: Wikipedia)\npull requests on GitHub, merge requests on GitLab"
   },
   {
     "objectID": "sessions/session-lunch.html",
@@ -555,21 +555,21 @@
   {
     "objectID": "sessions/project/project-essentials.html",
     "href": "sessions/project/project-essentials.html",
-    "title": "Track, organize and share your work: An introduction to Git for research",
+    "title": "Version Control with Git & DataLad",
     "section": "",
     "text": "At the end of this session, you should have accomplished the following:\n\nCommit at least three changes in recipes.txt.\nMake at least one commit using git commit --amend.\n\nFor example, add a a new entry without a title first, commit, then add a title and use git commit --amend to add the title change to the same commit.\n\nCreate a .gitignore file.\n\nEveryone: Create a random file that you want to ignore, for example image.jpg.\nAll macOS users: Let your repository ignore .DS_Store.\n\n🚀 Optional: Commit .gitkeep in an otherwise empty directory.\n\nPlease keep the recipes folder! We will continue to use it in the following sessions."
   },
   {
     "objectID": "sessions/project/project-setup.html",
     "href": "sessions/project/project-setup.html",
-    "title": "Track, organize and share your work: An introduction to Git for research",
+    "title": "Version Control with Git & DataLad",
     "section": "",
     "text": "At the end of this session, you should have accomplished the following:\n\nYou set up Git.\nYou configured Git.\n\nPlease keep the recipes folder! We will continue to use it in the following sessions."
   },
   {
     "objectID": "sessions/project/project-basics.html",
     "href": "sessions/project/project-basics.html",
-    "title": "Track, organize and share your work: An introduction to Git for research",
+    "title": "Version Control with Git & DataLad",
     "section": "",
     "text": "At the end of this session, you should have accomplished the following:\n\nYou set up Git.\nYou initialized your recipes folder as a Git repository.\nYou committed your first file to the recipes repository.\n\nPlease keep the recipes folder! We will continue to use it in the following sessions."
   },
@@ -578,7 +578,7 @@
     "href": "sessions/slides-session-command-line.html#schedule",
     "title": "Session 2: Basics of the Command Line",
     "section": "Schedule",
-    "text": "Schedule\n\n\n\n\n\nNo\nTime\nTitle\nContents\nReading\n\n\n\n\n1\n09:00 - 09:45\nIntroduction to Version Control\nLogistics and course adminIntroduction to version controlIntroduction to Git\n Introduction to Version Control\n\n\n2\n09:45 - 10:15\nBasics of the Command Line\nFile systems and navigationBenefits of the command lineBasic command line commands\n Command Line\n\n\n3\n10:15 - 10:30\nSetup & configuration of Git\nSetup & configuration of Git\n Setup, Installation (if needed)\n\n\n4\n10:30 - 11:30\nBasics of Git\nInitializing a Git repositoryPracticing basic Git commandsTracking changes wih GitIgnoring files with .gitignoreGood commit messages\n First steps with Git, Git Essentials\n\n\n5\n11:30 - 12:30\nBranches, Merging, Merge Conflicts\nUnderstanding branches in GitCreating and switching between branchesMerging branchesResolving merge conflicts\n Branches\n\n\n6\n12:30 - 13:30\nLunch Break\nEnjoy your lunch!\n\n\n\n7\n13:30 - 14:30\nIntegration with GitHub / GitLab\nIntroduction to remote repositoriesManaging repositories on GitHub / GitLabPushing and pulling changesCloning a remote repository\n Remotes Intro\n\n\n8\n14:30 - 15:00\nCollaboration on GitHub / GitLab\nForkingCollaboration with GitHub FlowPull / Merge RequestsIssuesProject Management\n GitHub Advanced, GitHub Issues\n\n\n9\n15:30 - 16:00\nSummary & Outlook\nSummary of course contentsOutlook to more related topicsDiscussing open questions"
+    "text": "Schedule\n\n\n\n\n\nNo\nTime\nTitle\nContents\n\n\n\n\n1\n09:30 - 10:00\nIntroduction to Version Control\nLogistics and course adminIntroduction to reproducibilityIntroduction to version controlIntroduction to Git\n\n\n2\n10:00 - 10:45\nBasics of the Command Line\nFile systems and navigationBenefits of the command lineBasic command line commands\n\n\n3\n10:45 - 11:00\nSetup & configuration of Git\nSetup & configuration of Git\n\n\n4\n11:00 - 12:00\nBasics of Git\nInitializing a Git repositoryPracticing basic Git commandsTracking changes wih GitIgnoring files with .gitignoreGood commit messages\n\n\n5\n12:00 - 13:00\nLunch Break\nEnjoy your lunch!\n\n\n6\n13:00 - 14:00\nIntegration with GitHub / GitLab\nIntroduction to remote repositoriesManaging repositories on GitHub / GitLabPushing and pulling changesCloning a remote repository\n\n\n7\n14:00 - 15:00\nVersion Control of Data with DataLad\nVersion control of (large) data with DataLadNesting modular datasets with DataLadEstablishing provenance and reproducibility with DataLad\n\n\n8\n16:00 - 16:30\nSummary & Outlook\nSummary of course contentsOutlook to more related topicsDiscussing open questions"
   },
   {
     "objectID": "sessions/slides-session-command-line.html#course-exercise-building-an-online-book",
@@ -667,7 +667,7 @@
   {
     "objectID": "sessions/tasks/tasks-outlook.html",
     "href": "sessions/tasks/tasks-outlook.html",
-    "title": "Track, organize and share your work: An introduction to Git for research",
+    "title": "Version Control with Git & DataLad",
     "section": "",
     "text": "Reflect on the following discussion questions:\n\nWhat are your experiences with (non-)reproducible research?\nWhat has helped you in the past to make your research reproducible?\nWhat are personal and general hurdles for reproducible research?\nWhat can you do to address them?"
   },
@@ -739,12 +739,26 @@
     "href": "sessions/index.html",
     "title": "Sessions",
     "section": "",
-    "text": "Welcome & Introduction to Version Control\n\n\nSession 01\n\n\n\n\n\n09:00\n\n\n\n\n\n\n\nBasics of the Command Line\n\n\nSession 02\n\n\n\n\n\n09:45\n\n\n\n\n\n\n\nSetup & Configuration of Git\n\n\nSession 03\n\n\n\n\n\n10:15\n\n\n\n\n\n\n\nFirst steps with Git & Git Essentials\n\n\nSession 04\n\n\n\n\n\n10:30\n\n\n\n\n\n\n\nBranches\n\n\nSession 05\n\n\n\n\n\n11:30\n\n\n\n\n\n\n\nLunch Break\n\n\nNon nom nom\n\n\n\n\n\n12:30\n\n\n\n\n\n\n\nIntegration with GitHub / GitLab\n\n\nSession 06\n\n\n\n\n\n13:30\n\n\n\n\n\n\n\nCollaboration on GitHub / GitLab\n\n\nSession 07\n\n\n\n\n\n14:30\n\n\n\n\n\n\n\nSummary & Outlook\n\n\nSession 08\n\n\n\n\n\n15:30\n\n\n\n\n\n\nNo matching items"
+    "text": "These are the course’s main sessions (also see the schedule):\n\n\n\n\n\n\nSession 01\n\n\n\n\n\n09:30\n\n\n\n\n\n\n\n\nSession 02\n\n\n\n\n\n10:00\n\n\n\n\n\n\n\n\nSession 03\n\n\n\n\n\n10:45\n\n\n\n\n\n\n\n\nSession 04\n\n\n\n\n\n11:00\n\n\n\n\n\n\n\n\nNom nom nom nom nom\n\n\n\n\n\n12:00\n\n\n\n\n\n\n\n\nSession 05\n\n\n\n\n\n13:00\n\n\n\n\n\n\n\n\nSession 06\n\n\n\n\n\n14:00\n\n\n\n\n\n\n\n\nSession 07\n\n\n\n\n\n16:00\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "sessions/index.html#main-sessions",
+    "href": "sessions/index.html#main-sessions",
+    "title": "Sessions",
+    "section": "",
+    "text": "These are the course’s main sessions (also see the schedule):\n\n\n\n\n\n\nSession 01\n\n\n\n\n\n09:30\n\n\n\n\n\n\n\n\nSession 02\n\n\n\n\n\n10:00\n\n\n\n\n\n\n\n\nSession 03\n\n\n\n\n\n10:45\n\n\n\n\n\n\n\n\nSession 04\n\n\n\n\n\n11:00\n\n\n\n\n\n\n\n\nNom nom nom nom nom\n\n\n\n\n\n12:00\n\n\n\n\n\n\n\n\nSession 05\n\n\n\n\n\n13:00\n\n\n\n\n\n\n\n\nSession 06\n\n\n\n\n\n14:00\n\n\n\n\n\n\n\n\nSession 07\n\n\n\n\n\n16:00\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "sessions/index.html#bonus-sessions",
+    "href": "sessions/index.html#bonus-sessions",
+    "title": "Sessions",
+    "section": "Bonus sessions",
+    "text": "Bonus sessions\nThese are bonus sessions that you / we can check out on-demand:\n\n\n\n\n\nBranches\n\n\nBonus session\n\n\n\n\n\n\n\n\n\n\nCollaboration on GitHub / GitLab\n\n\nBonus session\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "sessions/recipes/recipes-branches.html",
     "href": "sessions/recipes/recipes-branches.html",
-    "title": "Track, organize and share your work: An introduction to Git for research",
+    "title": "Version Control with Git & DataLad",
     "section": "",
     "text": "At the end of this session, you should have accomplished the following:\n\nYou created a new branch and merged changes to your default branch.\n🚀 Optional: You created and resolved a merge conflict.\n\nPlease keep the recipes folder! We will continue to use it in the following sessions."
   },
@@ -816,28 +830,28 @@
     "href": "acknowledgements.html#website",
     "title": "Acknowledgements & Attribution",
     "section": "Website",
-    "text": "Website\n\nCode\nThis website is made with 🖤 and Quarto.\nThe source code for this website can be found on GitHub .\n\n\nImages\nImages are stored on Nextcloud (UHH Cloud). They can be retrieved using make download-images.\n\n\nClick here to view the full Makefile of this project.\n\n\n\n\nMakefile\n\nIMAGES_URL=https://cloud.uni-hamburg.de/s/pgiNscTPMS8s4mP/download\nIMAGES_ARCHIVE=version-control-course-uni-wuerzburg-2025.zip\nIMAGES_DIR=images/\nCHEATSHEET_URL=https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/cheatsheet.json\n\n.PHONY: all\nall: render\n\n.PHONY: preview\npreview:\n    quarto preview\n\n.PHONY: render\nrender: clean objectives objectives-datalad exercises cheatsheet images\n    quarto render\n\n.PHONY: deploy\ndeploy: clean images objectives objectives-datalad exercises\n    quarto publish gh-pages\n\n.PHONY: images\nimages:\n    curl -L $(IMAGES_URL) -o $(IMAGES_ARCHIVE)\n    unzip -j -o $(IMAGES_ARCHIVE) -d $(IMAGES_DIR)\n    rm -f $(IMAGES_ARCHIVE)\n\n.PHONY: objectives\nobjectives: objectives.txt\n    rm -rf ./objectives\n    mkdir -p objectives\n    wget -P ./objectives -i objectives.txt  \n\n.PHONY: objectives-datalad\nobjectives-datalad:\n    rm -rf ./objectives-datalad\n    mkdir -p objectives-datalad\n    wget -P ./objectives-datalad -i objectives-datalad.txt  \n\n.PHONY: exercises\nexercises: exercises.txt\n    rm -rf ./exercises\n    mkdir -p exercises\n    wget -P ./exercises -i exercises.txt \n\n.PHONY: cheatsheet\ncheatsheet:\n    rm -rf cheatsheet.json\n    wget $(CHEATSHEET_URL)\n\n.PHONY: clean\nclean:\n    rm -rf _site $(IMAGES_DIR)*\n\n\n\nThe illustration on the homepage is an illustration created by Scriberia with The Turing Way community. It is used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.\n\n\nFont\nThis website uses the Atkinson Hyperlegible font. Copyright © 2020, Braille Institute of America, Inc., https://www.brailleinstitute.org/freefont with Reserved Typeface Name Atkinson Hyperlegible Font. Details of the license can be found here.\n\n\nAnalytics\nWe use Plausible for website analytics. Plausible is an “intuitive, lightweight and open source web analytics”, does not use cookies and is fully compliant with GDPR, CCPA and PECR.\n\n\nLicense\nAll contents are licensed under CC BY-SA 4.0, unless indicated otherwise.\n\n\nContact\nDid you spot an error? Is there an issue with the website? Do you have feedback, questions or comments? We would love to hear from you! Open an issue on GitHub or write an email."
+    "text": "Website\n\nCode\nThis website is made with 🖤 and Quarto.\nThe source code for this website can be found on GitHub .\n\n\nImages\nImages are stored on Nextcloud (UHH Cloud). They can be retrieved using make download-images.\n\n\nClick here to view the full Makefile of this project.\n\n\n\n\nMakefile\n\nIMAGES_URL=https://cloud.uni-hamburg.de/s/pgiNscTPMS8s4mP/download\nIMAGES_ARCHIVE=version-control-course-audictive-2025.zip\nIMAGES_DIR=images/\nCHEATSHEET_URL=https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/cheatsheet.json\n\n.PHONY: all\nall: render\n\n.PHONY: preview\npreview:\n    quarto preview\n\n.PHONY: render\nrender: clean objectives objectives-datalad exercises cheatsheet images\n    quarto render\n\n.PHONY: deploy\ndeploy: clean images objectives objectives-datalad exercises\n    quarto publish gh-pages\n\n.PHONY: images\nimages:\n    curl -L $(IMAGES_URL) -o $(IMAGES_ARCHIVE)\n    unzip -j -o $(IMAGES_ARCHIVE) -d $(IMAGES_DIR)\n    rm -f $(IMAGES_ARCHIVE)\n\n.PHONY: objectives\nobjectives: objectives.txt\n    rm -rf ./objectives\n    mkdir -p objectives\n    wget -P ./objectives -i objectives.txt  \n\n.PHONY: objectives-datalad\nobjectives-datalad:\n    rm -rf ./objectives-datalad\n    mkdir -p objectives-datalad\n    wget -P ./objectives-datalad -i objectives-datalad.txt  \n\n.PHONY: exercises\nexercises: exercises.txt\n    rm -rf ./exercises\n    mkdir -p exercises\n    wget -P ./exercises -i exercises.txt \n\n.PHONY: cheatsheet\ncheatsheet:\n    rm -rf cheatsheet.json\n    wget $(CHEATSHEET_URL)\n\n.PHONY: clean\nclean:\n    rm -rf _site $(IMAGES_DIR)*\n\n\n\nThe illustration on the homepage is an illustration created by Scriberia with The Turing Way community. It is used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.\n\n\nFont\nThis website uses the Atkinson Hyperlegible font. Copyright © 2020, Braille Institute of America, Inc., https://www.brailleinstitute.org/freefont with Reserved Typeface Name Atkinson Hyperlegible Font. Details of the license can be found here.\n\n\nAnalytics\nWe use Plausible for website analytics. Plausible is an “intuitive, lightweight and open source web analytics”, does not use cookies and is fully compliant with GDPR, CCPA and PECR.\n\n\nLicense\nAll contents are licensed under CC BY-SA 4.0, unless indicated otherwise.\n\n\nContact\nDid you spot an error? Is there an issue with the website? Do you have feedback, questions or comments? We would love to hear from you! Open an issue on GitHub or write an email."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Track, organize and share your work: An introduction to Git for research",
+    "title": "Track, organize and share your work: Version control of code & data with Git & DataLad",
     "section": "",
-    "text": "Welcome!\nThis is the website for the full-day course “Track, organize and share your work: An introduction to Git for research” at the Julius-Maximilians-Universität Würzburg, Research Training Group 2660: Approach-Avoidance, instructed by Dr. Lennart Wittkuhn.\n\n What? A full-day course on version control with Git\n When? Tuesday, November 4th 2025, 9:00 to 16:00\n Where? Julius-Maximilians-Universität Würzburg, Research Training Group 2660: Approach-Avoidance (Room: 213)\n Who? Researchers at the Julius-Maximilians-Universität Würzburg, Research Training Group 2660: Approach-Avoidance\n\n Code? Find all source code on GitHub!\n Bug? Open an issue or send an email!\n Questions? Open an issue or send an email!\n\n\nThe illustration on this website is created by Scriberia with The Turing Way community. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807"
+    "text": "Welcome!\nThis is the website for the full-day course “Track, organize and share your work: Version control of code & data with Git & DataLad” at the AUDICTIVE Priority Program, instructed by Dr. Lennart Wittkuhn.\n\n What? A course on version control with Git & DataLad\n When? Tuesday, July 8th 2025, 9:30 to 16:30\n Where? Tagungshaus Erbacher Hof, Mainz\n Who? Researchers at the AUDICTIVE Priority Program\n\n Code? Find all source code on GitHub!\n Bug? Open an issue or send an email!\n Questions? Open an issue or send an email!\n\n\nThe illustration on this website is created by Scriberia with The Turing Way community. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807"
   },
   {
     "objectID": "mechanics.html",
     "href": "mechanics.html",
     "title": "Mechanics",
     "section": "",
-    "text": "Date: ?var:project.when-semester\n\n Time: 9:00 to 16:00\n\n Instructor: Dr. Lennart Wittkuhn\n\n Language: English\n\n Venue: Julius-Maximilians-Universität Würzburg, Research Training Group 2660: Approach-Avoidance, Marcusstraße 9-11, 97070 Würzburg (Room: 213)\n\n Registration: The registration period starts on ?var:project.registration-start and ends on ?var:project.registration-end."
+    "text": "Date: ?var:project.when-semester\n\n Time: 9:30 to 16:30\n\n Instructor: Dr. Lennart Wittkuhn\n\n Language: English\n\n Venue: AUDICTIVE Priority Program, Tagungshaus Erbacher Hof, Mainz\n\n Registration: The registration period starts on ?var:project.registration-start and ends on ?var:project.registration-end."
   },
   {
     "objectID": "mechanics.html#overview",
     "href": "mechanics.html#overview",
     "title": "Mechanics",
     "section": "",
-    "text": "Date: ?var:project.when-semester\n\n Time: 9:00 to 16:00\n\n Instructor: Dr. Lennart Wittkuhn\n\n Language: English\n\n Venue: Julius-Maximilians-Universität Würzburg, Research Training Group 2660: Approach-Avoidance, Marcusstraße 9-11, 97070 Würzburg (Room: 213)\n\n Registration: The registration period starts on ?var:project.registration-start and ends on ?var:project.registration-end."
+    "text": "Date: ?var:project.when-semester\n\n Time: 9:30 to 16:30\n\n Instructor: Dr. Lennart Wittkuhn\n\n Language: English\n\n Venue: AUDICTIVE Priority Program, Tagungshaus Erbacher Hof, Mainz\n\n Registration: The registration period starts on ?var:project.registration-start and ends on ?var:project.registration-end."
   },
   {
     "objectID": "mechanics.html#what-will-the-average-seminar-session-look-like",
@@ -914,21 +928,14 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "What? This is the course website for the full-day course “Track, organize and share your work: An introduction to Git for research” at the Julius-Maximilians-Universität Würzburg, Research Training Group 2660: Approach-Avoidance\n When? Tuesday, November 4th 2025, 9:00 to 16:00 (for details, see schedule)\n Where? Julius-Maximilians-Universität Würzburg, Research Training Group 2660: Approach-Avoidance, Marcusstraße 9-11, 97070 Würzburg (Room: 213)\n Who? This course is offered to Researchers at the Julius-Maximilians-Universität Würzburg, Research Training Group 2660: Approach-Avoidance"
+    "text": "What? This is the course website for the full-day course “Track, organize and share your work: Version control of code & data with Git & DataLad” at the AUDICTIVE Priority Program\n When? Tuesday, July 8th 2025, 9:30 to 16:30 (for details, see schedule)\n Where? AUDICTIVE Priority Program, Tagungshaus Erbacher Hof, Mainz\n Who? This course is offered to Researchers at the AUDICTIVE Priority Program"
   },
   {
     "objectID": "about.html#overview",
     "href": "about.html#overview",
     "title": "About",
     "section": "",
-    "text": "What? This is the course website for the full-day course “Track, organize and share your work: An introduction to Git for research” at the Julius-Maximilians-Universität Würzburg, Research Training Group 2660: Approach-Avoidance\n When? Tuesday, November 4th 2025, 9:00 to 16:00 (for details, see schedule)\n Where? Julius-Maximilians-Universität Würzburg, Research Training Group 2660: Approach-Avoidance, Marcusstraße 9-11, 97070 Würzburg (Room: 213)\n Who? This course is offered to Researchers at the Julius-Maximilians-Universität Würzburg, Research Training Group 2660: Approach-Avoidance"
-  },
-  {
-    "objectID": "about.html#description",
-    "href": "about.html#description",
-    "title": "About",
-    "section": "Description",
-    "text": "Description\n\nContent\nIn today’s digital age, the majority of scientific insights in research are gained from the analysis of data using programming code. Although data and code are integral parts of their work, scientists often handle digital objects on their computers in a somewhat chaotic, unreliable, and irreproducible manner. It’s not uncommon to hear researchers wondering, “Which version of my data and code did I use to get this result?” or “I found a bug in my code. Since when was it there?” and “This code used to work! What did I change?”. This not only affects the reproducibility and trustworthiness of science but also frequently leads to frustration, a waste of time, and, at worst, the loss of painstakingly accumulated work. The good news is that scientists can learn about practices and tools from other disciplines, particularly software engineering, that have significantly professionalized collaborative work on digital objects like programming code. At the core of this toolkit is the free and open-source software Git, a so-called version control system that allows tracking and organizing the evolution of digital objects on computers and sharing them via platforms like GitHub. In this hands-on course with practical exercises, participants will learn how to track, organize and share their work using Git.\n\n\nGoals\nThe primary aim of this course is to empower course participants with the skills to efficiently organize projects on their computers using Git and GitHub. Participants will actively engage in hands-on experiences with these tools, exploring both the command-line and Graphical User Interfaces. Proficiency in Git and GitHub not only enhances participants’ effectiveness in conducting research projects by ensuring organized and reproducible workflows but also elevates their employability. The technical skills acquired in this course are increasingly sought after in various work settings, providing course participants with a competitive edge in today’s dynamic job market.\n\n\nMechanics\nGuided by the seminar instructor, participants will engaging in practical hands-on exercises with Git and GitHub while working through a dedicated Git Handbook (https://lennartwittkuhn.com/version-control-book/) that is tuned to the structure of the course and needs of the course participants."
+    "text": "What? This is the course website for the full-day course “Track, organize and share your work: Version control of code & data with Git & DataLad” at the AUDICTIVE Priority Program\n When? Tuesday, July 8th 2025, 9:30 to 16:30 (for details, see schedule)\n Where? AUDICTIVE Priority Program, Tagungshaus Erbacher Hof, Mainz\n Who? This course is offered to Researchers at the AUDICTIVE Priority Program"
   },
   {
     "objectID": "about.html#instructor",
@@ -989,14 +996,14 @@
   {
     "objectID": "sessions/recipes/recipes-basics.html",
     "href": "sessions/recipes/recipes-basics.html",
-    "title": "Track, organize and share your work: An introduction to Git for research",
+    "title": "Version Control with Git & DataLad",
     "section": "",
     "text": "At the end of this session, you should have accomplished the following:\n\nYou set up Git.\nYou initialized your recipes folder as a Git repository.\nYou committed your first recipe to the recipes repository.\n\nPlease keep the recipes folder! We will continue to use it in the following sessions."
   },
   {
     "objectID": "sessions/recipes/recipes-cli.html",
     "href": "sessions/recipes/recipes-cli.html",
-    "title": "Track, organize and share your work: An introduction to Git for research",
+    "title": "Version Control with Git & DataLad",
     "section": "",
     "text": "At the end of this session, you should have accomplished the following:\n\nYou used the command line to create a folder on your computer called recipes.\nYou used the command line to create a file called recipes.txt inside the recipes folder.\n\nPlease keep the recipes folder! We will continue to use it in the following sessions."
   },
@@ -1019,12 +1026,12 @@
     "href": "sessions/session-outlook.html#email",
     "title": "Summary & Outlook",
     "section": "Email",
-    "text": "Email\nDear course participants,\nYou are receiving this email because you took part in the course “Track, organize and share your work: An introduction to Git for research”, which took place on Tuesday, November 4th 2025, 9:00 to 16:00 at the Julius-Maximilians-Universität Würzburg, Research Training Group 2660: Approach-Avoidance. Thank you very much for your participation!\nWith this email, we would kindly ask you for your feedback. Your valuable feedback will help us improve future versions of this course but also other courses on related topics. We have prepared an online survey that should not take much longer than up to 15 minutes to complete.\nThe feedback survey can be accessed here: https://version-control-feedback.formr.org/.\nPlease use the same personal and course codeword as before, which allows us to associate your responses with the specific course that you took part in. As a reminder, the course codeword is -------- (course password will be announced during the course). Thank you very much for your feedback!\nThe course materials will continue to be available on the course website at https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/. We will also continue the development on the “Version Control Book” available at https://lennartwittkuhn.com/version-control-book. Feel free to take a look at it again at any later point of your Git journey.\nIf you have any questions, feel free to contact us directly via email.\nThank you again for your participation and feedback!\nBest wishes,\nLennart Wittkuhn (Instructor) and the organizing team"
+    "text": "Email\nDear course participants,\nYou are receiving this email because you took part in the course “Track, organize and share your work: Version control of code & data with Git & DataLad”, which took place on Tuesday, July 8th 2025, 9:30 to 16:30 at the AUDICTIVE Priority Program. Thank you very much for your participation!\nWith this email, we would kindly ask you for your feedback. Your valuable feedback will help us improve future versions of this course but also other courses on related topics. We have prepared an online survey that should not take much longer than up to 15 minutes to complete.\nThe feedback survey can be accessed here: https://version-control-feedback.formr.org/.\nPlease use the same personal and course codeword as before, which allows us to associate your responses with the specific course that you took part in. As a reminder, the course codeword is -------- (course password will be announced during the course). Thank you very much for your feedback!\nThe course materials will continue to be available on the course website at https://lennartwittkuhn.com/version-control-course-audictive-2025/. We will also continue the development on the “Version Control Book” available at https://lennartwittkuhn.com/version-control-book. Feel free to take a look at it again at any later point of your Git journey.\nIf you have any questions, feel free to contact us directly via email.\nThank you again for your participation and feedback!\nBest wishes,\nLennart Wittkuhn (Instructor) and the organizing team"
   },
   {
     "objectID": "sessions/tasks/tasks-template.html",
     "href": "sessions/tasks/tasks-template.html",
-    "title": "Track, organize and share your work: An introduction to Git for research",
+    "title": "Version Control with Git & DataLad",
     "section": "",
     "text": "In this session, you will work on the following tasks:\n\n Reading: Read the chapter(s) ?meta:chapter in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the recipes project.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
   },
@@ -1199,28 +1206,28 @@
   {
     "objectID": "sessions/project/project-branches.html",
     "href": "sessions/project/project-branches.html",
-    "title": "Track, organize and share your work: An introduction to Git for research",
+    "title": "Version Control with Git & DataLad",
     "section": "",
     "text": "At the end of this session, you should have accomplished the following:\n\nYou created a new branch and merged changes into your default branch (main or master).\nYou created and resolved a merge conflict.\n\nPlease keep the recipes folder! We will continue to use it in the following sessions."
   },
   {
     "objectID": "sessions/project/project-cli.html",
     "href": "sessions/project/project-cli.html",
-    "title": "Track, organize and share your work: An introduction to Git for research",
+    "title": "Version Control with Git & DataLad",
     "section": "",
     "text": "At the end of this session, you should have accomplished the following:\n\nYou used the command line to create a folder on your computer called recipes.\nYou used the command line to create a file called recipes.txt inside the recipes folder.\n\nPlease keep the recipes folder! We will continue to use it in the following sessions."
   },
   {
     "objectID": "sessions/project/project-github-intro.html",
     "href": "sessions/project/project-github-intro.html",
-    "title": "Track, organize and share your work: An introduction to Git for research",
+    "title": "Version Control with Git & DataLad",
     "section": "",
     "text": "At the end of this session, you should have accomplished the following:\n\nYou created a GitHub account.\nYou connected your GitHub account to your local Git using SSH.\nYou created a new private(!) GitHub repository.\nYou uploaded (i.e., “pushed”) the default branch of your recipes repository to GitHub.\n\nCollaboration Option 1/2 (Basic / Advanced):\n\nYou invited a partner from the course as a collaborator to your recipes on GitHub.\nYou collaborated on a shared project by adding and committing changes to your partner’s repository.\n\nCollaboration Option 3 (Alternative):\n\nYou clone your own repository to a different location on your computer.\nStage and commit changes in the repository in this new location.\nPush the changes to GitHub and pull them in the original repository location on your computer.\n\n\nOptional:\n\nYou created a short README.md file in your repository.\n\nPlease keep the recipes folder! We will continue to use it in the following sessions."
   },
   {
     "objectID": "sessions/project/project-github-advanced.html",
     "href": "sessions/project/project-github-advanced.html",
-    "title": "Track, organize and share your work: An introduction to Git for research",
+    "title": "Version Control with Git & DataLad",
     "section": "",
     "text": "At the end of this session, you should have accomplished the following:\n\nYou forked a public / internal recipes repository of another course participant.\nYou opened an Issue in another repository.\nYou created a pull request with changes that “fix” the Issue you opened.\n\nPlease keep the recipes folder! We will continue to use it in the following sessions."
   },
@@ -1283,119 +1290,119 @@
   {
     "objectID": "sessions/exercises/exercise-branches.html",
     "href": "sessions/exercises/exercise-branches.html",
-    "title": "Track, organize and share your work: An introduction to Git for research",
+    "title": "Version Control with Git & DataLad",
     "section": "",
     "text": "1. Create and merge a branch\n\nCreate a new branch called feature.\nSwitch to the new branch.\nAdd a new recipe to your recipes.txt file.\nStage and commit the changes to your recipes.txt file on the feature branch.\nSwitch back to the default branch (main or master).\nMerge the feature branch with your default branch.\nDelete the feature branch.\n\n\n\n2. Create and resolve a merge conflict\n\nDeliberately create a merge conflict by editing the same section of a file on two separate branches and attempting to merge them. An example can be found in the Version Control Book chapter.\nResolve the merge conflict.\nDelete the feature branch afterwards."
   },
   {
     "objectID": "sessions/exercises/exercise-tags-releases.html",
     "href": "sessions/exercises/exercise-tags-releases.html",
-    "title": "Track, organize and share your work: An introduction to Git for research",
+    "title": "Version Control with Git & DataLad",
     "section": "",
     "text": "Create a tag and releases\n\nRead the Tags and Releases chapter\nCreate a tag marking your recipe repository version\nCreate a release of your “finished” repository on GitHub"
   },
   {
     "objectID": "sessions/exercises/exercise-git-basics.html",
     "href": "sessions/exercises/exercise-git-basics.html",
-    "title": "Track, organize and share your work: An introduction to Git for research",
+    "title": "Version Control with Git & DataLad",
     "section": "",
     "text": "Setup\n\nSet your Git username and email address.\nChange the default name of the initial “branch” to main.\n🚀 Optional: Change your default text editor.\n\n\n\nFirst steps with Git\n\nCreate a recipes folder and turn it into a Git repository.\nAdd a short recipe to recipes.txt (any favorite or an intriguing AI-generated one).\nStage and commit your changes to the repository.\n\n\n\nBasic Git workflow\n\nCommit at least three additional changes in recipes.txt.\nCreate a .gitignore file\n\nEveryone: Create a random file that you want to ignore, for example random-file.docx.\nAdd the random file to the .gitignore file, stage and commit your changes.\nAll macOS users: Let your repository ignore .DS_Store.\n\n🚀 Make at least one commit using git commit --amend.\n\nFor example, add a recipe without a title first, commit, then add a title and use git commit --amend to add the title change to the same commit.\n\n🚀 Optional: Commit .gitkeep in an otherwise empty directory\n\nNote: There are several terms in these instructions that might still be unfamiliar to you, for example “repository”, “stage” or “commit”. Don’t worry, you will learn about what these terms mean in the chapters."
   },
   {
     "objectID": "sessions/slides-session-git-collaboration.html#last-session-learning-objectives",
     "href": "sessions/slides-session-git-collaboration.html#last-session-learning-objectives",
-    "title": "Session 7: Collaboration on GitHub / GitLab",
+    "title": "Bonus: Collaboration on GitHub / GitLab",
     "section": "Last session: Learning objectives",
     "text": "Last session: Learning objectives\nAfter the last session, you should now be able to answer the following questions / do the following:\n💡 You can create a remote repository. 💡 You can connect your local Git repository to a remote repository service like GitHub or GitLab. 💡 You can pull and push changes to and from a remote repository. 💡 You can clone a repository from a remote repository."
   },
   {
     "objectID": "sessions/slides-session-git-collaboration.html#last-session-cheatsheet",
     "href": "sessions/slides-session-git-collaboration.html#last-session-cheatsheet",
-    "title": "Session 7: Collaboration on GitHub / GitLab",
+    "title": "Bonus: Collaboration on GitHub / GitLab",
     "section": "Last session: Cheatsheet",
     "text": "Last session: Cheatsheet\n\n\n\n\n\n\n\n\n\nCommand\nDescription\n\n\n\n\ngit remote\nManages remote repositories\n\n\ngit clone\nCreates a local copy of a repository\n\n\ngit pull\nFetches and merges the latest changes from a remote repository into the current branch\n\n\ngit fetch\nUpdates remote tracking branches\n\n\ngit push\nUploads local commits to a remote repository"
   },
   {
     "objectID": "sessions/slides-session-git-collaboration.html#last-session-.quarto-shortcode__-param-data-is-shortcode1-data-valuevar-data-rawvar-.quarto-shortcode__-param-data-is-shortcode1-data-valuecourse.project-data-rawcourse.project-.quarto-shortcode__-data-is-shortcode1-data-raw-var-course.project-project",
     "href": "sessions/slides-session-git-collaboration.html#last-session-.quarto-shortcode__-param-data-is-shortcode1-data-valuevar-data-rawvar-.quarto-shortcode__-param-data-is-shortcode1-data-valuecourse.project-data-rawcourse.project-.quarto-shortcode__-data-is-shortcode1-data-raw-var-course.project-project",
-    "title": "Session 7: Collaboration on GitHub / GitLab",
+    "title": "Bonus: Collaboration on GitHub / GitLab",
     "section": "Last session: recipes project",
     "text": "Last session: recipes project\nAt the end of this session, you should have accomplished the following:\n\nYou created a GitHub account.\nYou connected your GitHub account to your local Git using SSH.\nYou created a new private(!) GitHub repository.\nYou uploaded (i.e., “pushed”) the default branch of your recipes repository to GitHub.\n\nCollaboration Option 1/2 (Basic / Advanced):\n\nYou invited a partner from the course as a collaborator to your recipes on GitHub.\nYou collaborated on a shared project by adding and committing changes to your partner’s repository.\n\nCollaboration Option 3 (Alternative):\n\nYou clone your own repository to a different location on your computer.\nStage and commit changes in the repository in this new location.\nPush the changes to GitHub and pull them in the original repository location on your computer.\n\nOptional:\n\nYou created a short README.md file in your repository.\n\nPlease keep the recipes folder! We will continue to use it in the following sessions."
   },
   {
     "objectID": "sessions/slides-session-git-collaboration.html#this-session-1",
     "href": "sessions/slides-session-git-collaboration.html#this-session-1",
-    "title": "Session 7: Collaboration on GitHub / GitLab",
+    "title": "Bonus: Collaboration on GitHub / GitLab",
     "section": "This session: Collaboration on GitHub / GitLab",
     "text": "This session: Collaboration on GitHub / GitLab\n\n\n\nImage from Techdobz"
   },
   {
     "objectID": "sessions/slides-session-git-collaboration.html#this-session-forking-pull-requests",
     "href": "sessions/slides-session-git-collaboration.html#this-session-forking-pull-requests",
-    "title": "Session 7: Collaboration on GitHub / GitLab",
+    "title": "Bonus: Collaboration on GitHub / GitLab",
     "section": "This session: Forking & Pull Requests",
     "text": "This session: Forking & Pull Requests\n\nLink to Pull Request"
   },
   {
     "objectID": "sessions/slides-session-git-collaboration.html#this-session-issues",
     "href": "sessions/slides-session-git-collaboration.html#this-session-issues",
-    "title": "Session 7: Collaboration on GitHub / GitLab",
+    "title": "Bonus: Collaboration on GitHub / GitLab",
     "section": "This session: Issues",
     "text": "This session: Issues\n\nLink to Issue"
   },
   {
     "objectID": "sessions/slides-session-git-collaboration.html#reading",
     "href": "sessions/slides-session-git-collaboration.html#reading",
-    "title": "Session 7: Collaboration on GitHub / GitLab",
+    "title": "Bonus: Collaboration on GitHub / GitLab",
     "section": "Reading",
     "text": "Reading\n “GitHub - Advanced” and “Issues”"
   },
   {
     "objectID": "sessions/slides-session-git-collaboration.html#learning-objectives",
     "href": "sessions/slides-session-git-collaboration.html#learning-objectives",
-    "title": "Session 7: Collaboration on GitHub / GitLab",
+    "title": "Bonus: Collaboration on GitHub / GitLab",
     "section": "Learning objectives",
     "text": "Learning objectives\nRemotes - Advanced\n💡 You know the purpose and components of a Pull Request. 💡 You know how to collaborate using the popular workflow strategy GitHub flow. 💡 You know the purpose and components of a README file. 💡 You can fork a repository. 💡 You can create a Pull Request from a forked repository. 💡 You can protect your main branch.\nIssues\n💡 You understand the purpose of GitHub Issues. 💡 You can create and manage Issues. 💡 You can reference an Issue in another issue. 💡 You can close an Issue with a commit or pull request."
   },
   {
     "objectID": "sessions/slides-session-git-collaboration.html#cheatsheet",
     "href": "sessions/slides-session-git-collaboration.html#cheatsheet",
-    "title": "Session 7: Collaboration on GitHub / GitLab",
+    "title": "Bonus: Collaboration on GitHub / GitLab",
     "section": "Cheatsheet",
     "text": "Cheatsheet\n\n\n\n\n\n\n\n\n\nCommand\nDescription\n\n\n\n\ngit remote\nManages remote repositories\n\n\ngit clone\nCreates a local copy of a repository\n\n\ngit pull\nFetches and merges the latest changes from a remote repository into the current branch\n\n\ngit fetch\nUpdates remote tracking branches\n\n\ngit push\nUploads local commits to a remote repository"
   },
   {
     "objectID": "sessions/slides-session-git-collaboration.html#github-flow",
     "href": "sessions/slides-session-git-collaboration.html#github-flow",
-    "title": "Session 7: Collaboration on GitHub / GitLab",
+    "title": "Bonus: Collaboration on GitHub / GitLab",
     "section": "GitHub Flow",
     "text": "GitHub Flow\n\n\n\n\nImage from Sebass van Boxel"
   },
   {
     "objectID": "sessions/slides-session-git-collaboration.html#tasks",
     "href": "sessions/slides-session-git-collaboration.html#tasks",
-    "title": "Session 7: Collaboration on GitHub / GitLab",
+    "title": "Bonus: Collaboration on GitHub / GitLab",
     "section": "Tasks",
     "text": "Tasks\nIn this session, you will work on the following tasks:\n\n Reading: Read the chapter(s) “GitHub - Advanced” and “Issues” in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the recipes project.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
   },
   {
     "objectID": "sessions/slides-session-git-collaboration.html#quarto-shortcode__-param-data-is-shortcode1-data-valuevar-data-rawvar-.quarto-shortcode__-param-data-is-shortcode1-data-valuecourse.project-data-rawcourse.project-.quarto-shortcode__-data-is-shortcode1-data-raw-var-course.project-project",
     "href": "sessions/slides-session-git-collaboration.html#quarto-shortcode__-param-data-is-shortcode1-data-valuevar-data-rawvar-.quarto-shortcode__-param-data-is-shortcode1-data-valuecourse.project-data-rawcourse.project-.quarto-shortcode__-data-is-shortcode1-data-raw-var-course.project-project",
-    "title": "Session 7: Collaboration on GitHub / GitLab",
+    "title": "Bonus: Collaboration on GitHub / GitLab",
     "section": "recipes project",
     "text": "recipes project\nAt the end of this session, you should have accomplished the following:\n\nYou forked a public / internal recipes repository of another course participant.\nYou opened an Issue in another repository.\nYou created a pull request with changes that “fix” the Issue you opened.\n\nPlease keep the recipes folder! We will continue to use it in the following sessions."
   },
   {
     "objectID": "sessions/slides-session-git-collaboration.html#exercises",
     "href": "sessions/slides-session-git-collaboration.html#exercises",
-    "title": "Session 7: Collaboration on GitHub / GitLab",
+    "title": "Bonus: Collaboration on GitHub / GitLab",
     "section": "Exercises",
     "text": "Exercises\n\n\n“Public” collaboration with pull requests (using a fork and GitHub Flow)\n\nFind out what forking is.\nFork the project repository of the course instructor or another course participant (ideally, someone who is not your collaborator from the previous exercise).\nCreate an Issue in your new collaborator’s repository, indicating an entry that you think is still missing in their repository.\nRepeat the steps from the exercise on collaboration with remote repositories using the forked repository:\n\nClone the forked repository to a sensible location on your computer.\nCreate a new branch and make one or multiple commits “fixing” the Issue that you opened. If available, follow the contributing guide of your collaborator’s repository.\nPush your changes to the remote repository.\nCreate a pull/merge request with your changes (hint: from the forked to the original repository) and refer to the Issue in your pull/merge request.\n\n\nUse Lennart’s recipes repository. Find out about the contributing guidelines in Lennart’s repo and follow them when creating a new recipe.\n\n\n\nReviewing pull requests\n\nView any pull requests that are created in your recipes repository.\nReview the changes made by the contributor in the pull request.\nIf needed, discuss additional changes with the contributor in the pull request.\nClose the pull request by merging the proposed changes."
   },
   {
     "objectID": "sessions/slides-session-git-collaboration.html#solutions",
     "href": "sessions/slides-session-git-collaboration.html#solutions",
-    "title": "Session 7: Collaboration on GitHub / GitLab",
+    "title": "Bonus: Collaboration on GitHub / GitLab",
     "section": "Solutions",
     "text": "Solutions\n\nForking is a process where you create a copy of someone else’s repository under your own account. It allows you to freely experiment with changes without affecting the original project.\nTo fork the project repository of another course participant: (1) Go to the GitHub repository you want to fork. (2) Click the Fork button at the top-right corner of the repository page. (3) Select your GitHub account to fork the repository.\nCreate an Issue, suggesting a missing entry: (1) Go to the Issues tab of your partner’s repository on GitHub. (2) Click New issue. Provide a title and description for the Issue, suggesting a missing entry. (3) Click Submit new issue.\nClone the forked repository to a sensible location on your computer.\n\n\n\n\nCode\n\ngit clone https://github.com/your-username/forked-repo-name.git /path/to/your/forked/directory\ncd /path/to/your/forked/directory\n\n\n\nCreate a new branch and create one or multiple commits “fixing” the Issue that you opened.\n\n\n\n\nCode\n\ngit checkout -b issue-fix-branch\necho \"New entry\" &gt;&gt; project.txt\ngit add project.txt\ngit commit -m \"Add new entry to fix #1\"\n\n\n\nPush your changes to the remote repository:\n\n\n\n\nCode\n\ngit push origin issue-fix-branch\n\n\n\nCreate a pull request with your changes (from the forked to the original repo) and refer to the issue in your pull request:\n\nGo to your forked repository in your browser.\nClick the Compare & pull request button.\nEnsure that the base repository is the original and the base branch is main.\nProvide a title and description for your pull request.\nRefer to the issue by adding Fixes #issue-number in the description.\nClick Create pull request.\nReview any pull requests in your repository.\n\n\n\n\n\nVersion Control Course"
   },
@@ -1521,252 +1528,252 @@
   {
     "objectID": "sessions/slides-session-git-branches.html#this-session-1",
     "href": "sessions/slides-session-git-branches.html#this-session-1",
-    "title": "Session 5: Branches",
+    "title": "Bonus: Branches",
     "section": "This session: Branches",
     "text": "This session: Branches\n\n\n\n\n\n\nFigure 1: Image from Chapter “Git Branches” of the “The Turing Way handbook to reproducible, ethical and collaborative data science”, used under a Creative Commons Attribution 4.0 License."
   },
   {
     "objectID": "sessions/slides-session-git-branches.html#learning-objectives",
     "href": "sessions/slides-session-git-branches.html#learning-objectives",
-    "title": "Session 5: Branches",
+    "title": "Bonus: Branches",
     "section": "Learning objectives",
     "text": "Learning objectives\n💡 You understand the purpose and benefits of using branches in Git. 💡 You can create and switch between branches. 💡 You can merge branches and resolve merge conflicts. 💡 You can name at least three best practices when working with branches."
   },
   {
     "objectID": "sessions/slides-session-git-branches.html#reading",
     "href": "sessions/slides-session-git-branches.html#reading",
-    "title": "Session 5: Branches",
+    "title": "Bonus: Branches",
     "section": "Reading",
     "text": "Reading\n “Branches”\n\n\nIllustration of branches in a Git repository. Each circle represents a commit. Commits on the Main branch are shown in gray. The branch Feature A (blue circles) was created from the Main branch and later merged again. In-between, another branch Feature A-1 was created from the Feature A branch (green circles) and merged with that branch again before the Feature A branch was eventually merged with the Main branch. The branch Feature B was created but abandoned and not merged with the Main branch."
   },
   {
     "objectID": "sessions/slides-session-git-branches.html#tasks",
     "href": "sessions/slides-session-git-branches.html#tasks",
-    "title": "Session 5: Branches",
+    "title": "Bonus: Branches",
     "section": "Tasks",
     "text": "Tasks\nIn this session, you will work on the following tasks:\n\n Reading: Read the chapter(s) “Branches” in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the recipes project.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
   },
   {
     "objectID": "sessions/slides-session-git-branches.html#quarto-shortcode__-param-data-is-shortcode1-data-valuevar-data-rawvar-.quarto-shortcode__-param-data-is-shortcode1-data-valuecourse.project-data-rawcourse.project-.quarto-shortcode__-data-is-shortcode1-data-raw-var-course.project-project",
     "href": "sessions/slides-session-git-branches.html#quarto-shortcode__-param-data-is-shortcode1-data-valuevar-data-rawvar-.quarto-shortcode__-param-data-is-shortcode1-data-valuecourse.project-data-rawcourse.project-.quarto-shortcode__-data-is-shortcode1-data-raw-var-course.project-project",
-    "title": "Session 5: Branches",
+    "title": "Bonus: Branches",
     "section": "recipes project",
     "text": "recipes project\nAt the end of this session, you should have accomplished the following:\n\nYou created a new branch and merged changes into your default branch (main or master).\nYou created and resolved a merge conflict.\n\nPlease keep the recipes folder! We will continue to use it in the following sessions."
   },
   {
     "objectID": "sessions/slides-session-git-branches.html#cheatsheet",
     "href": "sessions/slides-session-git-branches.html#cheatsheet",
-    "title": "Session 5: Branches",
+    "title": "Bonus: Branches",
     "section": "Cheatsheet",
     "text": "Cheatsheet\n\n\n\n\n\n\n\n\n\nCommand\nDescription\n\n\n\n\ngit branch\nLists / creates and deletes branches\n\n\ngit branch feature\nCreates the feature branch\n\n\ngit branch -d feature\nDeletes the feature branch\n\n\ngit switch\nSwitches between branches\n\n\ngit switch feature\nSwitches to the feature branch\n\n\ngit checkout\nSwitches between branches\n\n\ngit checkout -b feature\nCreates and switches to the feature branch\n\n\ngit merge\nMerges branches\n\n\ngit merge feature\nMerges the feature branch into the current branch\n\n\ngit merge --abort\nAborts a merge\n\n\ngit merge --squash\nSquaches commits on branch into a single commit and merge"
   },
   {
     "objectID": "sessions/slides-session-git-branches.html#exercises",
     "href": "sessions/slides-session-git-branches.html#exercises",
-    "title": "Session 5: Branches",
+    "title": "Bonus: Branches",
     "section": "Exercises",
     "text": "Exercises\nBranches\n\nIf needed, navigate to the project repository using the command line.\nCreate a new branch called feature.\nSwitch to the new branch.\nAdd a new entry to your project text file.\nStage and commit the changes to the project text file on the feature branch.\nView the contents of project text file to verify your changes.\nSwitch back to the default branch (main or master).\nView the contents of the project text file again to confirm that the previous changes do not exist on the default branch.\nMerge the feature branch into your default branch.\nDelete the feature branch.\nView the contents of project text file yet again to confirm that the previous changes have been merged into the default branch."
   },
   {
     "objectID": "sessions/slides-session-git-branches.html#bonus-exercises",
     "href": "sessions/slides-session-git-branches.html#bonus-exercises",
-    "title": "Session 5: Branches",
+    "title": "Bonus: Branches",
     "section": "🚀 Bonus exercises",
     "text": "🚀 Bonus exercises\nCreate and resolve a merge conflict\n\nDeliberately create a merge conflict by editing the same section of a file on two separate branches and attempting to merge them. An example can be found in the branches chapter.\nResolve the merge conflict.\nDelete the merged branch afterwards."
   },
   {
     "objectID": "sessions/slides-session-git-branches.html#solutions-branches",
     "href": "sessions/slides-session-git-branches.html#solutions-branches",
-    "title": "Session 5: Branches",
+    "title": "Bonus: Branches",
     "section": "Solutions: Branches",
     "text": "Solutions: Branches\n\n\n\nCode\n\n#!/bin/bash\n\n1cd recipes\n2git branch feature\n3git switch feature\n4cat &gt;&gt; recipes.txt &lt;&lt;- EOM\n\nPotatoes\n\n1. Wash the potatoes and cut them into evenly sized chunks.\n2. Bring water to the boil in a large saucepan.\n3. Once the water is boiling, add a good pinch of salt.\n3. Add the potatoes.\n4. Cook the potatoes for 15 - 20 minutes or until fork-tender.\n5. Drain the pasta in a colander.\nEOM\n5git add recipes.txt\ngit commit -m \"Add potatoes recipe to recipes.txt\"\n6cat recipes.txt\n7git checkout main\n8cat recipes.txt\n9git merge feature\n10git branch -d feature\n11cat recipes.txt\n\n\n\n1\n\nOptional: Navigate into the project repository using cd (or a similar path).\n\n2\n\nCreate a new branch called feature using git branch feature.\n\n3\n\nSwitch to the new branch using git switch feature. You can also create and switch the branch in one step using git checkout -b feature.\n\n4\n\nAdd a new entry to your project text file file. You can use your regular text editor. Here, we add a new entry from the command line using cat.\n\n5\n\nStage and commit the changes to your project text file using git add and git commit.\n\n6\n\nView the contents of your project text file to verify your changes. Here, we use the cat command again.\n\n7\n\nSwitch back to the default branch (main in this example). Here, we use git checkout main but you can also use git switch main.\n\n8\n\nView the contents of your project text file again to confirm that the previous changes do not exist on the main branch.\n\n9\n\nMerge the changes feature branch into the main branch.\n\n10\n\nDelete the merged feature branch using git branch -d feature.\n\n11\n\nView the contents of your project text file yet again to confirm that the previous changes have been merged into the main branch."
   },
   {
     "objectID": "sessions/slides-session-git-branches.html#solutions-merge-conflict",
     "href": "sessions/slides-session-git-branches.html#solutions-merge-conflict",
-    "title": "Session 5: Branches",
+    "title": "Bonus: Branches",
     "section": "Solutions: Merge Conflict",
     "text": "Solutions: Merge Conflict\n\n\n\nCode\n\n#!/bin/bash\n\n1cd recipes\n2git branch feature\n3git switch feature\n4cat &gt;&gt; recipes.txt &lt;&lt;- EOM\n\nChocolate Cake\n\n1. Preheat the oven to 350°F (175°C).\n2. Mix flour, sugar, cocoa powder, baking powder, and salt in a bowl.\n3. Add eggs, milk, oil, and vanilla extract, and mix well.\n4. Pour the batter into a greased baking pan.\n5. Bake for 30-35 minutes.\n\nEOM\n5git add recipes.txt\ngit commit -m \"Add chocolate cake recipe to recipes.txt\"\n6git checkout main\n7cat &gt;&gt; recipes.txt &lt;&lt;- EOM\n\nVanilla Cake\n\n1. Preheat the oven to 350°F (175°C).\n2. Mix flour, sugar, baking powder, and salt in a bowl.\n3. Add eggs, milk, oil, and vanilla extract, and mix well.\n4. Pour the batter into a greased baking pan. \n5. Bake for 25-30 minutes.\n\nEOM\n\n8git add recipes.txt\ngit commit -m \"Add vanilla cake recipe to recipes.txt\"\n9git merge feature\n10sed -i '' -e '/^&lt;&lt;&lt;&lt;&lt;&lt;&lt; /d' -e '/^=======/d' -e '/^&gt;&gt;&gt;&gt;&gt;&gt;&gt; /d' recipes.txt\n11git add recipes.txt\n12git commit -m \"Resolve merge conflict by adding both chocolate and vanilla cake recipes\"\n13git branch -d feature\n\n\n\n1\n\nNavigate into the recipes repository using cd (or a similar path).\n\n2\n\nCreate a new branch called feature using git branch feature.\n\n3\n\nSwitch to the new branch using git switch feature. You can also create and switch the branch in one step using git checkout -b feature.\n\n4\n\nAdd a new recipe to your recipes.txt file using cat.\n\n5\n\nStage and commit the changes to recipes.txt using git add and git commit.\n\n6\n\nSwitch back to the default branch (main in this example) using git checkout main. You can also use git switch main.\n\n7\n\nMake conflicting changes in the main branch to recipes.txt using cat.\n\n8\n\nStage and commit the conflicting changes to recipes.txt using git add and git commit.\n\n9\n\nAttempt to merge the feature branch with the default branch to create a merge conflict using git merge feature.\n\n10\n\nResolve the merge conflict by editing recipes.txt. You can use a regular text editor to do this. In this example, we remove the conflict markers that Git added to recipes.txt using sed which results in keeping both recipes. This is not a recommended way to resolve merge conflicts and we only do it here to resolve the merge conflict without manual intervention. Merge conflicts usually always require manual resolution by the user.\n\n11\n\nStage the resolved changes to recipes.txt using git add.\n\n12\n\nCommit the resolved changes in recipes.txt with a descriptive commit message using git commit.\n\n13\n\nDelete the merged feature branch using git branch -d feature.\n\n\n\n\n\n\n\nVersion Control Course"
   },
   {
     "objectID": "sessions/slides-session-git-remotes.html#last-session-first-steps-with-git-git-essentials-1",
     "href": "sessions/slides-session-git-remotes.html#last-session-first-steps-with-git-git-essentials-1",
-    "title": "Session 6: Integration with GitHub / GitLab",
+    "title": "Session 5: Integration with GitHub / GitLab",
     "section": "Last session: First steps with Git & Git Essentials",
     "text": "Last session: First steps with Git & Git Essentials\nAfter the last session, you should now be able to answer the following questions / do the following:\n\n\nFirst steps with Git\n💡 You can initialize a Git repository. 💡 You can check the status of a Git repository. 💡 You understand the difference between the staging area and a commit. 💡 You can stage and commit changes. 💡 You understand the difference between a commit message and a description.\n\n\n\nGit essentials\n💡 You know what good commits look like. 💡 You know how to explore the commit history. 💡 You can compare different commits. 💡 You know how to use and create a .gitignore file. 💡 You can discuss which files can (not) be tracked well with Git and why. 💡 You know how to track empty folders in Git repositories."
   },
   {
     "objectID": "sessions/slides-session-git-remotes.html#last-session-cheatsheet",
     "href": "sessions/slides-session-git-remotes.html#last-session-cheatsheet",
-    "title": "Session 6: Integration with GitHub / GitLab",
+    "title": "Session 5: Integration with GitHub / GitLab",
     "section": "Last session: Cheatsheet",
     "text": "Last session: Cheatsheet\nFirst steps with Git\n\n\n\n\n\n\n\n\n\nCommand\nDescription\n\n\n\n\ngit init\nInitializes a folder as a Git repository\n\n\ngit status\nShows Git tracking status of files in the repository\n\n\ngit add\nAdds file(s) to the staging area\n\n\ngit commit\nCommits staged files\n\n\ngit commit -m \"commit message\"\nCommits staged files with a commit message"
   },
   {
     "objectID": "sessions/slides-session-git-remotes.html#last-session-cheatsheet-1",
     "href": "sessions/slides-session-git-remotes.html#last-session-cheatsheet-1",
-    "title": "Session 6: Integration with GitHub / GitLab",
+    "title": "Session 5: Integration with GitHub / GitLab",
     "section": "Last session: Cheatsheet",
     "text": "Last session: Cheatsheet\nGit essentials\n\n\n\n\n\n\n\n\n\nCommand\nDescription\n\n\n\n\ngit log\nViews past commits\n\n\ngit diff\nViews made changes compared to the last commit\n\n\ngit mv\nRenames or moves files and automatically stages the changes"
   },
   {
     "objectID": "sessions/slides-session-git-remotes.html#last-session-.quarto-shortcode__-param-data-is-shortcode1-data-valuevar-data-rawvar-.quarto-shortcode__-param-data-is-shortcode1-data-valuecourse.project-data-rawcourse.project-.quarto-shortcode__-data-is-shortcode1-data-raw-var-course.project-project",
     "href": "sessions/slides-session-git-remotes.html#last-session-.quarto-shortcode__-param-data-is-shortcode1-data-valuevar-data-rawvar-.quarto-shortcode__-param-data-is-shortcode1-data-valuecourse.project-data-rawcourse.project-.quarto-shortcode__-data-is-shortcode1-data-raw-var-course.project-project",
-    "title": "Session 6: Integration with GitHub / GitLab",
+    "title": "Session 5: Integration with GitHub / GitLab",
     "section": "Last session: recipes project",
     "text": "Last session: recipes project\nFirst steps with Git\nAt the end of this session, you should have accomplished the following:\n\nYou set up Git.\nYou initialized your recipes folder as a Git repository.\nYou committed your first file to the recipes repository.\n\nPlease keep the recipes folder! We will continue to use it in the following sessions."
   },
   {
     "objectID": "sessions/slides-session-git-remotes.html#last-session-.quarto-shortcode__-param-data-is-shortcode1-data-valuevar-data-rawvar-.quarto-shortcode__-param-data-is-shortcode1-data-valuecourse.project-data-rawcourse.project-.quarto-shortcode__-data-is-shortcode1-data-raw-var-course.project-project-1",
     "href": "sessions/slides-session-git-remotes.html#last-session-.quarto-shortcode__-param-data-is-shortcode1-data-valuevar-data-rawvar-.quarto-shortcode__-param-data-is-shortcode1-data-valuecourse.project-data-rawcourse.project-.quarto-shortcode__-data-is-shortcode1-data-raw-var-course.project-project-1",
-    "title": "Session 6: Integration with GitHub / GitLab",
+    "title": "Session 5: Integration with GitHub / GitLab",
     "section": "Last session: recipes project",
     "text": "Last session: recipes project\nGit Essentials\nAt the end of this session, you should have accomplished the following:\n\nCommit at least three changes in recipes.txt.\nMake at least one commit using git commit --amend.\n\nFor example, add a a new entry without a title first, commit, then add a title and use git commit --amend to add the title change to the same commit.\n\nCreate a .gitignore file.\n\nEveryone: Create a random file that you want to ignore, for example image.jpg.\nAll macOS users: Let your repository ignore .DS_Store.\n\n🚀 Optional: Commit .gitkeep in an otherwise empty directory.\n\nPlease keep the recipes folder! We will continue to use it in the following sessions."
   },
   {
     "objectID": "sessions/slides-session-git-remotes.html#common-questions-from-last-session",
     "href": "sessions/slides-session-git-remotes.html#common-questions-from-last-session",
-    "title": "Session 6: Integration with GitHub / GitLab",
+    "title": "Session 5: Integration with GitHub / GitLab",
     "section": "Common questions from last session",
     "text": "Common questions from last session\n\n\n “How can I make changes in a text (.txt) file?”\n\nRemember: It’s just a regular text file on your computer.\nOption 1: Use a regular text editor (e.g., TextEdit on macOS, Notepad++ on Windows, or others).\nOption 2: Use vim directly from the command line (see chapter / session on “Setup”).\nOption 3: Use command line commands like echo \"My text\" &gt;&gt; recipes.txt.\n\n\n\n\n “I ran git commit but nothing happened?”\n\nMaybe you forgot to run git add before?\n\n\n\n\n “Remember to cd into your recipes project folder!”\n\nEvery time you open the command line, it starts at a default location (likely your home directory).\nCheck in which folder you are, using pwd (“print working directory”).\nUse cd to move to your recipes project folder before you start running the Git commands."
   },
   {
     "objectID": "sessions/slides-session-git-remotes.html#important-note-git-repository-in-user-folder",
     "href": "sessions/slides-session-git-remotes.html#important-note-git-repository-in-user-folder",
-    "title": "Session 6: Integration with GitHub / GitLab",
+    "title": "Session 5: Integration with GitHub / GitLab",
     "section": "Important note: Git repository in /user folder?",
     "text": "Important note: Git repository in /user folder?\n\n\nPlease make sure that your recipes folder is in a suitable place (for example, in the Desktop, Documents folders or where you keep your course-related files, …) and not in your user directory!\nYou can check your current working directory by running pwd in your recipes folder.\nAlso: Always remember to cd into your repository before you execute Git commands!\nIf your recipes folder is in your user directory, please tell us and we can fix it.\n\n\n\nTip: To prevent ever creating a Git repository inside your user folder, you can use:\n\n\n\n\n\nCode\n\ntouch ~/.git\n\n\n\n\n\nRunning git init in the user directory now results in a (desired) error:\n\n\n\n\nOutput\n\nfatal: invalid gitfile format: /Users/user/.git\n\n\nThanks to Eamon Caddigan for the idea!"
   },
   {
     "objectID": "sessions/slides-session-git-remotes.html#staging-and-committing",
     "href": "sessions/slides-session-git-remotes.html#staging-and-committing",
-    "title": "Session 6: Integration with GitHub / GitLab",
+    "title": "Session 5: Integration with GitHub / GitLab",
     "section": "Staging and Committing",
     "text": "Staging and Committing\n\n\nStaging:\n\nCommand: git add\nPurpose: Preparing and organizing files before they are recorded in the repository’s history.\n\n\nCommitting:\n\nCommand: git commit -m \"commit message\"\nPurpose: Saving the changes in the staged files to the repository’s history, creating a snapshot.\n\n\n\n\n\n\n\n\nSource: git-scm.com\n\n\n\n\n\n\n\n\nSource: Heidi Seibold"
   },
   {
     "objectID": "sessions/slides-session-git-remotes.html#this-session-1",
     "href": "sessions/slides-session-git-remotes.html#this-session-1",
-    "title": "Session 6: Integration with GitHub / GitLab",
+    "title": "Session 5: Integration with GitHub / GitLab",
     "section": "This session: Integration with GitHub / GitLab",
     "text": "This session: Integration with GitHub / GitLab\n\n\n\nImage from Techdobz"
   },
   {
     "objectID": "sessions/slides-session-git-remotes.html#this-session-collaboration-via-git-and-github",
     "href": "sessions/slides-session-git-remotes.html#this-session-collaboration-via-git-and-github",
-    "title": "Session 6: Integration with GitHub / GitLab",
+    "title": "Session 5: Integration with GitHub / GitLab",
     "section": "This session: Collaboration via Git and GitHub",
     "text": "This session: Collaboration via Git and GitHub\n\nLink to Pull Request"
   },
   {
     "objectID": "sessions/slides-session-git-remotes.html#learning-objectives",
     "href": "sessions/slides-session-git-remotes.html#learning-objectives",
-    "title": "Session 6: Integration with GitHub / GitLab",
+    "title": "Session 5: Integration with GitHub / GitLab",
     "section": "Learning objectives",
     "text": "Learning objectives\n💡 You can create a remote repository. 💡 You can connect your local Git repository to a remote repository service like GitHub or GitLab. 💡 You can pull and push changes to and from a remote repository. 💡 You can clone a repository from a remote repository."
   },
   {
     "objectID": "sessions/slides-session-git-remotes.html#reading",
     "href": "sessions/slides-session-git-remotes.html#reading",
-    "title": "Session 6: Integration with GitHub / GitLab",
+    "title": "Session 5: Integration with GitHub / GitLab",
     "section": "Reading",
     "text": "Reading\n “Remotes - Introduction”"
   },
   {
     "objectID": "sessions/slides-session-git-remotes.html#tasks",
     "href": "sessions/slides-session-git-remotes.html#tasks",
-    "title": "Session 6: Integration with GitHub / GitLab",
+    "title": "Session 5: Integration with GitHub / GitLab",
     "section": "Tasks",
     "text": "Tasks\nIn this session, you will work on the following tasks:\n\n Reading: Read the chapter(s) “Remotes - Introduction” in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the recipes project.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
   },
   {
     "objectID": "sessions/slides-session-git-remotes.html#quarto-shortcode__-param-data-is-shortcode1-data-valuevar-data-rawvar-.quarto-shortcode__-param-data-is-shortcode1-data-valuecourse.project-data-rawcourse.project-.quarto-shortcode__-data-is-shortcode1-data-raw-var-course.project-project",
     "href": "sessions/slides-session-git-remotes.html#quarto-shortcode__-param-data-is-shortcode1-data-valuevar-data-rawvar-.quarto-shortcode__-param-data-is-shortcode1-data-valuecourse.project-data-rawcourse.project-.quarto-shortcode__-data-is-shortcode1-data-raw-var-course.project-project",
-    "title": "Session 6: Integration with GitHub / GitLab",
+    "title": "Session 5: Integration with GitHub / GitLab",
     "section": "recipes project",
     "text": "recipes project\nAt the end of this session, you should have accomplished the following:\n\nYou created a GitHub account.\nYou connected your GitHub account to your local Git using SSH.\nYou created a new private(!) GitHub repository.\nYou uploaded (i.e., “pushed”) the default branch of your recipes repository to GitHub.\n\nCollaboration Option 1/2 (Basic / Advanced):\n\nYou invited a partner from the course as a collaborator to your recipes on GitHub.\nYou collaborated on a shared project by adding and committing changes to your partner’s repository.\n\nCollaboration Option 3 (Alternative):\n\nYou clone your own repository to a different location on your computer.\nStage and commit changes in the repository in this new location.\nPush the changes to GitHub and pull them in the original repository location on your computer.\n\nOptional:\n\nYou created a short README.md file in your repository.\n\nPlease keep the recipes folder! We will continue to use it in the following sessions."
   },
   {
     "objectID": "sessions/slides-session-git-remotes.html#cheatsheet",
     "href": "sessions/slides-session-git-remotes.html#cheatsheet",
-    "title": "Session 6: Integration with GitHub / GitLab",
+    "title": "Session 5: Integration with GitHub / GitLab",
     "section": "Cheatsheet",
     "text": "Cheatsheet\n\n\n\n\n\n\n\n\n\nCommand\nDescription\n\n\n\n\ngit remote\nManages remote repositories\n\n\ngit clone\nCreates a local copy of a repository\n\n\ngit pull\nFetches and merges the latest changes from a remote repository into the current branch\n\n\ngit fetch\nUpdates remote tracking branches\n\n\ngit push\nUploads local commits to a remote repository"
   },
   {
     "objectID": "sessions/slides-session-git-remotes.html#exercises-1",
     "href": "sessions/slides-session-git-remotes.html#exercises-1",
-    "title": "Session 6: Integration with GitHub / GitLab",
+    "title": "Session 5: Integration with GitHub / GitLab",
     "section": "Exercises (1)",
     "text": "Exercises (1)\nMandatory for everyone!\nConnect to remote repositories using SSH\n\nGenerate an SSH key.\nCopy the SSH key to your clipboard.\nAdd the SSH key to the remote repository (for example, GitHub or GitLab).\n\nUpload your local repository to a remote repository\n\nCreate an empty repository on the remote repository hosting platform, for example GitHub or GitLab. Make sure to not initialize the repository with any files!\nIf needed, navigate to your project repository using the command line.\nSet the remote URL of your local repository to your remote repository.\nPush the changes on your default branch (main or master) to your remote repository."
   },
   {
     "objectID": "sessions/slides-session-git-remotes.html#exercises-2",
     "href": "sessions/slides-session-git-remotes.html#exercises-2",
-    "title": "Session 6: Integration with GitHub / GitLab",
+    "title": "Session 5: Integration with GitHub / GitLab",
     "section": "Exercises (2)",
     "text": "Exercises (2)\nCollaboration Option 1 (Basic)\nPrivate collaboration on default branch (main or master)\n\nAdd your exercise partner as a collaborator to your project repository on GitHub.\nClone your partner’s repository.\nAdd a new change to your collaborator’s project file (if you are unsure, where to add the entry, ask your collaborator!)\nAdd and commit the changes.\nPush the changes to the remote repository.\nPull your partner’s changes into your repository."
   },
   {
     "objectID": "sessions/slides-session-git-remotes.html#exercises-3",
     "href": "sessions/slides-session-git-remotes.html#exercises-3",
-    "title": "Session 6: Integration with GitHub / GitLab",
+    "title": "Session 5: Integration with GitHub / GitLab",
     "section": "Exercises (3)",
     "text": "Exercises (3)\nCollaboration Option 2 (Advanced)\nPrivate collaboration with pull requests (using GitHub Flow)\n\nAdd your exercise partner as a collaborator to your project repository on GitHub.\nClone your partner’s repository.\nCreate a new branch in your collaborator’s repository.\nAdd a new entry to your collaborator’s project file (e.g., .txt or .qmd (if you are unsure, where to add the entry, ask your collaborator!)\nAdd and commit the changes.\nPush the changes on the new branch to the remote repository.\nCreate a Pull Request (on GitLab: Merge Request).\nReview the Pull Request that your collaborator made in your repository.\n🚀 Optional: Add additional changes on the branch pushed by your collaborator.\nMerge the pull request into your repository."
   },
   {
     "objectID": "sessions/slides-session-git-remotes.html#exercises-4",
     "href": "sessions/slides-session-git-remotes.html#exercises-4",
-    "title": "Session 6: Integration with GitHub / GitLab",
+    "title": "Session 5: Integration with GitHub / GitLab",
     "section": "Exercises (4)",
     "text": "Exercises (4)\nCollaboration Option 3 (Alternative)\nClone and sync your repository\n\nMove to a location on your computer where you want to clone a repository.\nClone your remote repository to a different location on your computer.\nStage and commit changes in the new location (consider using a new branch).\nPush these new changes to GitHub.\nPull the changes to the repository in the original location.\nDelete your newly cloned repository."
   },
   {
     "objectID": "sessions/slides-session-git-remotes.html#bonus-exercises",
     "href": "sessions/slides-session-git-remotes.html#bonus-exercises",
-    "title": "Session 6: Integration with GitHub / GitLab",
+    "title": "Session 5: Integration with GitHub / GitLab",
     "section": "🚀 Bonus exercises",
     "text": "🚀 Bonus exercises\nAdd a README.md\n\nFind the option to create a new file on your remote repository in the browser.\nName the file README.md, add a brief description, and provide a commit message.\n🚀 Optional: Play around with Markdown syntax.\nSave the README.md file to the repository.\nPull the changes to your local repository."
   },
   {
     "objectID": "sessions/slides-session-git-remotes.html#solutions",
     "href": "sessions/slides-session-git-remotes.html#solutions",
-    "title": "Session 6: Integration with GitHub / GitLab",
+    "title": "Session 5: Integration with GitHub / GitLab",
     "section": "Solutions",
     "text": "Solutions\nConnect to remote repositories using SSH\n\n\n\nCode\n\n#!/bin/bash\n\n1ssh-keygen -t ed25519 -C \"your_email@example.com\"\n2cat ~/.ssh/id_ed25519.pub\n3# Copy the SSh key to your account\n\n\n\n1\n\nIn the command line, create a new SSH key. Make sure to change the example email to your email address. Optionally, provide a passphrase.\n\n2\n\nCopy the SSH key to your clipboard. Here, we use cat to print the contents of the SSH key to the command line. Copy the contents displayed in the Terminal to your clipboard.\n\n3\n\nAdd the SSH key to your remote repository account."
   },
   {
     "objectID": "sessions/slides-session-git-remotes.html#solutions-1",
     "href": "sessions/slides-session-git-remotes.html#solutions-1",
-    "title": "Session 6: Integration with GitHub / GitLab",
+    "title": "Session 5: Integration with GitHub / GitLab",
     "section": "Solutions",
     "text": "Solutions\nUpload your local repository to a remote repository\n\n\n\nCode\n\n#!/bin/bash\n\n1# create an empty remote repository\n2cd my-project\n3git remote add origin https://github.com/your-username/your-repo-name.git\n4git push -u origin main\n\n\n\n1\n\nTo create an empty repository on GitHub: (1) Go to GitHub and click the + icon in the upper-right corner, then select New repository. (2) Name your repository. (3) Do not select Initialize this repository with a README. (4) Click Create repository.\n\n2\n\nOptional: Navigate into the project repository using cd (or a similar path).\n\n3\n\nSet the remote URL of the local repository to the repository using git remote add origin &lt;URL&gt;. Remember to use the correct &lt;URL&gt; depending on whether you authentication method (typically SSH or PAT).\n\n4\n\nPush the changes on the default branch (here, main) to the remote repository using git push -u origin main."
   },
   {
     "objectID": "sessions/slides-session-git-remotes.html#solutions-2",
     "href": "sessions/slides-session-git-remotes.html#solutions-2",
-    "title": "Session 6: Integration with GitHub / GitLab",
+    "title": "Session 5: Integration with GitHub / GitLab",
     "section": "Solutions",
     "text": "Solutions\n“Private” collaboration with pull requests (using GitHub Flow)\n\n\n\nCode\n\n#!/bin/bash\n\n1# Add your exercise partner as a collaborator to your recipes repository\n2cd ~\n3git clone https://github.com/partner-username/partner-repo-name.git\n4git checkout -b new-branch-name\n5echo \"New Recipe\" &gt;&gt; recipes.txt\n6git add recipes.txt\ngit commit -m \"Add new recipe to recipes.txt\"\n7git push origin new-branch-name\n8# Create a Pull / Merge Request.\n9# Review the PR your partner made in your repository.\n10# Merge the PR into your repository.\n\n\n\n1\n\nAdd your exercise partner as a collaborator to your recipes repository: (1) Go to your repository on GitHub. (2) Click on Settings. (2) Click on Manage access in the left sidebar. (3) Click Invite a collaborator and enter your partner’s GitHub username.\n\n2\n\nMove to the location on your computer where you would like to clone your partner’s repository into, using cd in the command line. Here, we cd into the user’s home directory (~).\n\n3\n\nClone your partner’s repository using git clone. Make sure that you not cloning into an existing repository.\n\n4\n\nCreate a new branch in your partner’s repository.\n\n5\n\nAdd a recipe to your partner’s recipes.txt file.\n\n6\n\nAdd and commit the changes using a descriptive commit message.\n\n7\n\nPush the changes on the new branch to GitHub.\n\n8\n\nCreate a Pull Request: (1) Go to your partner’s repository on GitHub. (2) Click Compare & pull request for your branch. (3) Provide a title and description, then click Create pull request.\n\n9\n\nReview the PR your partner made in your repository: (19) Go to your repository on GitHub. (2) Click on the Pull requests tab. (3) Click on the PR made by your partner. (4) Review the changes and provide feedback.\n\n10\n\nMerge the PR into your repository: (1) After reviewing, click the green Merge pull request button. (2) Click Confirm merge."
   },
   {
     "objectID": "sessions/slides-session-git-remotes.html#solutions-3",
     "href": "sessions/slides-session-git-remotes.html#solutions-3",
-    "title": "Session 6: Integration with GitHub / GitLab",
+    "title": "Session 5: Integration with GitHub / GitLab",
     "section": "Solutions",
     "text": "Solutions\nAdd a README.md\n\nIn your browser, go to your remote repository (for example, on GitHub), click Add file, and select Create new file.\nName the file README.md. Add a brief description of your project. Provide a descriptive commit message at the bottom.\nPlay around with Markdown syntax\nClick the green Commit new file button to save the README.md file to the repository.\nUse git pull origin main to pull the changes to your local repository."
   },
   {
     "objectID": "sessions/slides-session-git-remotes.html#solutions-4",
     "href": "sessions/slides-session-git-remotes.html#solutions-4",
-    "title": "Session 6: Integration with GitHub / GitLab",
+    "title": "Session 5: Integration with GitHub / GitLab",
     "section": "Solutions",
     "text": "Solutions\nClone and sync your repository\n\n\n\nCode\n\n#!/bin/bash\n\n1cd /new/location/for/repo\n2git clone https://github.com/your-username/your-repo-name.git /new/location/for/repo\n3git checkout -b new-branch\necho \"New Recipe\" &gt;&gt; recipes.txt\ngit add recipes.txt\ngit commit -m \"Add new recipe to recipes.txt\"\n4git push -u origin new-branch\n5cd /original/location/for/repo\ngit fetch\ngit switch new-branch\n6rm -rf /new/location/for/repo\n\n\n\n1\n\nMove to the location on your computer where you would like to clone your own repository into, using cd in the command line.\n\n2\n\nClone your repository from GitHub to a different location on your computer.\n\n3\n\nStage and commit changes in the new location (consider using a new branch).\n\n4\n\nPush the new changes to GitHub.\n\n5\n\nFetch these new changes to the repository in the original location.\n\n6\n\nDelete your newly cloned repository."
   },
   {
     "objectID": "sessions/slides-session-git-remotes.html#cloning",
     "href": "sessions/slides-session-git-remotes.html#cloning",
-    "title": "Session 6: Integration with GitHub / GitLab",
+    "title": "Session 5: Integration with GitHub / GitLab",
     "section": "Cloning",
     "text": "Cloning\n\n\nCloning\n\nRemember to clone a repo in a sensible location (not in your own repository)\nTo rename the cloned repo you can use: git clone &lt;URL&gt; new-folder-name\n\n\n\n\n\nVersion Control Course"
   },

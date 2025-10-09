@@ -13,7 +13,7 @@
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.5.55">
 
-  <title>Track, organize and share your work: An introduction to Git for research – Session 1: Welcome &amp; Introduction to Version Control</title>
+  <title>Version Control with Git &amp; DataLad – Session 1: Welcome &amp; Introduction to Version Control</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -352,9 +352,9 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Session 1: Welcome &amp; Introduction to Version Control</h1>
-  <p class="subtitle"></p><p><strong>Track, organize and share your work: An introduction to Git for research</strong></p>
-<p>Course at Julius-Maximilians-Universität Würzburg, Research Training Group 2660: Approach-Avoidance</p>
-<p><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/"><i class="fa-solid fa-display" aria-label="display"></i> Slides</a> | <a href="https://github.com/lnnrtwttkhn/repro-couse"><i class="fa-brands fa-github" aria-label="github"></i> Source</a></p>
+  <p class="subtitle"></p><p><strong>Track, organize and share your work: Version control of code &amp; data with Git &amp; DataLad</strong></p>
+<p>Course at AUDICTIVE Priority Program</p>
+<p><a href="https://lennartwittkuhn.com/version-control-course-audictive-2025/"><i class="fa-solid fa-display" aria-label="display"></i> Slides</a> | <a href="https://github.com/lnnrtwttkhn/repro-couse"><i class="fa-brands fa-github" aria-label="github"></i> Source</a></p>
 <p><a href="https://creativecommons.org/licenses/by/4.0/"><img data-src="https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg" alt="License: CC BY 4.0"></a> <a href="https://doi.org/10.25592/uhhfdm.14149"><img data-src="https://www.fdr.uni-hamburg.de/badge/DOI/10.25592/uhhfdm.14149.svg" alt="DOI"></a></p><p></p>
 
 <div class="quarto-title-authors">
@@ -368,7 +368,7 @@
 </div>
 </div>
 
-  <p class="date">09:00</p>
+  <p class="date">09:30</p>
 </section><section id="TOC">
 <nav role="doc-toc"> 
 <h2 id="toc-title">Agenda</h2>
@@ -400,13 +400,13 @@
 <div class="fragment">
 <!-- -->
 <h3 id="this-course">This course</h3>
-<p><span class="emoji" data-emoji="computer">💻</span> <strong>Materials:</strong> All materials are available at <a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/">https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/</a></p>
+<p><span class="emoji" data-emoji="computer">💻</span> <strong>Materials:</strong> All materials are available at <a href="https://lennartwittkuhn.com/version-control-course-audictive-2025/">https://lennartwittkuhn.com/version-control-course-audictive-2025/</a></p>
 <p><span class="emoji" data-emoji="package">📦</span> <strong>Software:</strong> Reproducible materials are built with <a href="https://quarto.org/">Quarto</a> and deployed to <a href="https://pages.github.com/">GitHub Pages</a> using <a href="https://github.com/features/actions">GitHub Actions</a></p>
 <!-- 
 :trackball: **DOI:** [10.5281/zenodo.5012476](http://doi.org/10.5281/zenodo.5012476) (generated using GitHub releases + Zenodo, see details [here](https://guides.github.com/activities/citable-code/))
 -->
-<p><i class="fa-brands fa-github" aria-label="github"></i> <strong>Source:</strong> Code is available on GitHub at <a href="https://github.com/lnnrtwttkhn/version-control-course-uni-wuerzburg-2025/">https://github.com/lnnrtwttkhn/version-control-course-uni-wuerzburg-2025/</a></p>
-<p><span class="emoji" data-emoji="pray">🙏</span> <strong>Contact:</strong> I am happy for any feedback or suggestions via <a href="mailto:lennart.wittkuhn@tutanota.com">email</a> or <a href="https://github.com/lnnrtwttkhn/version-control-course-uni-wuerzburg-2025/issues">GitHub issues</a>. Thank you!</p>
+<p><i class="fa-brands fa-github" aria-label="github"></i> <strong>Source:</strong> Code is available on GitHub at <a href="https://github.com/lnnrtwttkhn/version-control-course-audictive-2025/">https://github.com/lnnrtwttkhn/version-control-course-audictive-2025/</a></p>
+<p><span class="emoji" data-emoji="pray">🙏</span> <strong>Contact:</strong> I am happy for any feedback or suggestions via <a href="mailto:lennart.wittkuhn@tutanota.com">email</a> or <a href="https://github.com/lnnrtwttkhn/version-control-course-audictive-2025/issues">GitHub issues</a>. Thank you!</p>
 </div>
 </section>
 <section id="who-are-you" class="slide level2 scrollable">
@@ -430,9 +430,9 @@
 <div class="columns">
 <div class="column" style="width:50%;">
 <ul>
-<li><i class="fa-solid fa-calendar-days" aria-label="calendar-days"></i> <strong>Date:</strong> Tuesday, November 4th 2025</li>
-<li><i class="fa-solid fa-clock" aria-label="clock"></i> <strong>Time:</strong> 9:00 to 16:00</li>
-<li><i class="fa-solid fa-building-columns" aria-label="building-columns"></i> <strong>Room:</strong> Room: 213</li>
+<li><i class="fa-solid fa-calendar-days" aria-label="calendar-days"></i> <strong>Date:</strong> Tuesday, July 8th 2025</li>
+<li><i class="fa-solid fa-clock" aria-label="clock"></i> <strong>Time:</strong> 9:30 to 16:30</li>
+<li><i class="fa-solid fa-building-columns" aria-label="building-columns"></i> <strong>Room:</strong> Tagungshaus Erbacher Hof, Mainz</li>
 </ul>
 </div><div class="column" style="width:50%;">
 <ul>
@@ -477,72 +477,56 @@
 <th style="text-align: left;">Time</th>
 <th style="text-align: left;">Title</th>
 <th style="text-align: left;">Contents</th>
-<th style="text-align: left;">Reading</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">1</td>
-<td style="text-align: left;">09:00 - 09:45</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-introduction">Introduction to Version Control</a></strong></td>
-<td style="text-align: left;">Logistics and course admin<br>Introduction to version control<br>Introduction to Git</td>
-<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html">Introduction to Version Control</a></td>
+<td style="text-align: left;">09:30 - 10:00</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-audictive-2025/sessions/session-introduction">Introduction to Version Control</a></strong></td>
+<td style="text-align: left;">Logistics and course admin<br>Introduction to reproducibility<br>Introduction to version control<br>Introduction to Git</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">2</td>
-<td style="text-align: left;">09:45 - 10:15</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-command-line">Basics of the Command Line</a></strong></td>
+<td style="text-align: left;">10:00 - 10:45</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-audictive-2025/sessions/session-command-line">Basics of the Command Line</a></strong></td>
 <td style="text-align: left;">File systems and navigation<br>Benefits of the command line<br>Basic command line commands</td>
-<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/command-line.html">Command Line</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">3</td>
-<td style="text-align: left;">10:15 - 10:30</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-git-setup">Setup &amp; configuration of Git</a></strong></td>
+<td style="text-align: left;">10:45 - 11:00</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-audictive-2025/sessions/session-git-setup">Setup &amp; configuration of Git</a></strong></td>
 <td style="text-align: left;">Setup &amp; configuration of Git</td>
-<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/setup.html">Setup</a>, <a href="https://lennartwittkuhn.com/version-control-book/chapters/installation.html">Installation</a> (if needed)</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">4</td>
-<td style="text-align: left;">10:30 - 11:30</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-git-basics">Basics of Git</a></strong></td>
+<td style="text-align: left;">11:00 - 12:00</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-audictive-2025/sessions/session-git-basics">Basics of Git</a></strong></td>
 <td style="text-align: left;">Initializing a Git repository<br>Practicing basic Git commands<br>Tracking changes wih Git<br>Ignoring files with <code>.gitignore</code><br>Good commit messages</td>
-<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html">First steps with Git</a>, <a href="https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html">Git Essentials</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">5</td>
-<td style="text-align: left;">11:30 - 12:30</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-git-branches">Branches, Merging, Merge Conflicts</a></strong></td>
-<td style="text-align: left;">Understanding branches in Git<br>Creating and switching between branches<br>Merging branches<br>Resolving merge conflicts</td>
-<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/branches.html">Branches</a></td>
+<td style="text-align: left;">12:00 - 13:00</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-audictive-2025/sessions/session-lunch">Lunch Break</a></strong></td>
+<td style="text-align: left;">Enjoy your lunch!</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">6</td>
-<td style="text-align: left;">12:30 - 13:30</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-lunch">Lunch Break</a></strong></td>
-<td style="text-align: left;">Enjoy your lunch!</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">13:00 - 14:00</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-audictive-2025/sessions/session-git-remotes">Integration with GitHub / GitLab</a></strong></td>
+<td style="text-align: left;">Introduction to remote repositories<br>Managing repositories on GitHub / GitLab<br>Pushing and pulling changes<br>Cloning a remote repository</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">7</td>
-<td style="text-align: left;">13:30 - 14:30</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-git-remotes">Integration with GitHub / GitLab</a></strong></td>
-<td style="text-align: left;">Introduction to remote repositories<br>Managing repositories on GitHub / GitLab<br>Pushing and pulling changes<br>Cloning a remote repository</td>
-<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html">Remotes Intro</a></td>
+<td style="text-align: left;">14:00 - 15:00</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-audictive-2025/sessions/session-datalad">Version Control of Data with DataLad</a></strong></td>
+<td style="text-align: left;">Version control of (large) data with DataLad<br>Nesting modular datasets with DataLad<br>Establishing provenance and reproducibility with DataLad</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">8</td>
-<td style="text-align: left;">14:30 - 15:00</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-git-collaboration">Collaboration on GitHub / GitLab</a></strong></td>
-<td style="text-align: left;">Forking<br>Collaboration with GitHub Flow<br>Pull / Merge Requests<br>Issues<br>Project Management</td>
-<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html">GitHub Advanced</a>, <a href="https://lennartwittkuhn.com/version-control-book/chapters/issues.html">GitHub Issues</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">9</td>
-<td style="text-align: left;">15:30 - 16:00</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-outlook">Summary &amp; Outlook</a></strong></td>
+<td style="text-align: left;">16:00 - 16:30</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-audictive-2025/sessions/session-outlook">Summary &amp; Outlook</a></strong></td>
 <td style="text-align: left;">Summary of course contents<br>Outlook to more related topics<br>Discussing open questions</td>
-<td style="text-align: left;"></td>
 </tr>
 </tbody>
 </table>
@@ -551,8 +535,8 @@
 </section>
 <section id="course-website" class="slide level2">
 <h2>Course website</h2>
-<p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/">https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/</a></p>
-<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/" title="Course Website"></iframe>
+<p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://lennartwittkuhn.com/version-control-course-audictive-2025/">https://lennartwittkuhn.com/version-control-course-audictive-2025/</a></p>
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-course-audictive-2025/" title="Course Website"></iframe>
 <aside class="notes">
 <ul>
 <li>Course website is the main entry point for students before, during and after the course</li>
@@ -576,7 +560,11 @@
 <p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://lennartwittkuhn.com/version-control-book">https://lennartwittkuhn.com/version-control-book</a></p>
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book" title="Version Control Book"></iframe>
 </section>
-
+<section id="datalad-handbook" class="slide level2">
+<h2>DataLad Handbook</h2>
+<p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://handbook.datalad.org/en/latest/">https://handbook.datalad.org/en/latest/</a></p>
+<iframe width="100%" height="80%" src="https://handbook.datalad.org/en/latest/" title="Datalad Handbook"></iframe>
+</section>
 
 <section id="cheatsheets" class="slide level2">
 <h2>Cheatsheets</h2>
@@ -644,8 +632,8 @@
 </div>
 </div></div>
 </section>
-<section id="course-exercise-building-an-online-recipes-book" class="slide level2">
-<h2>Course exercise: Building an online recipes book</h2>
+<section id="course-exercise-git-part-building-an-online-recipes-book" class="slide level2">
+<h2>Course exercise (Git part): Building an online recipes book</h2>
 <p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://lennartwittkuhn.com/recipes/">https://lennartwittkuhn.com/recipes/</a></p>
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/recipes/" title="Course Website"></iframe>
 </section>
@@ -672,13 +660,24 @@
 <h2>Breaks</h2>
 <ul>
 <li>We will have a one-hour lunch break at 13:00.</li>
-<li>Feel free to take short breaks in-between sessions (~ last 5 minutes) when needed.</li>
+<li>Feel free to take short breaks in-between (sessions) when needed.</li>
 </ul>
 </section>
 <section id="learning-objectives" class="slide level2">
 <h2>Learning objectives</h2>
 <p>At the end of this session, you should have achieved the following learning objectives:</p>
+<h3 id="reproducibility">Reproducibility</h3>
+<p><span class="emoji" data-emoji="bulb">💡</span> You know what reproducibility is.<br> <span class="emoji" data-emoji="bulb">💡</span> You can argue why reproducibility is useful for research.<br> <span class="emoji" data-emoji="bulb">💡</span> You can explain the difference between reproducibility and replicability.<br></p>
+<h3 id="version-control">Version Control</h3>
 <p><span class="emoji" data-emoji="bulb">💡</span> You know what version control is.<br> <span class="emoji" data-emoji="bulb">💡</span> You can argue why version control is useful (for research).<br> <span class="emoji" data-emoji="bulb">💡</span> You can name benefits of Git compared to other approaches to version control.<br> <span class="emoji" data-emoji="bulb">💡</span> You can explain the difference between Git and GitHub.<br></p>
+<div class="fragment">
+<!-- -->
+<h4 id="learning-objectives-1">Learning objectives</h4>
+<h4 id="reproducibility-1">Reproducibility</h4>
+<p><span class="emoji" data-emoji="bulb">💡</span> You know what reproducibility is.<br> <span class="emoji" data-emoji="bulb">💡</span> You can argue why reproducibility is useful for research.<br> <span class="emoji" data-emoji="bulb">💡</span> You can explain the difference between reproducibility and replicability.<br></p>
+<h4 id="version-control-1">Version Control</h4>
+<p><span class="emoji" data-emoji="bulb">💡</span> You know what version control is.<br> <span class="emoji" data-emoji="bulb">💡</span> You can argue why version control is useful (for research).<br> <span class="emoji" data-emoji="bulb">💡</span> You can name benefits of Git compared to other approaches to version control.<br> <span class="emoji" data-emoji="bulb">💡</span> You can explain the difference between Git and GitHub.<br></p>
+</div>
 </section></section>
 <section>
 <section id="introduction-to-reproducible-research" class="title-slide slide level1 center" data-number="2">
@@ -864,72 +863,56 @@
 <th style="text-align: left;">Time</th>
 <th style="text-align: left;">Title</th>
 <th style="text-align: left;">Contents</th>
-<th style="text-align: left;">Reading</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">1</td>
-<td style="text-align: left;">09:00 - 09:45</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-introduction">Introduction to Version Control</a></strong></td>
-<td style="text-align: left;">Logistics and course admin<br>Introduction to version control<br>Introduction to Git</td>
-<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html">Introduction to Version Control</a></td>
+<td style="text-align: left;">09:30 - 10:00</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-audictive-2025/sessions/session-introduction">Introduction to Version Control</a></strong></td>
+<td style="text-align: left;">Logistics and course admin<br>Introduction to reproducibility<br>Introduction to version control<br>Introduction to Git</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">2</td>
-<td style="text-align: left;">09:45 - 10:15</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-command-line">Basics of the Command Line</a></strong></td>
+<td style="text-align: left;">10:00 - 10:45</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-audictive-2025/sessions/session-command-line">Basics of the Command Line</a></strong></td>
 <td style="text-align: left;">File systems and navigation<br>Benefits of the command line<br>Basic command line commands</td>
-<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/command-line.html">Command Line</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">3</td>
-<td style="text-align: left;">10:15 - 10:30</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-git-setup">Setup &amp; configuration of Git</a></strong></td>
+<td style="text-align: left;">10:45 - 11:00</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-audictive-2025/sessions/session-git-setup">Setup &amp; configuration of Git</a></strong></td>
 <td style="text-align: left;">Setup &amp; configuration of Git</td>
-<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/setup.html">Setup</a>, <a href="https://lennartwittkuhn.com/version-control-book/chapters/installation.html">Installation</a> (if needed)</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">4</td>
-<td style="text-align: left;">10:30 - 11:30</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-git-basics">Basics of Git</a></strong></td>
+<td style="text-align: left;">11:00 - 12:00</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-audictive-2025/sessions/session-git-basics">Basics of Git</a></strong></td>
 <td style="text-align: left;">Initializing a Git repository<br>Practicing basic Git commands<br>Tracking changes wih Git<br>Ignoring files with <code>.gitignore</code><br>Good commit messages</td>
-<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html">First steps with Git</a>, <a href="https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html">Git Essentials</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">5</td>
-<td style="text-align: left;">11:30 - 12:30</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-git-branches">Branches, Merging, Merge Conflicts</a></strong></td>
-<td style="text-align: left;">Understanding branches in Git<br>Creating and switching between branches<br>Merging branches<br>Resolving merge conflicts</td>
-<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/branches.html">Branches</a></td>
+<td style="text-align: left;">12:00 - 13:00</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-audictive-2025/sessions/session-lunch">Lunch Break</a></strong></td>
+<td style="text-align: left;">Enjoy your lunch!</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">6</td>
-<td style="text-align: left;">12:30 - 13:30</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-lunch">Lunch Break</a></strong></td>
-<td style="text-align: left;">Enjoy your lunch!</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">13:00 - 14:00</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-audictive-2025/sessions/session-git-remotes">Integration with GitHub / GitLab</a></strong></td>
+<td style="text-align: left;">Introduction to remote repositories<br>Managing repositories on GitHub / GitLab<br>Pushing and pulling changes<br>Cloning a remote repository</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">7</td>
-<td style="text-align: left;">13:30 - 14:30</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-git-remotes">Integration with GitHub / GitLab</a></strong></td>
-<td style="text-align: left;">Introduction to remote repositories<br>Managing repositories on GitHub / GitLab<br>Pushing and pulling changes<br>Cloning a remote repository</td>
-<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html">Remotes Intro</a></td>
+<td style="text-align: left;">14:00 - 15:00</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-audictive-2025/sessions/session-datalad">Version Control of Data with DataLad</a></strong></td>
+<td style="text-align: left;">Version control of (large) data with DataLad<br>Nesting modular datasets with DataLad<br>Establishing provenance and reproducibility with DataLad</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">8</td>
-<td style="text-align: left;">14:30 - 15:00</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-git-collaboration">Collaboration on GitHub / GitLab</a></strong></td>
-<td style="text-align: left;">Forking<br>Collaboration with GitHub Flow<br>Pull / Merge Requests<br>Issues<br>Project Management</td>
-<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html">GitHub Advanced</a>, <a href="https://lennartwittkuhn.com/version-control-book/chapters/issues.html">GitHub Issues</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">9</td>
-<td style="text-align: left;">15:30 - 16:00</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-outlook">Summary &amp; Outlook</a></strong></td>
+<td style="text-align: left;">16:00 - 16:30</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-audictive-2025/sessions/session-outlook">Summary &amp; Outlook</a></strong></td>
 <td style="text-align: left;">Summary of course contents<br>Outlook to more related topics<br>Discussing open questions</td>
-<td style="text-align: left;"></td>
 </tr>
 </tbody>
 </table>
@@ -951,8 +934,7 @@
 <ul>
 <li class="fragment">“Only if I saved it before - otherwise, I’d have to draft another brilliant paragraph.”</li>
 <li class="fragment">“I might be able to find it in a cloud backup, like OneDrive or Google Drive.”</li>
-<li class="fragment">“I frequently email it to myself”</li>
-<li class="fragment">“Version control?”</li>
+<li class="fragment">“Version Control?”</li>
 <li class="fragment">“I’d simply revert to the relevant commit.”</li>
 </ul>
 </div>
@@ -1040,9 +1022,10 @@
 </div>
 </div></div>
 </section>
-<section id="what-is-git" class="slide level2">
-<h2>What is Git?</h2>
+<section id="what-are-git-and-datalad" class="slide level2">
+<h2>What are Git and DataLad?</h2>
 <div class="columns">
+<div class="column" style="width:50%;">
 <div class="fragment">
 <div class="quarto-figure quarto-figure-center">
 <figure>
@@ -1055,9 +1038,26 @@
 <li>free, <a href="https://github.com/git">open-source</a> command-line tool</li>
 <li>graphical user interfaces exist, e.g., <a href="https://www.gitkraken.com/">GitKraken</a></li>
 <li>standard tool for most (all?) software developers</li>
+<li>100 million <a href="https://github.com/">GitHub</a> users <a href="#/footnotes" class="footnote-ref" id="fnref6" role="doc-noteref" data-footnote-href="#/fn6" onclick=""><sup>6</sup></a></li>
 </ul>
 </div>
+</div><div class="column" style="width:50%;">
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../images/datalad-logo-full.svg" style="width:50.0%"></p>
+<figcaption><a href="https://www.datalad.org/">datalad.org</a></figcaption>
+</figure>
 </div>
+<ul>
+<li>“Git for (large) data”</li>
+<li>free, <a href="https://github.com/datalad/datalad">open-source</a> command-line tool</li>
+<li>builds on top of <a href="https://git-scm.com/">git</a> and <a href="https://git-annex.branchable.com/">git-annex</a></li>
+<li>allows to version control arbitrarily large datasets <a href="#/footnotes" class="footnote-ref" id="fnref7" role="doc-noteref" data-footnote-href="#/fn7" onclick=""><sup>7</sup></a></li>
+<li>graphical user interface exists: <a href="http://docs.datalad.org/projects/gooey/en/latest/index.html">DataLad Gooey</a></li>
+</ul>
+</div>
+</div></div>
 <aside class="notes">
 <ul>
 <li>Version control is relevant for anyone who wants to track the evolution of digital objects</li>
@@ -1073,7 +1073,7 @@
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
-</section>
+<aside></aside></section>
 <section id="what-is-github" class="slide level2">
 <h2>What is GitHub?</h2>
 <div class="columns">
@@ -1086,12 +1086,12 @@
 </div>
 <ul>
 <li>cloud-based platform for version control using Git</li>
-<li>allows for collaboration on (coding) projects in real time</li>
+<li>allows for collaboration on coding projects in real time</li>
 <li>hosts millions of public and private repositories</li>
 <li>supports both Git command line and GUI tools (e.g., <a href="https://desktop.github.com/">GitHub Desktop</a>)</li>
 <li>enables code sharing, project management, issue tracking, and continuous integration</li>
 <li>used by companies, open-source communities, and individual developers worldwide</li>
-<li>100 million users <a href="#/footnotes" class="footnote-ref" id="fnref6" role="doc-noteref" data-footnote-href="#/fn6" onclick=""><sup>6</sup></a></li>
+<li>100 million users <a href="#/footnotes" class="footnote-ref" id="fnref8" role="doc-noteref" data-footnote-href="#/fn8" onclick=""><sup>8</sup></a></li>
 </ul>
 </div>
 </div>
@@ -1101,7 +1101,7 @@
 <ul>
 <li><i class="fa-solid fa-bug" aria-label="bug"></i> Discuss and plan your project in <a href="https://github.com/features/issues">issues</a> (even just with your future / past self)</li>
 <li><i class="fa-solid fa-comments" aria-label="comments"></i> Ask questions, share ideas and discuss with your community via <a href="https://github.com/features/discussions">GitHub Discussions</a></li>
-<li><i class="fa-solid fa-code-pull-request" aria-label="code-pull-request"></i> Propose changes to each other’s projects using <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests">pull requests</a> <a href="#/footnotes" class="footnote-ref" id="fnref7" role="doc-noteref" data-footnote-href="#/fn7" onclick=""><sup>7</sup></a></li>
+<li><i class="fa-solid fa-code-pull-request" aria-label="code-pull-request"></i> Propose changes to each other’s projects using <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests">pull requests</a> <a href="#/footnotes" class="footnote-ref" id="fnref9" role="doc-noteref" data-footnote-href="#/fn9" onclick=""><sup>9</sup></a></li>
 <li><i class="fa-solid fa-code-fork" aria-label="code-fork"></i> Create a <a href="https://docs.github.com/en/get-started/quickstart/fork-a-repo">fork</a> of someone else’s repository and extend their work</li>
 <li><i class="fa-solid fa-key" aria-label="key"></i> Manage access to your projects with detailed <a href="https://docs.gitlab.com/ee/user/permissions.html">permissions and roles</a></li>
 <li><i class="fa-solid fa-book-medical" aria-label="book-medical"></i> Add documentation to your repository or in a separate <a href="https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis">wiki</a></li>
@@ -1162,72 +1162,56 @@
 <th style="text-align: left;">Time</th>
 <th style="text-align: left;">Title</th>
 <th style="text-align: left;">Contents</th>
-<th style="text-align: left;">Reading</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">1</td>
-<td style="text-align: left;">09:00 - 09:45</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-introduction">Introduction to Version Control</a></strong></td>
-<td style="text-align: left;">Logistics and course admin<br>Introduction to version control<br>Introduction to Git</td>
-<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html">Introduction to Version Control</a></td>
+<td style="text-align: left;">09:30 - 10:00</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-audictive-2025/sessions/session-introduction">Introduction to Version Control</a></strong></td>
+<td style="text-align: left;">Logistics and course admin<br>Introduction to reproducibility<br>Introduction to version control<br>Introduction to Git</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">2</td>
-<td style="text-align: left;">09:45 - 10:15</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-command-line">Basics of the Command Line</a></strong></td>
+<td style="text-align: left;">10:00 - 10:45</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-audictive-2025/sessions/session-command-line">Basics of the Command Line</a></strong></td>
 <td style="text-align: left;">File systems and navigation<br>Benefits of the command line<br>Basic command line commands</td>
-<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/command-line.html">Command Line</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">3</td>
-<td style="text-align: left;">10:15 - 10:30</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-git-setup">Setup &amp; configuration of Git</a></strong></td>
+<td style="text-align: left;">10:45 - 11:00</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-audictive-2025/sessions/session-git-setup">Setup &amp; configuration of Git</a></strong></td>
 <td style="text-align: left;">Setup &amp; configuration of Git</td>
-<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/setup.html">Setup</a>, <a href="https://lennartwittkuhn.com/version-control-book/chapters/installation.html">Installation</a> (if needed)</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">4</td>
-<td style="text-align: left;">10:30 - 11:30</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-git-basics">Basics of Git</a></strong></td>
+<td style="text-align: left;">11:00 - 12:00</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-audictive-2025/sessions/session-git-basics">Basics of Git</a></strong></td>
 <td style="text-align: left;">Initializing a Git repository<br>Practicing basic Git commands<br>Tracking changes wih Git<br>Ignoring files with <code>.gitignore</code><br>Good commit messages</td>
-<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html">First steps with Git</a>, <a href="https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html">Git Essentials</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">5</td>
-<td style="text-align: left;">11:30 - 12:30</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-git-branches">Branches, Merging, Merge Conflicts</a></strong></td>
-<td style="text-align: left;">Understanding branches in Git<br>Creating and switching between branches<br>Merging branches<br>Resolving merge conflicts</td>
-<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/branches.html">Branches</a></td>
+<td style="text-align: left;">12:00 - 13:00</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-audictive-2025/sessions/session-lunch">Lunch Break</a></strong></td>
+<td style="text-align: left;">Enjoy your lunch!</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">6</td>
-<td style="text-align: left;">12:30 - 13:30</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-lunch">Lunch Break</a></strong></td>
-<td style="text-align: left;">Enjoy your lunch!</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">13:00 - 14:00</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-audictive-2025/sessions/session-git-remotes">Integration with GitHub / GitLab</a></strong></td>
+<td style="text-align: left;">Introduction to remote repositories<br>Managing repositories on GitHub / GitLab<br>Pushing and pulling changes<br>Cloning a remote repository</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">7</td>
-<td style="text-align: left;">13:30 - 14:30</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-git-remotes">Integration with GitHub / GitLab</a></strong></td>
-<td style="text-align: left;">Introduction to remote repositories<br>Managing repositories on GitHub / GitLab<br>Pushing and pulling changes<br>Cloning a remote repository</td>
-<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html">Remotes Intro</a></td>
+<td style="text-align: left;">14:00 - 15:00</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-audictive-2025/sessions/session-datalad">Version Control of Data with DataLad</a></strong></td>
+<td style="text-align: left;">Version control of (large) data with DataLad<br>Nesting modular datasets with DataLad<br>Establishing provenance and reproducibility with DataLad</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">8</td>
-<td style="text-align: left;">14:30 - 15:00</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-git-collaboration">Collaboration on GitHub / GitLab</a></strong></td>
-<td style="text-align: left;">Forking<br>Collaboration with GitHub Flow<br>Pull / Merge Requests<br>Issues<br>Project Management</td>
-<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html">GitHub Advanced</a>, <a href="https://lennartwittkuhn.com/version-control-book/chapters/issues.html">GitHub Issues</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">9</td>
-<td style="text-align: left;">15:30 - 16:00</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-outlook">Summary &amp; Outlook</a></strong></td>
+<td style="text-align: left;">16:00 - 16:30</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-audictive-2025/sessions/session-outlook">Summary &amp; Outlook</a></strong></td>
 <td style="text-align: left;">Summary of course contents<br>Outlook to more related topics<br>Discussing open questions</td>
-<td style="text-align: left;"></td>
 </tr>
 </tbody>
 </table>
@@ -1290,7 +1274,9 @@ Wicherts, J. M., Borsboom, D., Kats, J., &amp; Molenaar, D. (2006). The poor ava
 <li id="fn4"><p>see <span class="citation" data-cites="baker2016">Baker (<a href="#/references" role="doc-biblioref" onclick="">2016</a>)</span>, <em>Nature</em></p></li>
 <li id="fn5"><p>see e.g., <span class="citation" data-cites="poldrack2019">Poldrack (<a href="#/references" role="doc-biblioref" onclick="">2019</a>)</span></p></li>
 <li id="fn6"><p>(Source: <a href="https://en.wikipedia.org/wiki/GitHub">Wikipedia</a>)</p></li>
-<li id="fn7"><p><em>pull</em> requests on GitHub, <em>merge</em> requests on GitLab</p></li>
+<li id="fn7"><p>see DataLad dataset of 80TB / 15 million files from the Human Connectome Project (see <a href="https://handbook.datalad.org/en/latest/usecases/HCP_dataset.html#usecase-hcp-dataset">details</a>)</p></li>
+<li id="fn8"><p>(Source: <a href="https://en.wikipedia.org/wiki/GitHub">Wikipedia</a>)</p></li>
+<li id="fn9"><p><em>pull</em> requests on GitHub, <em>merge</em> requests on GitLab</p></li>
 </ol>
 </section>
     </div>
@@ -1632,7 +1618,7 @@ Wicherts, J. M., Borsboom, D., Kats, J., &amp; Molenaar, D. (2006). The poor ava
       }
         var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
         var mailtoRegex = new RegExp(/^mailto:/);
-          var filterRegex = new RegExp("https:\/\/lennartwittkuhn\.com\/version-control-course-uni-wuerzburg-2025\/");
+          var filterRegex = new RegExp("https:\/\/lennartwittkuhn\.com\/version-control-course-audictive-2025\/");
         var isInternal = (href) => {
             return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
         }
