@@ -172,7 +172,7 @@
     "href": "sessions/slides-session-outlook.html#learning-objectives-continued",
     "title": "Session 8: Summary & Outlook",
     "section": "Learning Objectives (continued)",
-    "text": "Learning Objectives (continued)\nFirst steps with Git\n💡 You can initialize a Git repository. 💡 You can check the status of a Git repository. 💡 You understand the difference between the staging area and a commit. 💡 You can stage and commit changes. 💡 You understand the difference between a commit message and a description.\nGit Essentials\n💡 You know how to explore the commit history. 💡 You can compare different commits. 💡 You know how to use and create a .gitignore file. 💡 You can discuss which files can (not) be tracked well with Git and why. 💡 You know how to track empty folders in Git repositories.\nBranches\n💡 You understand the purpose and benefits of using branches in Git. 💡 You can create and switch between branches. 💡 You can merge branches and resolve merge conflicts. 💡 You can name at least three best practices when working with branches."
+    "text": "Learning Objectives (continued)\nFirst steps with Git\n💡 You can initialize a Git repository. 💡 You can check the status of a Git repository. 💡 You understand the difference between the staging area and a commit. 💡 You can stage and commit changes. 💡 You understand the difference between a commit message and a description.\nGit Essentials\n💡 You know what good commits look like. 💡 You know how to explore the commit history. 💡 You can compare different commits. 💡 You know how to use and create a .gitignore file. 💡 You can discuss which files can (not) be tracked well with Git and why. 💡 You know how to track empty folders in Git repositories.\nBranches\n💡 You understand the purpose and benefits of using branches in Git. 💡 You can create and switch between branches. 💡 You can merge branches and resolve merge conflicts. 💡 You can name at least three best practices when working with branches."
   },
   {
     "objectID": "sessions/slides-session-outlook.html#learning-objectives-continued-1",
@@ -445,7 +445,7 @@
     "href": "sessions/slides-session-introduction.html#scenario-1",
     "title": "Session 1: Welcome & Introduction to Version Control",
     "section": "Scenario 1",
-    "text": "Scenario 1\n\nImagine a scenario where you crafted a brilliant paragraph for a manuscript (for example, your paper, thesis, or report), but then accidentally ruined it. How would you retrieve the earlier brilliant version? Is it even possible?\n\n\n\n“Only if I saved it before - otherwise, I’d have to draft another brilliant paragraph.”\n“I might be able to find it in a cloud backup, like OneDrive or Google Drive.”\n“Version Control?”\n“I’d simply revert to the relevant commit.”"
+    "text": "Scenario 1\n\nImagine a scenario where you crafted a brilliant paragraph for a manuscript (for example, your paper, thesis, or report), but then accidentally ruined it. How would you retrieve the earlier brilliant version? Is it even possible?\n\n\n\n“Only if I saved it before - otherwise, I’d have to draft another brilliant paragraph.”\n“I might be able to find it in a cloud backup, like OneDrive or Google Drive.”\n“I frequently email it to myself”\n“Version control?”\n“I’d simply revert to the relevant commit.”"
   },
   {
     "objectID": "sessions/slides-session-introduction.html#scenario-2",
@@ -480,7 +480,7 @@
     "href": "sessions/slides-session-introduction.html#what-is-github",
     "title": "Session 1: Welcome & Introduction to Version Control",
     "section": "What is GitHub?",
-    "text": "What is GitHub?\n\n\n\n\n\ngithub.com\n\n\n\ncloud-based platform for version control using Git\nallows for collaboration on coding projects in real time\nhosts millions of public and private repositories\nsupports both Git command line and GUI tools (e.g., GitHub Desktop)\nenables code sharing, project management, issue tracking, and continuous integration\nused by companies, open-source communities, and individual developers worldwide\n100 million users 6"
+    "text": "What is GitHub?\n\n\n\n\n\ngithub.com\n\n\n\ncloud-based platform for version control using Git\nallows for collaboration on (coding) projects in real time\nhosts millions of public and private repositories\nsupports both Git command line and GUI tools (e.g., GitHub Desktop)\nenables code sharing, project management, issue tracking, and continuous integration\nused by companies, open-source communities, and individual developers worldwide\n100 million users 6"
   },
   {
     "objectID": "sessions/slides-session-introduction.html#more-benefits-of-github-for-project-management",
@@ -1075,7 +1075,7 @@
     "href": "sessions/slides-session-git-basics.html#learning-objectives",
     "title": "Session 4: First steps with Git & Git Essentials",
     "section": "Learning objectives",
-    "text": "Learning objectives\n\n\nFirst steps with Git\n💡 You can initialize a Git repository. 💡 You can check the status of a Git repository. 💡 You understand the difference between the staging area and a commit. 💡 You can stage and commit changes. 💡 You understand the difference between a commit message and a description.\n\n\n\nGit Essentials\n💡 You know how to explore the commit history. 💡 You can compare different commits. 💡 You know how to use and create a .gitignore file. 💡 You can discuss which files can (not) be tracked well with Git and why. 💡 You know how to track empty folders in Git repositories."
+    "text": "Learning objectives\n\n\nFirst steps with Git\n💡 You can initialize a Git repository. 💡 You can check the status of a Git repository. 💡 You understand the difference between the staging area and a commit. 💡 You can stage and commit changes. 💡 You understand the difference between a commit message and a description.\n\n\n\nGit Essentials\n💡 You know what good commits look like. 💡 You know how to explore the commit history. 💡 You can compare different commits. 💡 You know how to use and create a .gitignore file. 💡 You can discuss which files can (not) be tracked well with Git and why. 💡 You know how to track empty folders in Git repositories."
   },
   {
     "objectID": "sessions/slides-session-git-basics.html#reading",
@@ -1418,7 +1418,7 @@
     "href": "sessions/session-git-basics.html#learning-objectives",
     "title": "First steps with Git & Git Essentials",
     "section": "Learning objectives",
-    "text": "Learning objectives\nAt the end of this session, you should have achieved the following learning objectives:\n\nFirst steps with Git\n💡 You can initialize a Git repository. 💡 You can check the status of a Git repository. 💡 You understand the difference between the staging area and a commit. 💡 You can stage and commit changes. 💡 You understand the difference between a commit message and a description.\n\n\nGit Essentials\n💡 You know how to explore the commit history. 💡 You can compare different commits. 💡 You know how to use and create a .gitignore file. 💡 You can discuss which files can (not) be tracked well with Git and why. 💡 You know how to track empty folders in Git repositories."
+    "text": "Learning objectives\nAt the end of this session, you should have achieved the following learning objectives:\n\nFirst steps with Git\n💡 You can initialize a Git repository. 💡 You can check the status of a Git repository. 💡 You understand the difference between the staging area and a commit. 💡 You can stage and commit changes. 💡 You understand the difference between a commit message and a description.\n\n\nGit Essentials\n💡 You know what good commits look like. 💡 You know how to explore the commit history. 💡 You can compare different commits. 💡 You know how to use and create a .gitignore file. 💡 You can discuss which files can (not) be tracked well with Git and why. 💡 You know how to track empty folders in Git repositories."
   },
   {
     "objectID": "sessions/session-git-basics.html#quarto-shortcode__-param-data-is-shortcode1-data-valuevar-data-rawvar-.quarto-shortcode__-param-data-is-shortcode1-data-valuecourse.project-data-rawcourse.project-.quarto-shortcode__-data-is-shortcode1-data-raw-var-course.project-project",
@@ -1593,7 +1593,7 @@
     "href": "sessions/slides-session-git-remotes.html#last-session-first-steps-with-git-git-essentials-1",
     "title": "Session 6: Integration with GitHub / GitLab",
     "section": "Last session: First steps with Git & Git Essentials",
-    "text": "Last session: First steps with Git & Git Essentials\nAfter the last session, you should now be able to answer the following questions / do the following:\n\n\nFirst steps with Git\n💡 You can initialize a Git repository. 💡 You can check the status of a Git repository. 💡 You understand the difference between the staging area and a commit. 💡 You can stage and commit changes. 💡 You understand the difference between a commit message and a description.\n\n\n\nGit essentials\n💡 You know how to explore the commit history. 💡 You can compare different commits. 💡 You know how to use and create a .gitignore file. 💡 You can discuss which files can (not) be tracked well with Git and why. 💡 You know how to track empty folders in Git repositories."
+    "text": "Last session: First steps with Git & Git Essentials\nAfter the last session, you should now be able to answer the following questions / do the following:\n\n\nFirst steps with Git\n💡 You can initialize a Git repository. 💡 You can check the status of a Git repository. 💡 You understand the difference between the staging area and a commit. 💡 You can stage and commit changes. 💡 You understand the difference between a commit message and a description.\n\n\n\nGit essentials\n💡 You know what good commits look like. 💡 You know how to explore the commit history. 💡 You can compare different commits. 💡 You know how to use and create a .gitignore file. 💡 You can discuss which files can (not) be tracked well with Git and why. 💡 You know how to track empty folders in Git repositories."
   },
   {
     "objectID": "sessions/slides-session-git-remotes.html#last-session-cheatsheet",
