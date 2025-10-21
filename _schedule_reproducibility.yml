@@ -1,5 +1,5 @@
 session01:
-  date: "2025-11-04"
+  date: "2025-10-30"
   time: "09:30 - 10:00"
   title: "Welcome & Introduction to Reproducibility"
   contents:
@@ -7,7 +7,7 @@ session01:
     - "Results of course survey"
     - "Introduction to reproducibility"
 session02:
-  date: "2025-11-04"
+  date: "2025-10-30"
   time: "10:00 - 11:00"
   title: "Project Organization & Data Management"
   contents:
@@ -16,7 +16,7 @@ session02:
     - "Modular and FAIR research data"
     - "Tidy rectangular data"
 session03:
-  date: "2025-11-04"
+  date: "2025-10-30"
   time: "11:00 - 12:00"
   title: "Robust & Reusable Code & Literate Programming"
   contents:
@@ -24,7 +24,7 @@ session03:
     - "Defensive programming"
     - "Literate programming with Quarto"
 session04:
-  date: "2025-11-04"
+  date: "2025-10-30"
   time: "12:00 - 13:00"
   title: "Version Control (using Git & DataLad)"
   contents:
@@ -32,27 +32,27 @@ session04:
     - "Git Crashcourse"
     - "Version Control of Data with DataLad"
 sessionLunch:
-  date: "2025-11-04"
+  date: "2025-10-30"
   time: "13:00 - 14:00"
   title: "Lunch Break"
   contents:
     - "Enjoy your lunch!"
 session06:
-  date: "2025-11-04"
+  date: "2025-10-30"
   time: "14:00 - 15:00"
   title: "Stable Software Environments"
   contents:
     - "Robust environments in R and Python"
     - "Introduction to Docker"
 session07:
-  date: "2025-11-04"
+  date: "2025-10-30"
   time: "15:00 - 16:00"
   title: "Collaboration on Digital Research Outputs"
   contents:
     - "Collaboration and project management with Git"
     - "Integration with publication platforms"
 session08:
-  date: "2025-11-04"
+  date: "2025-10-30"
   time: "16:00 - 16:30"
   title: "Summary & Outlook"
   contents:

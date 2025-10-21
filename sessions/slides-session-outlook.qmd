@@ -1,6 +1,6 @@
 ---
 title: "Session 8: Summary & Outlook"
-date: 2025-11-04T15:30:00
+date: 2025-10-30T15:30:00
 format: revealjs
 metadata-files:
   - _slides.yml
