@@ -1,6 +1,7 @@
 ---
 title: "Collaboration on GitHub / GitLab"
-subtitle: "Bonus session"
+subtitle: "Session 07"
+date: 2025-10-30T14:30:00
 metadata-files:
   - _sessions.yml
 about:
@@ -10,7 +11,7 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/version-control-course-audictive-2025/sessions/slides-session-git-collaboration.html
+      href: https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/slides-session-git-collaboration.html
       aria-label: display
     - icon: book
       text: "Chapter: GitHub - Advanced"

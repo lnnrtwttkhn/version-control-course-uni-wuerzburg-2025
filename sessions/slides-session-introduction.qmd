@@ -1,6 +1,6 @@
 ---
 title: "Session 1: Welcome & Introduction to Version Control"
-date: 2025-07-08T09:30:00
+date: 2025-10-30T09:00:00
 format: revealjs
 metadata-files:
   - _slides.yml
@@ -98,7 +98,7 @@ create_schedule()
 <iframe width="100%" height="80%" src="{{< var links.book >}}" title="Version Control Book"></iframe>
 ```
 
-## DataLad Handbook
+## DataLad Handbook {visibility="hidden"}
 
 {{< fa display >}} [{{< var links.datalad-handbook >}}]({{< var links.datalad-handbook >}})
 
@@ -151,7 +151,7 @@ knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = 
 ::::
 :::::
 
-## Course exercise (Git part): Building an online recipes book
+## Course exercise: Building an online recipes book
 
 {{< fa display >}} [{{< var course.project-site >}}]({{< var course.project-site >}})
 
@@ -170,33 +170,13 @@ knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = 
 ## Breaks
 
 - We will have a one-hour lunch break at 13:00.
-- Feel free to take short breaks in-between (sessions) when needed.
+- Feel free to take short breaks in-between sessions (~ last 5 minutes) when needed.
 
 ## Learning objectives
 
 {{< include _learning-objectives-note.qmd >}}
 
-### Reproducibility
-
-{{< include ../objectives-reproducibility/_objectives-intro.qmd >}}
-
-### Version Control
-
 {{< include ../objectives/_objectives-intro.qmd >}}
-
-::: {.fragment}
-
-#### Learning objectives
-
-#### Reproducibility
-
-{{< include ../objectives-reproducibility/_objectives-intro.qmd >}}
-
-#### Version Control
-
-{{< include ../objectives/_objectives-intro.qmd >}}
-
-:::
 
 # Introduction to Reproducible Research
 
@@ -377,7 +357,8 @@ create_schedule()
 
 - "Only if I saved it before - otherwise, I'd have to draft another brilliant paragraph."
 - "I might be able to find it in a cloud backup, like OneDrive or Google Drive."
-- "Version Control?"
+- "I frequently email it to myself"
+- "Version control?"
 - "I'd simply revert to the relevant commit."
 
 :::
@@ -464,10 +445,10 @@ If you're using LibreOffice Writer or Microsoft Word and you accept changes made
 ::::
 :::::
 
-## What are Git and DataLad?
+## What is Git?
 
-::::: {.columns}
-:::: {.column width="50%"}
+:::: {.columns}
+
 ::: {.fragment}
 ![[git-scm.com](https://git-scm.com/)](../images/git-logo-full.svg){fig-align="center" width=50%}
 
@@ -475,26 +456,14 @@ If you're using LibreOffice Writer or Microsoft Word and you accept changes made
 - free, [open-source](https://github.com/git) command-line tool
 - graphical user interfaces exist, e.g., [GitKraken](https://www.gitkraken.com/)
 - standard tool for most (all?) software developers
-- 100 million [GitHub](https://github.com/) users ^[(Source: [Wikipedia](https://en.wikipedia.org/wiki/GitHub))]
-:::
-::::
-:::: {.column width="50%"}
-::: {.fragment}
-![[datalad.org](https://www.datalad.org/)](../images/datalad-logo-full.svg){fig-align="center" width=50%}
 
-- "Git for (large) data"
-- free, [open-source](https://github.com/datalad/datalad) command-line tool
-- builds on top of [git](https://git-scm.com/) and [git-annex](https://git-annex.branchable.com/)
-- allows to version control arbitrarily large datasets ^[see DataLad dataset of 80TB / 15 million files from the Human Connectome Project (see [details](https://handbook.datalad.org/en/latest/usecases/HCP_dataset.html#usecase-hcp-dataset))]
-- graphical user interface exists: [DataLad Gooey](http://docs.datalad.org/projects/gooey/en/latest/index.html)
 :::
+
 ::::
-:::::
 
 ::: {.notes}
 - Version control is relevant for anyone who wants to track the evolution of digital objects
 :::
-
 
 ## What is GitHub?
 
@@ -504,7 +473,7 @@ If you're using LibreOffice Writer or Microsoft Word and you accept changes made
 ![[github.com](https://github.com/)](../images/git-github-integration.png){fig-align="center" width=50%}
 
 - cloud-based platform for version control using Git
-- allows for collaboration on coding projects in real time
+- allows for collaboration on (coding) projects in real time
 - hosts millions of public and private repositories
 - supports both Git command line and GUI tools (e.g., [GitHub Desktop](https://desktop.github.com/))
 - enables code sharing, project management, issue tracking, and continuous integration

@@ -1,32 +1,32 @@
 project:
-  name: "version-control-course-audictive-2025"
+  name: "version-control-course-uni-wuerzburg-2025"
   email: "lennart.wittkuhn@tutanota.com"
   mailto: "mailto:lennart.wittkuhn@tutanota.com"
   homepage: "https://lennartwittkuhn.com/"
-  github: "https://github.com/lnnrtwttkhn/version-control-course-audictive-2025/"
-  issues: "https://github.com/lnnrtwttkhn/version-control-course-audictive-2025/issues"
-  site: "https://lennartwittkuhn.com/version-control-course-audictive-2025/"
+  github: "https://github.com/lnnrtwttkhn/version-control-course-uni-wuerzburg-2025/"
+  issues: "https://github.com/lnnrtwttkhn/version-control-course-uni-wuerzburg-2025/issues"
+  site: "https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/"
   years: "2025"
-  email-secretary: audictive@akustik.rwth-aachen.de
-  mailto-secretary: audictive@akustik.rwth-aachen.de
+  email-secretary: rtg2660@uni-wuerzburg.de
+  mailto-secretary: rtg2660@uni-wuerzburg.de
   # email-mailing-list: version-control-course-ss24.psych@lists.uni-hamburg.de
   # mailto-mailing-list: "mailto:{{< var project.email-mailing-list >}}"
   nextcloud: https://cloud.uni-hamburg.de/s/pgiNscTPMS8s4mP
 course:
-  title: "Track, organize and share your work: Version control of code & data with Git & DataLad"
+  title: "Track, organize and share your work: An introduction to Git for research"
   subtitle: "A {{< var course.duration >}} course at the {{< var course.where-institution >}}, {{< var course.where-city >}}, {{< var course.where-country >}} on {{< var course.when-date >}}"
   instructors: "Dr. Lennart Wittkuhn"
-  when-day: "Tuesday"
-  when-date: "July 8th 2025"
-  when-time: "9:30 to 16:30"
+  when-day: "Thursday"
+  when-date: "October 30th 2025"
+  when-time: "9:00 to 16:00"
   when-long: "{{< var course.when-day >}}, {{< var course.when-date >}}, {{< var course.when-time >}}"
-  where-institution: "AUDICTIVE Priority Program"
-  where-city: "Mainz"
+  where-institution: "Julius-Maximilians-Universität Würzburg, Research Training Group 2660: Approach-Avoidance"
+  where-city: "Würzburg"
   where-country: "Germany"
-  where-address: "Tagungshaus Erbacher Hof, Mainz"
-  where-room: "Tagungshaus Erbacher Hof, Mainz"
-  where-long: "{{< var course.where-institution >}}, {{< var course.where-address >}}"
-  where-short: "{{< var course.where-room >}}"
+  where-address: "Röntgenring 10, 97070 Würzburg"
+  where-room: "Room: 202"
+  where-long: "{{< var course.where-institution >}}, {{< var course.where-address >}} ({{< var course.where-room >}})"
+  where-short: "{{< var course.where-institution >}} ({{< var course.where-room >}})"
   target-group: "Researchers at the {{< var course.where-institution >}}"
   # tag: "PsyM14-PsyWB-K01"
   duration: "full-day"

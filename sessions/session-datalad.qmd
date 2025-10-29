@@ -1,7 +1,7 @@
 ---
 title: "Version Control of Data with DataLad"
 subtitle: "Session 06"
-date: 2025-07-08T14:00:00
+date: 2025-10-30T14:00:00
 metadata-files:
   - _sessions.yml
 about:

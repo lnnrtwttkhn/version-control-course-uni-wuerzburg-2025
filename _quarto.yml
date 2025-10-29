@@ -10,10 +10,10 @@ project:
     navigate: true
 
 website:
-  title: "Version Control with Git & DataLad"
+  title: "Track, organize and share your work: An introduction to Git for research"
   favicon: images/git-logo.png
-  site-url: "https://lennartwittkuhn.com/version-control-course-audictive-2025/"
-  repo-url: "https://github.com/lnnrtwttkhn/version-control-course-audictive-2025/"
+  site-url: "https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/"
+  repo-url: "https://github.com/lnnrtwttkhn/version-control-course-uni-wuerzburg-2025/"
   open-graph: false
   navbar:
     background: light
@@ -47,6 +47,12 @@ website:
       - icon: github
         aria-label: GitHub
         href: "{{< var project.github >}}"
+  announcement: 
+    content: "**New date and location**: The workshop was shifted to Thursday, 30th Oct 2025, 9:00 to 16:00 at Röntgenring 10, Room 202!"
+    dismissable: true
+    icon: megaphone
+    position: above-navbar
+    type: dark
 
   page-footer:
     background: light

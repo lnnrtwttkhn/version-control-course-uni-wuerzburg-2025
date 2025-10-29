@@ -1,7 +1,7 @@
 ---
 title: "Integration with GitHub / GitLab"
-subtitle: "Session 05"
-date: 2025-07-08T13:00:00
+subtitle: "Session 06"
+date: 2025-10-30T13:30:00
 metadata-files:
   - _sessions.yml
 about:
@@ -11,7 +11,7 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/version-control-course-audictive-2025/sessions/slides-session-git-remotes.html
+      href: https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/slides-session-git-remotes.html
       aria-label: display
     - icon: book
       text: "Chapter: Remotes - Introduction"
