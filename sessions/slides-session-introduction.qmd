@@ -172,82 +172,13 @@ knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = 
 - We will have a one-hour lunch break at 13:00.
 - Feel free to take short breaks in-between sessions (~ last 5 minutes) when needed.
 
+# Introduction to Version Control
+
 ## Learning objectives
 
 {{< include _learning-objectives-note.qmd >}}
 
 {{< include ../objectives/_objectives-intro.qmd >}}
-
-# Introduction to Reproducible Research
-
-## Definition of reproducibility
-
-::::: {.columns}
-:::: {.column width="50%"}
-::: {.fragment}
-
-### Research is reproducible ...
-
-*"... when the **same analysis** steps performed on the **same dataset** consistently produce the **same answer**."* ^[@turingway2022, see ["Guide on Reproducible Research"](https://the-turing-way.netlify.app/reproducible-research/overview/overview-definitions)]
-
-![by [Scriberia]({{< var links.scriberia >}}) for @turingway2022 ([Link](https://zenodo.org/record/3678226/), [CC BY
-4.0]({{< var links.ccby40 >}}))](../images/turing-way-reproducibility.png)
-:::
-::::
-:::: {.column width="50%"}
-::: {.fragment}
-![by [Scriberia]({{< var links.scriberia >}}) for @turingway2022 ([Link](https://zenodo.org/record/3678226/), [CC BY
-4.0]({{< var links.ccby40 >}}))](../images/reproducible-matrix.jpg)
-:::
-::: {.fragment}
-- In short: Someone else can run your analysis *on their computer* and gets the same results
-- Reproducibility as a minimal requirement for research?
-- This course: Focus on **computational reproducibility**
-:::
-::::
-:::::
-
-## Current state of reproducibility in (psychological) research
-
-::::: {.columns}
-:::: {.column width="50%"}
-::: {.fragment}
-### @artner2021
-
-- Analyzed 46 articles from three APA journals in 2012.
-- Extracted 232 statistical claims from these papers.
-- Successfully reproduced 163 statistical results (70%).
-- Focus: Reproducibility of individual statistical claims.
-:::
-::: {.fragment}
-### @hardwicke2021
-
-- Analyzed 25 articles published in *Psychological Science* (2014–2015) with Open Data Badges.
-- 15 articles (60%) were fully reproducible.
-- 9 out of these 15 (60%) were reproducible without author involvement.
-- Focus: Study-level reproducibility.
-:::
-::::
-:::: {.column width="50%"}
-::: {.fragment}
-### @crüwell2023
-
-- Investigated 14 articles from a more recent issue of *Psychological Science*.
-- Only 1 out of 14 articles was exactly reproducible.
-- 3 additional articles were essentially reproducible with minor deviations.
-- All articles had Open Data Badges.
-:::
-::: {.fragment}
-
-### @obels2020
-
-- Analyzed 62 registered reports in Psychology (2014-18).
-- 36 reports (58%) shared both data and code.
-- Of those, 21 (58%) were found to be reproducible.
-- Focus: Impact of open science practices on reproducibility.
-:::
-::::
-:::::
 
 ## The issue of computational reproducibility in science
 
@@ -303,50 +234,6 @@ We need a **professional toolkit** for digital research!
 - natural selection: as a researcher, what's good for your career is not necessarily good for science (how to get funding, how to get published, how to get cited)
 - journals are interested in selling us back our data, not improving the quality of science
 :::
-
-## What about Open Science?
-
-Open science is an umbrella term for **activities that aim to promote open approaches to science and research**.
-
-![by Robin Champieux ([CC BY
-4.0]({{< var links.ccby40 >}}))](../images/open-science-umbrella.jpg){.nostretch fig-align="center" width="50%"}
-
-
-::: {.fragment}
-- Note: Research can be reproducible but not open
-- This course: Focus on **better transparency and more effective collaboration through version control**
-:::
-
-## Two main challenges for reproducible scientific workflows  {visibility="hidden"}
-
-::::: {.columns}
-:::: {.column width="50%"}
-::: {.fragment}
-### Version Control
-![[&copy; Jorge Cham (phdcomics.com)](http://phdcomics.com/comics/archive/phd052810s.gif)](../images/phd-git-original.png)
-:::
-::::
-:::: {.column width="50%"}
-::: {.fragment}
-### Computational Environments
-![](../images/docker-meme.png){width="70%"}
-:::
-::::
-:::::
-
-## What can we do?
-
-::: {.fragment}
-```{r}
-#| eval: true
-#| echo: false
-#| message: false
-#| warning: false
-create_schedule()
-```
-:::
-
-# Introduction to Version Control
 
 ## Scenario 1
 
@@ -537,6 +424,119 @@ create_schedule()
 ## Prerequisite: Basics of the command line
 
 ![Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Linux_command-line._Bash._GNOME_Terminal._screenshot.png) (free license)](../images/command-line.png)
+
+# Introduction to Reproducible Research
+
+## Definition of reproducibility
+
+::::: {.columns}
+:::: {.column width="50%"}
+::: {.fragment}
+
+### Research is reproducible ...
+
+*"... when the **same analysis** steps performed on the **same dataset** consistently produce the **same answer**."* ^[@turingway2022, see ["Guide on Reproducible Research"](https://the-turing-way.netlify.app/reproducible-research/overview/overview-definitions)]
+
+![by [Scriberia]({{< var links.scriberia >}}) for @turingway2022 ([Link](https://zenodo.org/record/3678226/), [CC BY
+4.0]({{< var links.ccby40 >}}))](../images/turing-way-reproducibility.png)
+:::
+::::
+:::: {.column width="50%"}
+::: {.fragment}
+![by [Scriberia]({{< var links.scriberia >}}) for @turingway2022 ([Link](https://zenodo.org/record/3678226/), [CC BY
+4.0]({{< var links.ccby40 >}}))](../images/reproducible-matrix.jpg)
+:::
+::: {.fragment}
+- In short: Someone else can run your analysis *on their computer* and gets the same results
+- Reproducibility as a minimal requirement for research?
+- This course: Focus on **computational reproducibility**
+:::
+::::
+:::::
+
+## Current state of reproducibility in (psychological) research
+
+::::: {.columns}
+:::: {.column width="50%"}
+::: {.fragment}
+### @artner2021
+
+- Analyzed 46 articles from three APA journals in 2012.
+- Extracted 232 statistical claims from these papers.
+- Successfully reproduced 163 statistical results (70%).
+- Focus: Reproducibility of individual statistical claims.
+:::
+::: {.fragment}
+### @hardwicke2021
+
+- Analyzed 25 articles published in *Psychological Science* (2014–2015) with Open Data Badges.
+- 15 articles (60%) were fully reproducible.
+- 9 out of these 15 (60%) were reproducible without author involvement.
+- Focus: Study-level reproducibility.
+:::
+::::
+:::: {.column width="50%"}
+::: {.fragment}
+### @crüwell2023
+
+- Investigated 14 articles from a more recent issue of *Psychological Science*.
+- Only 1 out of 14 articles was exactly reproducible.
+- 3 additional articles were essentially reproducible with minor deviations.
+- All articles had Open Data Badges.
+:::
+::: {.fragment}
+
+### @obels2020
+
+- Analyzed 62 registered reports in Psychology (2014-18).
+- 36 reports (58%) shared both data and code.
+- Of those, 21 (58%) were found to be reproducible.
+- Focus: Impact of open science practices on reproducibility.
+:::
+::::
+:::::
+
+## What about Open Science?
+
+Open science is an umbrella term for **activities that aim to promote open approaches to science and research**.
+
+![by Robin Champieux ([CC BY
+4.0]({{< var links.ccby40 >}}))](../images/open-science-umbrella.jpg){.nostretch fig-align="center" width="50%"}
+
+
+::: {.fragment}
+- Note: Research can be reproducible but not open
+- This course: Focus on **better transparency and more effective collaboration through version control**
+:::
+
+## Two main challenges for reproducible scientific workflows  {visibility="hidden"}
+
+::::: {.columns}
+:::: {.column width="50%"}
+::: {.fragment}
+### Version Control
+![[&copy; Jorge Cham (phdcomics.com)](http://phdcomics.com/comics/archive/phd052810s.gif)](../images/phd-git-original.png)
+:::
+::::
+:::: {.column width="50%"}
+::: {.fragment}
+### Computational Environments
+![](../images/docker-meme.png){width="70%"}
+:::
+::::
+:::::
+
+## What can we do?
+
+::: {.fragment}
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+create_schedule()
+```
+:::
 
 ## References
 
