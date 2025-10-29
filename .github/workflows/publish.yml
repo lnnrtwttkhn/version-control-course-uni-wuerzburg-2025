@@ -3,8 +3,6 @@ on:
   push:
     branches:
       - main
-      - draft
-      - uni-wuerzburg-2025
 
 name: Quarto Publish
 
