@@ -82,7 +82,7 @@ session-git-remotes:
   #   - "[GitHub Quiz](https://version-control-github.formr.org)"
 session-git-collaboration:
   date: "2025-10-30"
-  time: "14:30 - 15:00"
+  time: "14:30 - 15:30"
   title: "Collaboration on GitHub / GitLab"
   contents:
     - "Forking"
