@@ -47,12 +47,6 @@ website:
       - icon: github
         aria-label: GitHub
         href: "{{< var project.github >}}"
-  announcement: 
-    content: "**New date and location**: The workshop was shifted to Thursday, 30th Oct 2025, 9:00 to 16:00 at Röntgenring 10, Room 202!"
-    dismissable: true
-    icon: megaphone
-    position: above-navbar
-    type: dark
 
   page-footer:
     background: light
