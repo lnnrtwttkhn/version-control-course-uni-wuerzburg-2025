@@ -172,6 +172,10 @@ knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = 
 - We will have a one-hour lunch break at 13:00.
 - Feel free to take short breaks in-between sessions (~ last 5 minutes) when needed.
 
+# Your survey responses
+
+Thank you for your participation! :pray:
+
 # Introduction to Version Control
 
 ## Learning objectives
