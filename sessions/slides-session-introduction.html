@@ -374,9 +374,10 @@
 <h2 id="toc-title">Agenda</h2>
 <ul>
 <li><a href="#/logistics-admin" id="/toc-logistics-admin"><span class="header-section-number">1</span> Logistics &amp; Admin</a></li>
-<li><a href="#/introduction-to-reproducible-research" id="/toc-introduction-to-reproducible-research"><span class="header-section-number">2</span> Introduction to Reproducible Research</a></li>
+<li><a href="#/your-survey-responses" id="/toc-your-survey-responses"><span class="header-section-number">2</span> Your survey responses</a></li>
 <li><a href="#/introduction-to-version-control" id="/toc-introduction-to-version-control"><span class="header-section-number">3</span> Introduction to Version Control</a></li>
 <li><a href="#/outlook" id="/toc-outlook"><span class="header-section-number">4</span> Outlook</a></li>
+<li><a href="#/introduction-to-reproducible-research" id="/toc-introduction-to-reproducible-research"><span class="header-section-number">5</span> Introduction to Reproducible Research</a></li>
 </ul>
 </nav>
 </section>
@@ -674,103 +675,28 @@
 <li>We will have a one-hour lunch break at 13:00.</li>
 <li>Feel free to take short breaks in-between sessions (~ last 5 minutes) when needed.</li>
 </ul>
+</section></section>
+<section id="your-survey-responses" class="title-slide slide level1 center" data-number="2">
+<h1><span class="header-section-number">2</span> Your survey responses</h1>
+<p>Thank you for your participation! <span class="emoji" data-emoji="pray">🙏</span></p>
+</section>
+
+<section>
+<section id="introduction-to-version-control" class="title-slide slide level1 center" data-number="3">
+<h1><span class="header-section-number">3</span> Introduction to Version Control</h1>
+
 </section>
 <section id="learning-objectives" class="slide level2">
 <h2>Learning objectives</h2>
 <p>At the end of this session, you should have achieved the following learning objectives:</p>
 <p><span class="emoji" data-emoji="bulb">💡</span> You know what version control is.<br> <span class="emoji" data-emoji="bulb">💡</span> You can argue why version control is useful (for research).<br> <span class="emoji" data-emoji="bulb">💡</span> You can name benefits of Git compared to other approaches to version control.<br> <span class="emoji" data-emoji="bulb">💡</span> You can explain the difference between Git and GitHub.<br></p>
-</section></section>
-<section>
-<section id="introduction-to-reproducible-research" class="title-slide slide level1 center" data-number="2">
-<h1><span class="header-section-number">2</span> Introduction to Reproducible Research</h1>
-
-</section>
-<section id="definition-of-reproducibility" class="slide level2">
-<h2>Definition of reproducibility</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="fragment">
-<!-- -->
-<h3 id="research-is-reproducible">Research is reproducible …</h3>
-<p><em>“… when the <strong>same analysis</strong> steps performed on the <strong>same dataset</strong> consistently produce the <strong>same answer</strong>.”</em> <a href="#/footnotes" class="footnote-ref" id="fnref1" role="doc-noteref" data-footnote-href="#/fn1" onclick=""><sup>1</sup></a></p>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="../images/turing-way-reproducibility.png"></p>
-<figcaption>by <a href="https://www.scriberia.com/">Scriberia</a> for <span class="citation" data-cites="turingway2022">The Turing Way Community (<a href="#/references" role="doc-biblioref" onclick="">2022</a>)</span> (<a href="https://zenodo.org/record/3678226/">Link</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</figcaption>
-</figure>
-</div>
-</div>
-</div><div class="column" style="width:50%;">
-<div class="fragment">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="../images/reproducible-matrix.jpg"></p>
-<figcaption>by <a href="https://www.scriberia.com/">Scriberia</a> for <span class="citation" data-cites="turingway2022">The Turing Way Community (<a href="#/references" role="doc-biblioref" onclick="">2022</a>)</span> (<a href="https://zenodo.org/record/3678226/">Link</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</figcaption>
-</figure>
-</div>
-</div>
-<div class="fragment">
-<ul>
-<li>In short: Someone else can run your analysis <em>on their computer</em> and gets the same results</li>
-<li>Reproducibility as a minimal requirement for research?</li>
-<li>This course: Focus on <strong>computational reproducibility</strong></li>
-</ul>
-</div>
-</div></div>
-<aside></aside></section>
-<section id="current-state-of-reproducibility-in-psychological-research" class="slide level2">
-<h2>Current state of reproducibility in (psychological) research</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="fragment">
-<!-- -->
-<h3 id="artner2021"><span class="citation" data-cites="artner2021">Artner et al. (<a href="#/references" role="doc-biblioref" onclick="">2021</a>)</span></h3>
-<ul>
-<li>Analyzed 46 articles from three APA journals in 2012.</li>
-<li>Extracted 232 statistical claims from these papers.</li>
-<li>Successfully reproduced 163 statistical results (70%).</li>
-<li>Focus: Reproducibility of individual statistical claims.</li>
-</ul>
-</div>
-<div class="fragment">
-<!-- -->
-<h3 id="hardwicke2021"><span class="citation" data-cites="hardwicke2021">Hardwicke et al. (<a href="#/references" role="doc-biblioref" onclick="">2021</a>)</span></h3>
-<ul>
-<li>Analyzed 25 articles published in <em>Psychological Science</em> (2014–2015) with Open Data Badges.</li>
-<li>15 articles (60%) were fully reproducible.</li>
-<li>9 out of these 15 (60%) were reproducible without author involvement.</li>
-<li>Focus: Study-level reproducibility.</li>
-</ul>
-</div>
-</div><div class="column" style="width:50%;">
-<div class="fragment">
-<!-- -->
-<h3 id="crüwell2023"><span class="citation" data-cites="crüwell2023">Crüwell et al. (<a href="#/references" role="doc-biblioref" onclick="">2023</a>)</span></h3>
-<ul>
-<li>Investigated 14 articles from a more recent issue of <em>Psychological Science</em>.</li>
-<li>Only 1 out of 14 articles was exactly reproducible.</li>
-<li>3 additional articles were essentially reproducible with minor deviations.</li>
-<li>All articles had Open Data Badges.</li>
-</ul>
-</div>
-<div class="fragment">
-<!-- -->
-<h3 id="obels2020"><span class="citation" data-cites="obels2020">Obels et al. (<a href="#/references" role="doc-biblioref" onclick="">2020</a>)</span></h3>
-<ul>
-<li>Analyzed 62 registered reports in Psychology (2014-18).</li>
-<li>36 reports (58%) shared both data and code.</li>
-<li>Of those, 21 (58%) were found to be reproducible.</li>
-<li>Focus: Impact of open science practices on reproducibility.</li>
-</ul>
-</div>
-</div></div>
 </section>
 <section id="the-issue-of-computational-reproducibility-in-science" class="slide level2">
 <h2>The issue of computational reproducibility in science</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="fragment">
-<p><em>“… when the <strong>same analysis</strong> steps performed on the <strong>same dataset</strong> consistently produce the <strong>same answer</strong>.”</em> <a href="#/footnotes" class="footnote-ref" id="fnref2" role="doc-noteref" data-footnote-href="#/fn2" onclick=""><sup>2</sup></a></p>
+<p><em>“… when the <strong>same analysis</strong> steps performed on the <strong>same dataset</strong> consistently produce the <strong>same answer</strong>.”</em> <a href="#/footnotes" class="footnote-ref" id="fnref1" role="doc-noteref" data-footnote-href="#/fn1" onclick=""><sup>1</sup></a></p>
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="../images/turing-way-reproducibility.png"></p>
@@ -785,12 +711,12 @@
 </div>
 <div>
 <ul>
-<li class="fragment">about <strong>more than half</strong> of research is <strong>not reproducible</strong> <a href="#/footnotes" class="footnote-ref" id="fnref3" role="doc-noteref" data-footnote-href="#/fn3" onclick=""><sup>3</sup></a>
+<li class="fragment">about <strong>more than half</strong> of research is <strong>not reproducible</strong> <a href="#/footnotes" class="footnote-ref" id="fnref2" role="doc-noteref" data-footnote-href="#/fn2" onclick=""><sup>2</sup></a>
 <ul>
 <li class="fragment">research data, code, software &amp; materials are <strong>often not available</strong> “upon <em>reasonable</em> [sic] request”</li>
 <li class="fragment">if resources are shared, they are <strong>often incomplete</strong></li>
 </ul></li>
-<li class="fragment">90% of researchers: “reproducibility crisis” (<em>N</em> = 1576) <a href="#/footnotes" class="footnote-ref" id="fnref4" role="doc-noteref" data-footnote-href="#/fn4" onclick=""><sup>4</sup></a></li>
+<li class="fragment">90% of researchers: “reproducibility crisis” (<em>N</em> = 1576) <a href="#/footnotes" class="footnote-ref" id="fnref3" role="doc-noteref" data-footnote-href="#/fn3" onclick=""><sup>3</sup></a></li>
 </ul>
 </div>
 <div class="fragment">
@@ -801,7 +727,7 @@
 <ul>
 <li class="fragment">computational reproducibility is hard</li>
 <li class="fragment">researchers lack training</li>
-<li class="fragment">incentives are not (yet) aligned <a href="#/footnotes" class="footnote-ref" id="fnref5" role="doc-noteref" data-footnote-href="#/fn5" onclick=""><sup>5</sup></a></li>
+<li class="fragment">incentives are not (yet) aligned <a href="#/footnotes" class="footnote-ref" id="fnref4" role="doc-noteref" data-footnote-href="#/fn4" onclick=""><sup>4</sup></a></li>
 <li class="fragment"><em>more …</em></li>
 </ul>
 </div>
@@ -835,113 +761,6 @@
           display:block!important;
       }</style></aside>
 <aside></aside></section>
-<section id="what-about-open-science" class="slide level2">
-<h2>What about Open Science?</h2>
-<p>Open science is an umbrella term for <strong>activities that aim to promote open approaches to science and research</strong>.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="../images/open-science-umbrella.jpg" class="" style="width:50.0%"></p>
-<figcaption>by Robin Champieux (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</figcaption>
-</figure>
-</div>
-<div class="fragment">
-<ul>
-<li>Note: Research can be reproducible but not open</li>
-<li>This course: Focus on <strong>better transparency and more effective collaboration through version control</strong></li>
-</ul>
-</div>
-</section>
-
-<section id="what-can-we-do" class="slide level2">
-<h2>What can we do?</h2>
-<div class="fragment">
-<div class="cell">
-<div class="cell-output-display">
-<table class="caption-top">
-<thead>
-<tr class="header">
-<th style="text-align: left;">No</th>
-<th style="text-align: left;">Time</th>
-<th style="text-align: left;">Title</th>
-<th style="text-align: left;">Contents</th>
-<th style="text-align: left;">Reading</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">1</td>
-<td style="text-align: left;">09:00 - 09:45</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-introduction">Introduction to Version Control</a></strong></td>
-<td style="text-align: left;">Logistics and course admin<br>Introduction to version control<br>Introduction to Git</td>
-<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html">Introduction to Version Control</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2</td>
-<td style="text-align: left;">09:45 - 10:15</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-command-line">Basics of the Command Line</a></strong></td>
-<td style="text-align: left;">File systems and navigation<br>Benefits of the command line<br>Basic command line commands</td>
-<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/command-line.html">Command Line</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">3</td>
-<td style="text-align: left;">10:15 - 10:30</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-git-setup">Setup &amp; configuration of Git</a></strong></td>
-<td style="text-align: left;">Setup &amp; configuration of Git</td>
-<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/setup.html">Setup</a>, <a href="https://lennartwittkuhn.com/version-control-book/chapters/installation.html">Installation</a> (if needed)</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">4</td>
-<td style="text-align: left;">10:30 - 11:30</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-git-basics">Basics of Git</a></strong></td>
-<td style="text-align: left;">Initializing a Git repository<br>Practicing basic Git commands<br>Tracking changes wih Git<br>Ignoring files with <code>.gitignore</code><br>Good commit messages</td>
-<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html">First steps with Git</a>, <a href="https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html">Git Essentials</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">5</td>
-<td style="text-align: left;">11:30 - 12:30</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-git-branches">Branches, Merging, Merge Conflicts</a></strong></td>
-<td style="text-align: left;">Understanding branches in Git<br>Creating and switching between branches<br>Merging branches<br>Resolving merge conflicts</td>
-<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/branches.html">Branches</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">6</td>
-<td style="text-align: left;">12:30 - 13:30</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-lunch">Lunch Break</a></strong></td>
-<td style="text-align: left;">Enjoy your lunch!</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">7</td>
-<td style="text-align: left;">13:30 - 14:30</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-git-remotes">Integration with GitHub / GitLab</a></strong></td>
-<td style="text-align: left;">Introduction to remote repositories<br>Managing repositories on GitHub / GitLab<br>Pushing and pulling changes<br>Cloning a remote repository</td>
-<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html">Remotes Intro</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">8</td>
-<td style="text-align: left;">14:30 - 15:30</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-git-collaboration">Collaboration on GitHub / GitLab</a></strong></td>
-<td style="text-align: left;">Forking<br>Collaboration with GitHub Flow<br>Pull / Merge Requests<br>Issues<br>Project Management</td>
-<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html">GitHub Advanced</a>, <a href="https://lennartwittkuhn.com/version-control-book/chapters/issues.html">GitHub Issues</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">9</td>
-<td style="text-align: left;">15:30 - 16:00</td>
-<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-outlook">Summary &amp; Outlook</a></strong></td>
-<td style="text-align: left;">Summary of course contents<br>Outlook to more related topics<br>Discussing open questions</td>
-<td style="text-align: left;"></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-</section></section>
-<section>
-<section id="introduction-to-version-control" class="title-slide slide level1 center" data-number="3">
-<h1><span class="header-section-number">3</span> Introduction to Version Control</h1>
-
-</section>
 <section id="scenario-1" class="slide level2">
 <h2>Scenario 1</h2>
 <blockquote>
@@ -1091,7 +910,7 @@
 <li>supports both Git command line and GUI tools (e.g., <a href="https://desktop.github.com/">GitHub Desktop</a>)</li>
 <li>enables code sharing, project management, issue tracking, and continuous integration</li>
 <li>used by companies, open-source communities, and individual developers worldwide</li>
-<li>100 million users <a href="#/footnotes" class="footnote-ref" id="fnref6" role="doc-noteref" data-footnote-href="#/fn6" onclick=""><sup>6</sup></a></li>
+<li>100 million users <a href="#/footnotes" class="footnote-ref" id="fnref5" role="doc-noteref" data-footnote-href="#/fn5" onclick=""><sup>5</sup></a></li>
 </ul>
 </div>
 </div>
@@ -1101,7 +920,7 @@
 <ul>
 <li><i class="fa-solid fa-bug" aria-label="bug"></i> Discuss and plan your project in <a href="https://github.com/features/issues">issues</a> (even just with your future / past self)</li>
 <li><i class="fa-solid fa-comments" aria-label="comments"></i> Ask questions, share ideas and discuss with your community via <a href="https://github.com/features/discussions">GitHub Discussions</a></li>
-<li><i class="fa-solid fa-code-pull-request" aria-label="code-pull-request"></i> Propose changes to each other’s projects using <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests">pull requests</a> <a href="#/footnotes" class="footnote-ref" id="fnref7" role="doc-noteref" data-footnote-href="#/fn7" onclick=""><sup>7</sup></a></li>
+<li><i class="fa-solid fa-code-pull-request" aria-label="code-pull-request"></i> Propose changes to each other’s projects using <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests">pull requests</a> <a href="#/footnotes" class="footnote-ref" id="fnref6" role="doc-noteref" data-footnote-href="#/fn6" onclick=""><sup>6</sup></a></li>
 <li><i class="fa-solid fa-code-fork" aria-label="code-fork"></i> Create a <a href="https://docs.github.com/en/get-started/quickstart/fork-a-repo">fork</a> of someone else’s repository and extend their work</li>
 <li><i class="fa-solid fa-key" aria-label="key"></i> Manage access to your projects with detailed <a href="https://docs.gitlab.com/ee/user/permissions.html">permissions and roles</a></li>
 <li><i class="fa-solid fa-book-medical" aria-label="book-medical"></i> Add documentation to your repository or in a separate <a href="https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis">wiki</a></li>
@@ -1242,6 +1061,193 @@
 <figcaption>Source: <a href="https://commons.wikimedia.org/wiki/File:Linux_command-line._Bash._GNOME_Terminal._screenshot.png">Wikimedia Commons</a> (free license)</figcaption>
 </figure>
 </div>
+</section></section>
+<section>
+<section id="introduction-to-reproducible-research" class="title-slide slide level1 center" data-number="5">
+<h1><span class="header-section-number">5</span> Introduction to Reproducible Research</h1>
+
+</section>
+<section id="definition-of-reproducibility" class="slide level2">
+<h2>Definition of reproducibility</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="fragment">
+<!-- -->
+<h3 id="research-is-reproducible">Research is reproducible …</h3>
+<p><em>“… when the <strong>same analysis</strong> steps performed on the <strong>same dataset</strong> consistently produce the <strong>same answer</strong>.”</em> <a href="#/footnotes" class="footnote-ref" id="fnref7" role="doc-noteref" data-footnote-href="#/fn7" onclick=""><sup>7</sup></a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../images/turing-way-reproducibility.png"></p>
+<figcaption>by <a href="https://www.scriberia.com/">Scriberia</a> for <span class="citation" data-cites="turingway2022">The Turing Way Community (<a href="#/references" role="doc-biblioref" onclick="">2022</a>)</span> (<a href="https://zenodo.org/record/3678226/">Link</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</figcaption>
+</figure>
+</div>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../images/reproducible-matrix.jpg"></p>
+<figcaption>by <a href="https://www.scriberia.com/">Scriberia</a> for <span class="citation" data-cites="turingway2022">The Turing Way Community (<a href="#/references" role="doc-biblioref" onclick="">2022</a>)</span> (<a href="https://zenodo.org/record/3678226/">Link</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</figcaption>
+</figure>
+</div>
+</div>
+<div class="fragment">
+<ul>
+<li>In short: Someone else can run your analysis <em>on their computer</em> and gets the same results</li>
+<li>Reproducibility as a minimal requirement for research?</li>
+<li>This course: Focus on <strong>computational reproducibility</strong></li>
+</ul>
+</div>
+</div></div>
+<aside></aside></section>
+<section id="current-state-of-reproducibility-in-psychological-research" class="slide level2">
+<h2>Current state of reproducibility in (psychological) research</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="fragment">
+<!-- -->
+<h3 id="artner2021"><span class="citation" data-cites="artner2021">Artner et al. (<a href="#/references" role="doc-biblioref" onclick="">2021</a>)</span></h3>
+<ul>
+<li>Analyzed 46 articles from three APA journals in 2012.</li>
+<li>Extracted 232 statistical claims from these papers.</li>
+<li>Successfully reproduced 163 statistical results (70%).</li>
+<li>Focus: Reproducibility of individual statistical claims.</li>
+</ul>
+</div>
+<div class="fragment">
+<!-- -->
+<h3 id="hardwicke2021"><span class="citation" data-cites="hardwicke2021">Hardwicke et al. (<a href="#/references" role="doc-biblioref" onclick="">2021</a>)</span></h3>
+<ul>
+<li>Analyzed 25 articles published in <em>Psychological Science</em> (2014–2015) with Open Data Badges.</li>
+<li>15 articles (60%) were fully reproducible.</li>
+<li>9 out of these 15 (60%) were reproducible without author involvement.</li>
+<li>Focus: Study-level reproducibility.</li>
+</ul>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="fragment">
+<!-- -->
+<h3 id="crüwell2023"><span class="citation" data-cites="crüwell2023">Crüwell et al. (<a href="#/references" role="doc-biblioref" onclick="">2023</a>)</span></h3>
+<ul>
+<li>Investigated 14 articles from a more recent issue of <em>Psychological Science</em>.</li>
+<li>Only 1 out of 14 articles was exactly reproducible.</li>
+<li>3 additional articles were essentially reproducible with minor deviations.</li>
+<li>All articles had Open Data Badges.</li>
+</ul>
+</div>
+<div class="fragment">
+<!-- -->
+<h3 id="obels2020"><span class="citation" data-cites="obels2020">Obels et al. (<a href="#/references" role="doc-biblioref" onclick="">2020</a>)</span></h3>
+<ul>
+<li>Analyzed 62 registered reports in Psychology (2014-18).</li>
+<li>36 reports (58%) shared both data and code.</li>
+<li>Of those, 21 (58%) were found to be reproducible.</li>
+<li>Focus: Impact of open science practices on reproducibility.</li>
+</ul>
+</div>
+</div></div>
+</section>
+<section id="what-about-open-science" class="slide level2">
+<h2>What about Open Science?</h2>
+<p>Open science is an umbrella term for <strong>activities that aim to promote open approaches to science and research</strong>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../images/open-science-umbrella.jpg" class="" style="width:50.0%"></p>
+<figcaption>by Robin Champieux (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</figcaption>
+</figure>
+</div>
+<div class="fragment">
+<ul>
+<li>Note: Research can be reproducible but not open</li>
+<li>This course: Focus on <strong>better transparency and more effective collaboration through version control</strong></li>
+</ul>
+</div>
+</section>
+
+<section id="what-can-we-do" class="slide level2">
+<h2>What can we do?</h2>
+<div class="fragment">
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: left;">No</th>
+<th style="text-align: left;">Time</th>
+<th style="text-align: left;">Title</th>
+<th style="text-align: left;">Contents</th>
+<th style="text-align: left;">Reading</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">09:00 - 09:45</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-introduction">Introduction to Version Control</a></strong></td>
+<td style="text-align: left;">Logistics and course admin<br>Introduction to version control<br>Introduction to Git</td>
+<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html">Introduction to Version Control</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">09:45 - 10:15</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-command-line">Basics of the Command Line</a></strong></td>
+<td style="text-align: left;">File systems and navigation<br>Benefits of the command line<br>Basic command line commands</td>
+<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/command-line.html">Command Line</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">10:15 - 10:30</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-git-setup">Setup &amp; configuration of Git</a></strong></td>
+<td style="text-align: left;">Setup &amp; configuration of Git</td>
+<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/setup.html">Setup</a>, <a href="https://lennartwittkuhn.com/version-control-book/chapters/installation.html">Installation</a> (if needed)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">10:30 - 11:30</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-git-basics">Basics of Git</a></strong></td>
+<td style="text-align: left;">Initializing a Git repository<br>Practicing basic Git commands<br>Tracking changes wih Git<br>Ignoring files with <code>.gitignore</code><br>Good commit messages</td>
+<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html">First steps with Git</a>, <a href="https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html">Git Essentials</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">11:30 - 12:30</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-git-branches">Branches, Merging, Merge Conflicts</a></strong></td>
+<td style="text-align: left;">Understanding branches in Git<br>Creating and switching between branches<br>Merging branches<br>Resolving merge conflicts</td>
+<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/branches.html">Branches</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">12:30 - 13:30</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-lunch">Lunch Break</a></strong></td>
+<td style="text-align: left;">Enjoy your lunch!</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">13:30 - 14:30</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-git-remotes">Integration with GitHub / GitLab</a></strong></td>
+<td style="text-align: left;">Introduction to remote repositories<br>Managing repositories on GitHub / GitLab<br>Pushing and pulling changes<br>Cloning a remote repository</td>
+<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html">Remotes Intro</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">14:30 - 15:30</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-git-collaboration">Collaboration on GitHub / GitLab</a></strong></td>
+<td style="text-align: left;">Forking<br>Collaboration with GitHub Flow<br>Pull / Merge Requests<br>Issues<br>Project Management</td>
+<td style="text-align: left;"><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html">GitHub Advanced</a>, <a href="https://lennartwittkuhn.com/version-control-book/chapters/issues.html">GitHub Issues</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">15:30 - 16:00</td>
+<td style="text-align: left;"><strong><a href="https://lennartwittkuhn.com/version-control-course-uni-wuerzburg-2025/sessions/session-outlook">Summary &amp; Outlook</a></strong></td>
+<td style="text-align: left;">Summary of course contents<br>Outlook to more related topics<br>Discussing open questions</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
 </section>
 <section id="references" class="slide level2 smaller scrollable">
 <h2>References</h2>
@@ -1285,12 +1291,12 @@ Wicherts, J. M., Borsboom, D., Kats, J., &amp; Molenaar, D. (2006). The poor ava
 
 <ol>
 <li id="fn1"><p><span class="citation" data-cites="turingway2022">The Turing Way Community (<a href="#/references" role="doc-biblioref" onclick="">2022</a>)</span>, see <a href="https://the-turing-way.netlify.app/reproducible-research/overview/overview-definitions">“Guide on Reproducible Research”</a></p></li>
-<li id="fn2"><p><span class="citation" data-cites="turingway2022">The Turing Way Community (<a href="#/references" role="doc-biblioref" onclick="">2022</a>)</span>, see <a href="https://the-turing-way.netlify.app/reproducible-research/overview/overview-definitions">“Guide on Reproducible Research”</a></p></li>
-<li id="fn3"><p>for example, in Psychology: <span class="citation" data-cites="crüwell2023">Crüwell et al. (<a href="#/references" role="doc-biblioref" onclick="">2023</a>)</span>; <span class="citation" data-cites="hardwicke2021">Hardwicke et al. (<a href="#/references" role="doc-biblioref" onclick="">2021</a>)</span>; <span class="citation" data-cites="obels2020">Obels et al. (<a href="#/references" role="doc-biblioref" onclick="">2020</a>)</span>; <span class="citation" data-cites="wicherts2006">Wicherts et al. (<a href="#/references" role="doc-biblioref" onclick="">2006</a>)</span></p></li>
-<li id="fn4"><p>see <span class="citation" data-cites="baker2016">Baker (<a href="#/references" role="doc-biblioref" onclick="">2016</a>)</span>, <em>Nature</em></p></li>
-<li id="fn5"><p>see e.g., <span class="citation" data-cites="poldrack2019">Poldrack (<a href="#/references" role="doc-biblioref" onclick="">2019</a>)</span></p></li>
-<li id="fn6"><p>(Source: <a href="https://en.wikipedia.org/wiki/GitHub">Wikipedia</a>)</p></li>
-<li id="fn7"><p><em>pull</em> requests on GitHub, <em>merge</em> requests on GitLab</p></li>
+<li id="fn2"><p>for example, in Psychology: <span class="citation" data-cites="crüwell2023">Crüwell et al. (<a href="#/references" role="doc-biblioref" onclick="">2023</a>)</span>; <span class="citation" data-cites="hardwicke2021">Hardwicke et al. (<a href="#/references" role="doc-biblioref" onclick="">2021</a>)</span>; <span class="citation" data-cites="obels2020">Obels et al. (<a href="#/references" role="doc-biblioref" onclick="">2020</a>)</span>; <span class="citation" data-cites="wicherts2006">Wicherts et al. (<a href="#/references" role="doc-biblioref" onclick="">2006</a>)</span></p></li>
+<li id="fn3"><p>see <span class="citation" data-cites="baker2016">Baker (<a href="#/references" role="doc-biblioref" onclick="">2016</a>)</span>, <em>Nature</em></p></li>
+<li id="fn4"><p>see e.g., <span class="citation" data-cites="poldrack2019">Poldrack (<a href="#/references" role="doc-biblioref" onclick="">2019</a>)</span></p></li>
+<li id="fn5"><p>(Source: <a href="https://en.wikipedia.org/wiki/GitHub">Wikipedia</a>)</p></li>
+<li id="fn6"><p><em>pull</em> requests on GitHub, <em>merge</em> requests on GitLab</p></li>
+<li id="fn7"><p><span class="citation" data-cites="turingway2022">The Turing Way Community (<a href="#/references" role="doc-biblioref" onclick="">2022</a>)</span>, see <a href="https://the-turing-way.netlify.app/reproducible-research/overview/overview-definitions">“Guide on Reproducible Research”</a></p></li>
 </ol>
 </section>
     </div>

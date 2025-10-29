@@ -406,39 +406,11 @@
     "text": "Learning objectives\nAt the end of this session, you should have achieved the following learning objectives:\n💡 You know what version control is. 💡 You can argue why version control is useful (for research). 💡 You can name benefits of Git compared to other approaches to version control. 💡 You can explain the difference between Git and GitHub."
   },
   {
-    "objectID": "sessions/slides-session-introduction.html#definition-of-reproducibility",
-    "href": "sessions/slides-session-introduction.html#definition-of-reproducibility",
-    "title": "Session 1: Welcome & Introduction to Version Control",
-    "section": "Definition of reproducibility",
-    "text": "Definition of reproducibility\n\n\n\n\nResearch is reproducible …\n“… when the same analysis steps performed on the same dataset consistently produce the same answer.” 1\n\n\n\nby Scriberia for The Turing Way Community (2022) (Link, CC BY 4.0)\n\n\n\n\n\n\n\n\nby Scriberia for The Turing Way Community (2022) (Link, CC BY 4.0)\n\n\n\n\n\nIn short: Someone else can run your analysis on their computer and gets the same results\nReproducibility as a minimal requirement for research?\nThis course: Focus on computational reproducibility"
-  },
-  {
-    "objectID": "sessions/slides-session-introduction.html#current-state-of-reproducibility-in-psychological-research",
-    "href": "sessions/slides-session-introduction.html#current-state-of-reproducibility-in-psychological-research",
-    "title": "Session 1: Welcome & Introduction to Version Control",
-    "section": "Current state of reproducibility in (psychological) research",
-    "text": "Current state of reproducibility in (psychological) research\n\n\n\n\nArtner et al. (2021)\n\nAnalyzed 46 articles from three APA journals in 2012.\nExtracted 232 statistical claims from these papers.\nSuccessfully reproduced 163 statistical results (70%).\nFocus: Reproducibility of individual statistical claims.\n\n\n\n\nHardwicke et al. (2021)\n\nAnalyzed 25 articles published in Psychological Science (2014–2015) with Open Data Badges.\n15 articles (60%) were fully reproducible.\n9 out of these 15 (60%) were reproducible without author involvement.\nFocus: Study-level reproducibility.\n\n\n\n\n\nCrüwell et al. (2023)\n\nInvestigated 14 articles from a more recent issue of Psychological Science.\nOnly 1 out of 14 articles was exactly reproducible.\n3 additional articles were essentially reproducible with minor deviations.\nAll articles had Open Data Badges.\n\n\n\n\nObels et al. (2020)\n\nAnalyzed 62 registered reports in Psychology (2014-18).\n36 reports (58%) shared both data and code.\nOf those, 21 (58%) were found to be reproducible.\nFocus: Impact of open science practices on reproducibility."
-  },
-  {
     "objectID": "sessions/slides-session-introduction.html#the-issue-of-computational-reproducibility-in-science",
     "href": "sessions/slides-session-introduction.html#the-issue-of-computational-reproducibility-in-science",
     "title": "Session 1: Welcome & Introduction to Version Control",
     "section": "The issue of computational reproducibility in science",
-    "text": "The issue of computational reproducibility in science\n\n\n\n“… when the same analysis steps performed on the same dataset consistently produce the same answer.” 2\n\n\n\nby Scriberia for The Turing Way Community (2022) (Link, CC BY 4.0)\n\n\n\n\n\n\nThe problem\n\n\n\nabout more than half of research is not reproducible 3\n\nresearch data, code, software & materials are often not available “upon reasonable [sic] request”\nif resources are shared, they are often incomplete\n\n90% of researchers: “reproducibility crisis” (N = 1576) 4\n\n\n\n\nWhy?\n\n\n\ncomputational reproducibility is hard\nresearchers lack training\nincentives are not (yet) aligned 5\nmore …\n\n\n\n\n“… accumulated evidence indicates […] substantial room for improvement with regard to research practices to maximize the efficiency of the research community’s use of the public’s financial investment.” (Munafò et al., 2017)\n\n\nWe need a professional toolkit for digital research!\n\n\n\nalso called “analytical reproducibility”\nin contrast: “Replication” = same analysis on different data\ncomputational reproducibility should be a minimum requirement\n90% of respondents to a survey in Nature agreed that there is a “reproducibility crisis”\nnon-scientist friends react very surprised at the lack of professionalization in science\nwe are currently violating the public’s trust = deep ethical problem\nnatural selection: as a researcher, what’s good for your career is not necessarily good for science (how to get funding, how to get published, how to get cited)\njournals are interested in selling us back our data, not improving the quality of science"
-  },
-  {
-    "objectID": "sessions/slides-session-introduction.html#what-about-open-science",
-    "href": "sessions/slides-session-introduction.html#what-about-open-science",
-    "title": "Session 1: Welcome & Introduction to Version Control",
-    "section": "What about Open Science?",
-    "text": "What about Open Science?\nOpen science is an umbrella term for activities that aim to promote open approaches to science and research.\n\n\n\nby Robin Champieux (CC BY 4.0)\n\n\n\n\nNote: Research can be reproducible but not open\nThis course: Focus on better transparency and more effective collaboration through version control"
-  },
-  {
-    "objectID": "sessions/slides-session-introduction.html#what-can-we-do",
-    "href": "sessions/slides-session-introduction.html#what-can-we-do",
-    "title": "Session 1: Welcome & Introduction to Version Control",
-    "section": "What can we do?",
-    "text": "What can we do?\n\n\n\n\n\n\nNo\nTime\nTitle\nContents\nReading\n\n\n\n\n1\n09:00 - 09:45\nIntroduction to Version Control\nLogistics and course adminIntroduction to version controlIntroduction to Git\n Introduction to Version Control\n\n\n2\n09:45 - 10:15\nBasics of the Command Line\nFile systems and navigationBenefits of the command lineBasic command line commands\n Command Line\n\n\n3\n10:15 - 10:30\nSetup & configuration of Git\nSetup & configuration of Git\n Setup, Installation (if needed)\n\n\n4\n10:30 - 11:30\nBasics of Git\nInitializing a Git repositoryPracticing basic Git commandsTracking changes wih GitIgnoring files with .gitignoreGood commit messages\n First steps with Git, Git Essentials\n\n\n5\n11:30 - 12:30\nBranches, Merging, Merge Conflicts\nUnderstanding branches in GitCreating and switching between branchesMerging branchesResolving merge conflicts\n Branches\n\n\n6\n12:30 - 13:30\nLunch Break\nEnjoy your lunch!\n\n\n\n7\n13:30 - 14:30\nIntegration with GitHub / GitLab\nIntroduction to remote repositoriesManaging repositories on GitHub / GitLabPushing and pulling changesCloning a remote repository\n Remotes Intro\n\n\n8\n14:30 - 15:30\nCollaboration on GitHub / GitLab\nForkingCollaboration with GitHub FlowPull / Merge RequestsIssuesProject Management\n GitHub Advanced, GitHub Issues\n\n\n9\n15:30 - 16:00\nSummary & Outlook\nSummary of course contentsOutlook to more related topicsDiscussing open questions"
+    "text": "The issue of computational reproducibility in science\n\n\n\n“… when the same analysis steps performed on the same dataset consistently produce the same answer.” 1\n\n\n\nby Scriberia for The Turing Way Community (2022) (Link, CC BY 4.0)\n\n\n\n\n\n\nThe problem\n\n\n\nabout more than half of research is not reproducible 2\n\nresearch data, code, software & materials are often not available “upon reasonable [sic] request”\nif resources are shared, they are often incomplete\n\n90% of researchers: “reproducibility crisis” (N = 1576) 3\n\n\n\n\nWhy?\n\n\n\ncomputational reproducibility is hard\nresearchers lack training\nincentives are not (yet) aligned 4\nmore …\n\n\n\n\n“… accumulated evidence indicates […] substantial room for improvement with regard to research practices to maximize the efficiency of the research community’s use of the public’s financial investment.” (Munafò et al., 2017)\n\n\nWe need a professional toolkit for digital research!\n\n\n\nalso called “analytical reproducibility”\nin contrast: “Replication” = same analysis on different data\ncomputational reproducibility should be a minimum requirement\n90% of respondents to a survey in Nature agreed that there is a “reproducibility crisis”\nnon-scientist friends react very surprised at the lack of professionalization in science\nwe are currently violating the public’s trust = deep ethical problem\nnatural selection: as a researcher, what’s good for your career is not necessarily good for science (how to get funding, how to get published, how to get cited)\njournals are interested in selling us back our data, not improving the quality of science"
   },
   {
     "objectID": "sessions/slides-session-introduction.html#scenario-1",
@@ -480,14 +452,14 @@
     "href": "sessions/slides-session-introduction.html#what-is-github",
     "title": "Session 1: Welcome & Introduction to Version Control",
     "section": "What is GitHub?",
-    "text": "What is GitHub?\n\n\n\n\n\ngithub.com\n\n\n\ncloud-based platform for version control using Git\nallows for collaboration on (coding) projects in real time\nhosts millions of public and private repositories\nsupports both Git command line and GUI tools (e.g., GitHub Desktop)\nenables code sharing, project management, issue tracking, and continuous integration\nused by companies, open-source communities, and individual developers worldwide\n100 million users 6"
+    "text": "What is GitHub?\n\n\n\n\n\ngithub.com\n\n\n\ncloud-based platform for version control using Git\nallows for collaboration on (coding) projects in real time\nhosts millions of public and private repositories\nsupports both Git command line and GUI tools (e.g., GitHub Desktop)\nenables code sharing, project management, issue tracking, and continuous integration\nused by companies, open-source communities, and individual developers worldwide\n100 million users 5"
   },
   {
     "objectID": "sessions/slides-session-introduction.html#more-benefits-of-github-for-project-management",
     "href": "sessions/slides-session-introduction.html#more-benefits-of-github-for-project-management",
     "title": "Session 1: Welcome & Introduction to Version Control",
     "section": "More benefits of Git(Hub) for project management",
-    "text": "More benefits of Git(Hub) for project management\n\n Discuss and plan your project in issues (even just with your future / past self)\n Ask questions, share ideas and discuss with your community via GitHub Discussions\n Propose changes to each other’s projects using pull requests 7\n Create a fork of someone else’s repository and extend their work\n Manage access to your projects with detailed permissions and roles\n Add documentation to your repository or in a separate wiki\n Access to more features and tools for teaching via GitHub Campus Global\n\n\nNote\n\n The dominance of GitHub (a for-profit company owned by Microsoft) is not uncontested (see #GiveUpGitHub)\n A project on GitHub is not a FAIR archiving of scholarly outputs (see previous and following slides)\n\n\n\n\nGitHub Copilot is a for-profit AI product trained with projects that were hosted on GitHub, including many that have licenses that require proper author attribution etc.\nGitHub has a for-profit software services contract with the USA Immigration and Customs Enforcement (ICE)\nArchiving on GitHub is not enough"
+    "text": "More benefits of Git(Hub) for project management\n\n Discuss and plan your project in issues (even just with your future / past self)\n Ask questions, share ideas and discuss with your community via GitHub Discussions\n Propose changes to each other’s projects using pull requests 6\n Create a fork of someone else’s repository and extend their work\n Manage access to your projects with detailed permissions and roles\n Add documentation to your repository or in a separate wiki\n Access to more features and tools for teaching via GitHub Campus Global\n\n\nNote\n\n The dominance of GitHub (a for-profit company owned by Microsoft) is not uncontested (see #GiveUpGitHub)\n A project on GitHub is not a FAIR archiving of scholarly outputs (see previous and following slides)\n\n\n\n\nGitHub Copilot is a for-profit AI product trained with projects that were hosted on GitHub, including many that have licenses that require proper author attribution etc.\nGitHub has a for-profit software services contract with the USA Immigration and Customs Enforcement (ICE)\nArchiving on GitHub is not enough"
   },
   {
     "objectID": "sessions/slides-session-introduction.html#goal",
@@ -511,6 +483,34 @@
     "text": "Prerequisite: Basics of the command line\n\n\n\nSource: Wikimedia Commons (free license)"
   },
   {
+    "objectID": "sessions/slides-session-introduction.html#definition-of-reproducibility",
+    "href": "sessions/slides-session-introduction.html#definition-of-reproducibility",
+    "title": "Session 1: Welcome & Introduction to Version Control",
+    "section": "Definition of reproducibility",
+    "text": "Definition of reproducibility\n\n\n\n\nResearch is reproducible …\n“… when the same analysis steps performed on the same dataset consistently produce the same answer.” 7\n\n\n\nby Scriberia for The Turing Way Community (2022) (Link, CC BY 4.0)\n\n\n\n\n\n\n\n\nby Scriberia for The Turing Way Community (2022) (Link, CC BY 4.0)\n\n\n\n\n\nIn short: Someone else can run your analysis on their computer and gets the same results\nReproducibility as a minimal requirement for research?\nThis course: Focus on computational reproducibility"
+  },
+  {
+    "objectID": "sessions/slides-session-introduction.html#current-state-of-reproducibility-in-psychological-research",
+    "href": "sessions/slides-session-introduction.html#current-state-of-reproducibility-in-psychological-research",
+    "title": "Session 1: Welcome & Introduction to Version Control",
+    "section": "Current state of reproducibility in (psychological) research",
+    "text": "Current state of reproducibility in (psychological) research\n\n\n\n\nArtner et al. (2021)\n\nAnalyzed 46 articles from three APA journals in 2012.\nExtracted 232 statistical claims from these papers.\nSuccessfully reproduced 163 statistical results (70%).\nFocus: Reproducibility of individual statistical claims.\n\n\n\n\nHardwicke et al. (2021)\n\nAnalyzed 25 articles published in Psychological Science (2014–2015) with Open Data Badges.\n15 articles (60%) were fully reproducible.\n9 out of these 15 (60%) were reproducible without author involvement.\nFocus: Study-level reproducibility.\n\n\n\n\n\nCrüwell et al. (2023)\n\nInvestigated 14 articles from a more recent issue of Psychological Science.\nOnly 1 out of 14 articles was exactly reproducible.\n3 additional articles were essentially reproducible with minor deviations.\nAll articles had Open Data Badges.\n\n\n\n\nObels et al. (2020)\n\nAnalyzed 62 registered reports in Psychology (2014-18).\n36 reports (58%) shared both data and code.\nOf those, 21 (58%) were found to be reproducible.\nFocus: Impact of open science practices on reproducibility."
+  },
+  {
+    "objectID": "sessions/slides-session-introduction.html#what-about-open-science",
+    "href": "sessions/slides-session-introduction.html#what-about-open-science",
+    "title": "Session 1: Welcome & Introduction to Version Control",
+    "section": "What about Open Science?",
+    "text": "What about Open Science?\nOpen science is an umbrella term for activities that aim to promote open approaches to science and research.\n\n\n\nby Robin Champieux (CC BY 4.0)\n\n\n\n\nNote: Research can be reproducible but not open\nThis course: Focus on better transparency and more effective collaboration through version control"
+  },
+  {
+    "objectID": "sessions/slides-session-introduction.html#what-can-we-do",
+    "href": "sessions/slides-session-introduction.html#what-can-we-do",
+    "title": "Session 1: Welcome & Introduction to Version Control",
+    "section": "What can we do?",
+    "text": "What can we do?\n\n\n\n\n\n\nNo\nTime\nTitle\nContents\nReading\n\n\n\n\n1\n09:00 - 09:45\nIntroduction to Version Control\nLogistics and course adminIntroduction to version controlIntroduction to Git\n Introduction to Version Control\n\n\n2\n09:45 - 10:15\nBasics of the Command Line\nFile systems and navigationBenefits of the command lineBasic command line commands\n Command Line\n\n\n3\n10:15 - 10:30\nSetup & configuration of Git\nSetup & configuration of Git\n Setup, Installation (if needed)\n\n\n4\n10:30 - 11:30\nBasics of Git\nInitializing a Git repositoryPracticing basic Git commandsTracking changes wih GitIgnoring files with .gitignoreGood commit messages\n First steps with Git, Git Essentials\n\n\n5\n11:30 - 12:30\nBranches, Merging, Merge Conflicts\nUnderstanding branches in GitCreating and switching between branchesMerging branchesResolving merge conflicts\n Branches\n\n\n6\n12:30 - 13:30\nLunch Break\nEnjoy your lunch!\n\n\n\n7\n13:30 - 14:30\nIntegration with GitHub / GitLab\nIntroduction to remote repositoriesManaging repositories on GitHub / GitLabPushing and pulling changesCloning a remote repository\n Remotes Intro\n\n\n8\n14:30 - 15:30\nCollaboration on GitHub / GitLab\nForkingCollaboration with GitHub FlowPull / Merge RequestsIssuesProject Management\n GitHub Advanced, GitHub Issues\n\n\n9\n15:30 - 16:00\nSummary & Outlook\nSummary of course contentsOutlook to more related topicsDiscussing open questions"
+  },
+  {
     "objectID": "sessions/slides-session-introduction.html#references",
     "href": "sessions/slides-session-introduction.html#references",
     "title": "Session 1: Welcome & Introduction to Version Control",
@@ -522,7 +522,7 @@
     "href": "sessions/slides-session-introduction.html#footnotes",
     "title": "Session 1: Welcome & Introduction to Version Control",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nThe Turing Way Community (2022), see “Guide on Reproducible Research”\nThe Turing Way Community (2022), see “Guide on Reproducible Research”\nfor example, in Psychology: Crüwell et al. (2023); Hardwicke et al. (2021); Obels et al. (2020); Wicherts et al. (2006)\nsee Baker (2016), Nature\nsee e.g., Poldrack (2019)\n(Source: Wikipedia)\npull requests on GitHub, merge requests on GitLab"
+    "text": "Footnotes\n\n\nThe Turing Way Community (2022), see “Guide on Reproducible Research”\nfor example, in Psychology: Crüwell et al. (2023); Hardwicke et al. (2021); Obels et al. (2020); Wicherts et al. (2006)\nsee Baker (2016), Nature\nsee e.g., Poldrack (2019)\n(Source: Wikipedia)\npull requests on GitHub, merge requests on GitLab\nThe Turing Way Community (2022), see “Guide on Reproducible Research”"
   },
   {
     "objectID": "sessions/session-lunch.html",
