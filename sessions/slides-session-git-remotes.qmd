@@ -211,6 +211,18 @@ knitr::kable(table_cheatsheet(name = "remote_intro"), format = "markdown", row.n
 
 {{< include ../exercises/_exercises-remotes-readme.qmd >}}
 
+# Appendix
+
+## Cloning
+
+::: {.fragment}
+#### Cloning
+- Remember to clone a repo in a sensible location (not in your own repository)
+- To rename the cloned repo you can use: `git clone <URL> new-folder-name`
+:::
+
+# Solutions
+
 ## Solutions
 
 ### Connect to remote repositories using SSH
@@ -257,12 +269,4 @@ knitr::kable(table_cheatsheet(name = "remote_intro"), format = "markdown", row.n
 ```
 {{< include ../exercises/_solutions-remotes-clone.qmd >}}
 
-# Appendix
 
-## Cloning
-
-::: {.fragment}
-#### Cloning
-- Remember to clone a repo in a sensible location (not in your own repository)
-- To rename the cloned repo you can use: `git clone <URL> new-folder-name`
-:::
