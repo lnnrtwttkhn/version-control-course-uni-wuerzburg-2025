@@ -234,6 +234,64 @@ If they match, the door opens.
 
 ::::
 :::::
+
+## Warning: "The authenticity of host can't be established"
+
+::: fragment
+**TL;DR**: Enter `yes` and hit Enter.
+:::
+
+::::: columns
+:::: {.column width="50%"}
+::: fragment
+
+The following message might appear when connecting to GitHub for the first time via SSH:
+
+```{markdown filename="Output"}
+#| code-copy: false
+The authenticity of host 'github.com (140.82.121.3)' can't be established.
+ECDSA key fingerprint is SHA256:nThbg6GUVB7ZdnZ3iXYvgIhXZOL7NXqb7A4s9F8XY7w.
+Are you sure you want to continue connecting (yes/no/[fingerprint])?
+```
+
+This message indicates that your system is trying to connect to a remote server (i.e., GitHub) over SSH for the first time, but it doesn't yet trust the server's identity.
+
+If you are trusting the server's identity, enter `yes` and hit {{< kbd Enter >}}.
+This will result in the following message:
+
+```{markdown filename="Output"}
+#| code-copy: false
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+```
+
+This message indicates that the GitHub server's public key has been added to your `~/.ssh/known_hosts` file permanently, so you won't be prompted with this warning the next time you connect to GitHub over SSH.
+
+:::
+::::
+:::: {.column width="50%"}
+::: fragment
+
+After a successful push, you will get a message like this:
+
+```{markdown filename="Output"}
+#| code-copy: false
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (12/12), 2.11 KiB | 2.11 MiB/s, done.
+Total 12 (delta 9), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (9/9), completed with 5 local objects.
+To https://github.com/username/repository.git
+   fb3efef..8f50685  main -> main
+```
+
+:::
+::::
+:::::
+
+# Appendix
+
 ## Cloning
 
 ::: {.fragment}
