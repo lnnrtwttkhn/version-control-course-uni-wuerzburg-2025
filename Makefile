@@ -1,4 +1,4 @@
-IMAGES_URL=https://cloud.uni-hamburg.de/s/pgiNscTPMS8s4mP/download
+IMAGES_URL=https://cloud.uni-hamburg.de/s/ZndexSjSH9ZqxTG/download
 IMAGES_ARCHIVE=version-control-course-uni-wuerzburg-2025.zip
 IMAGES_DIR=images/
 CHEATSHEET_URL=https://raw.githubusercontent.com/lnnrtwttkhn/version-control-book/main/cheatsheet.json
