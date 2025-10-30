@@ -10,7 +10,9 @@
 <link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../site_libs/quarto-contrib/kbd/kbd.js"></script>
+<link href="../site_libs/quarto-contrib/kbd/kbd.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.5.55">
 
   <title>Track, organize and share your work: An introduction to Git for research – Session 6: Integration with GitHub / GitLab</title>
@@ -421,6 +423,8 @@
 <li><a href="#/last-session-first-steps-with-git-git-essentials" id="/toc-last-session-first-steps-with-git-git-essentials"><span class="header-section-number">1</span> Last session: First steps with Git &amp; Git Essentials</a></li>
 <li><a href="#/this-session" id="/toc-this-session"><span class="header-section-number">2</span> This session: Integration with GitHub / GitLab</a></li>
 <li><a href="#/appendix" id="/toc-appendix"><span class="header-section-number">3</span> Appendix</a></li>
+<li><a href="#/appendix-1" id="/toc-appendix-1"><span class="header-section-number">4</span> Appendix</a></li>
+<li><a href="#/solutions" id="/toc-solutions"><span class="header-section-number">5</span> Solutions</a></li>
 </ul>
 </nav>
 </section>
@@ -834,8 +838,110 @@
 <li>Save the <code>README.md</code> file to the repository.</li>
 <li>Pull the changes to your local repository.</li>
 </ol>
+</section></section>
+<section>
+<section id="appendix" class="title-slide slide level1 center" data-number="3">
+<h1><span class="header-section-number">3</span> Appendix</h1>
+
 </section>
-<section id="solutions" class="slide level2">
+<section id="how-does-ssh-work-the-key-and-padlock-analogy" class="slide level2">
+<h2>How does SSH work? The key and padlock analogy</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div id="fig-ssh-key-public-private" class="quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-fig">
+<div aria-describedby="fig-ssh-key-public-private-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img data-src="../images/ssh-key-public-private.png" style="width:60.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ssh-key-public-private-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: “Understanding public key private key concepts” by <a href="https://blakesmith.me/">Blake Smith</a> (License: Unknown; <a href="https://blakesmith.me/2010/02/08/understanding-public-key-private-key-concepts.html">Source on GitHub</a>)
+</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>When you set up SSH, you generate a <strong>key pair</strong>: the <em>private key</em> stays on your device, while the <em>public key</em> is copied to the servers you want access to.</li>
+<li>Think of your <strong>public key as a padlock</strong>. You can make lots of copies of this padlock and distribute them to different places - servers, computers, or anything you want to secure (just like sharing a padlock to secure different lockers). These places install your padlock, but no one can open it because they don’t have your key.</li>
+<li>Your <strong>private key is the actual key</strong> that opens those padlocks. You keep it safe and never share it. As long as your key stays secure, it doesn’t matter how many padlocks you’ve distributed.</li>
+<li>When you try to connect to a server, SSH checks if the padlock (public key) on that server matches your key. If they match, the door opens.</li>
+</ul>
+</div></div>
+</section>
+<section id="warning-the-authenticity-of-host-cant-be-established" class="slide level2">
+<h2>Warning: “The authenticity of host can’t be established”</h2>
+<div class="fragment">
+<p><strong>TL;DR</strong>: Enter <code>yes</code> and hit Enter.</p>
+</div>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="fragment">
+<p>The following message might appear when connecting to GitHub for the first time via SSH:</p>
+<div class="cell" data-code-copy="false">
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>Output</strong></pre>
+</div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a></a>The authenticity of host 'github.com (140.82.121.3)' can't be established.</span>
+<span id="cb3-2"><a></a>ECDSA key fingerprint is SHA256:nThbg6GUVB7ZdnZ3iXYvgIhXZOL7NXqb7A4s9F8XY7w.</span>
+<span id="cb3-3"><a></a>Are you sure you want to continue connecting (yes/no/<span class="co">[</span><span class="ot">fingerprint</span><span class="co">]</span>)?</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+<p>This message indicates that your system is trying to connect to a remote server (i.e., GitHub) over SSH for the first time, but it doesn’t yet trust the server’s identity.</p>
+<p>If you are trusting the server’s identity, enter <code>yes</code> and hit <kbd aria-hidden="true">Enter</kbd><span class="visually-hidden">Enter</span>. This will result in the following message:</p>
+<div class="cell" data-code-copy="false">
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>Output</strong></pre>
+</div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a></a><span class="an">Warning:</span><span class="co"> Permanently added 'github.com' (ED25519) to the list of known hosts.</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+<p>This message indicates that the GitHub server’s public key has been added to your <code>~/.ssh/known_hosts</code> file permanently, so you won’t be prompted with this warning the next time you connect to GitHub over SSH.</p>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="fragment">
+<p>After a successful push, you will get a message like this:</p>
+<div class="cell" data-code-copy="false">
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>Output</strong></pre>
+</div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a></a><span class="an">Enumerating objects:</span><span class="co"> 17, done.</span></span>
+<span id="cb5-2"><a></a><span class="an">Counting objects:</span><span class="co"> 100% (17/17), done.</span></span>
+<span id="cb5-3"><a></a>Delta compression using up to 8 threads</span>
+<span id="cb5-4"><a></a>Compressing objects: 100% (12/12), done.</span>
+<span id="cb5-5"><a></a>Writing objects: 100% (12/12), 2.11 KiB | 2.11 MiB/s, done.</span>
+<span id="cb5-6"><a></a>Total 12 (delta 9), reused 0 (delta 0), pack-reused 0</span>
+<span id="cb5-7"><a></a>remote: Resolving deltas: 100% (9/9), completed with 5 local objects.</span>
+<span id="cb5-8"><a></a>To https://github.com/username/repository.git</span>
+<span id="cb5-9"><a></a>   fb3efef..8f50685  main -&gt; main</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
+</div></div>
+</section></section>
+<section>
+<section id="appendix-1" class="title-slide slide level1 center" data-number="4">
+<h1><span class="header-section-number">4</span> Appendix</h1>
+
+</section>
+<section id="cloning" class="slide level2">
+<h2>Cloning</h2>
+<div class="fragment">
+<!-- -->
+<h4 id="cloning-1">Cloning</h4>
+<ul>
+<li>Remember to clone a repo in a sensible location (not in your own repository)</li>
+<li>To rename the cloned repo you can use: <code>git clone &lt;URL&gt; new-folder-name</code></li>
+</ul>
+</div>
+</section></section>
+<section>
+<section id="solutions" class="title-slide slide level1 center" data-number="5">
+<h1><span class="header-section-number">5</span> Solutions</h1>
+
+</section>
+<section id="solutions-1" class="slide level2">
 <h2>Solutions</h2>
 <h3 id="connect-to-remote-repositories-using-ssh-1">Connect to remote repositories using SSH</h3>
 <div class="cell">
@@ -867,7 +973,7 @@
 </div>
 </div>
 </section>
-<section id="solutions-1" class="slide level2">
+<section id="solutions-2" class="slide level2">
 <h2>Solutions</h2>
 <h3 id="upload-your-local-repository-to-a-remote-repository-1">Upload your local repository to a remote repository</h3>
 <div class="cell">
@@ -904,7 +1010,7 @@
 </div>
 </div>
 </section>
-<section id="solutions-2" class="slide level2">
+<section id="solutions-3" class="slide level2">
 <h2>Solutions</h2>
 <h3 id="private-collaboration-with-pull-requests-using-github-flow-1">“Private” collaboration with pull requests (using GitHub Flow)</h3>
 <div class="cell">
@@ -972,7 +1078,7 @@
 </div>
 </div>
 </section>
-<section id="solutions-3" class="slide level2 scrollable">
+<section id="solutions-4" class="slide level2 scrollable">
 <h2>Solutions</h2>
 <h3 id="add-a-readme.md-1">Add a <code>README.md</code></h3>
 <ol type="1">
@@ -983,7 +1089,7 @@
 <li>Use <code>git pull origin main</code> to pull the changes to your local repository.</li>
 </ol>
 </section>
-<section id="solutions-4" class="slide level2">
+<section id="solutions-5" class="slide level2">
 <h2>Solutions</h2>
 <h3 id="clone-and-sync-your-repository-1">Clone and sync your repository</h3>
 <div class="cell">
@@ -1033,22 +1139,6 @@
 </dd>
 </dl>
 </div>
-</div>
-</section></section>
-<section>
-<section id="appendix" class="title-slide slide level1 center" data-number="3">
-<h1><span class="header-section-number">3</span> Appendix</h1>
-
-</section>
-<section id="cloning" class="slide level2">
-<h2>Cloning</h2>
-<div class="fragment">
-<!-- -->
-<h4 id="cloning-1">Cloning</h4>
-<ul>
-<li>Remember to clone a repo in a sensible location (not in your own repository)</li>
-<li>To rename the cloned repo you can use: <code>git clone &lt;URL&gt; new-folder-name</code></li>
-</ul>
 </div>
 
 <div class="quarto-auto-generated-content">
